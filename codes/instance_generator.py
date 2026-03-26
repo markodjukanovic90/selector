@@ -35,14 +35,40 @@ def correlation_distance_matrix(X):
 def standardized_euclidean_distance_matrix(X):
     return squareform(pdist(X, metric='seuclidean'))
 
-# Optional (uncomment if needed)
 def mahalanobis_distance_matrix(X):
     cov = np.cov(X, rowvar=False)
-    VI = np.linalg.pinv(cov)  # robust inverse
+    VI = np.linalg.pinv(cov)
     return squareform(pdist(X, metric='mahalanobis', VI=VI))
 
 # =========================
-# 4. GLOBAL reverse mapping
+# 4. Load percentile thresholds
+# =========================
+def load_percentiles(stats_file):
+
+
+    df = pd.read_csv(stats_file)
+    percentiles = {}
+    
+    for _, row in df.iterrows():
+        rep = str(row["dataset"]).strip().replace(".csv", "")
+        metric = str(row["metric"]).strip()
+        
+        key = (rep, metric)
+        
+        percentiles[key] = [
+            float(row["p10"]),
+            float(row["p20"]),
+            float(row["p50"]),
+            float(row["p80"]),
+            float(row["p90"]),
+            float(row["p95"])
+        ]
+    
+    return percentiles
+    
+
+# =========================
+# 5. GLOBAL reverse mapping
 # =========================
 def build_global_reverse_mapping(file_paths):
     all_labels = set()
@@ -52,8 +78,7 @@ def build_global_reverse_mapping(file_paths):
         labels = df.iloc[:, 0].astype(str).tolist()
         all_labels.update(labels)
     
-    all_labels = sorted(all_labels)  # ensure consistency
-    
+    all_labels = sorted(all_labels)
     reverse = {label: i for i, label in enumerate(all_labels)}
     
     return reverse
@@ -67,13 +92,13 @@ def save_reverse_mapping(reverse):
     print("Saved: graphs/global_reverse_mapping.json")
 
 # =========================
-# 5. Graph construction
+# 6. Graph construction
 # =========================
 def build_graph(labels, D, eps, reverse):
     graph = {}
     
-    # Initialize nodes present in this dataset
     node_ids = [reverse[label] for label in labels]
+    
     for nid in node_ids:
         graph[nid] = []
     
@@ -91,46 +116,54 @@ def build_graph(labels, D, eps, reverse):
     return graph
 
 # =========================
-# 6. Save graph
+# 7. Save graph
 # =========================
 def save_graph(graph, filename):
     with open(filename, 'w') as f:
         json.dump(graph, f, indent=4)
 
 # =========================
-# 7. Main pipeline
+# 8. Main graph generation
 # =========================
-def generate_graphs(file_path, representation_name, eps_values, reverse):
+def generate_graphs(file_path, representation_name, percentiles_map, reverse):
     
     labels, X = load_data(file_path)
-    X_scaled = scale_data(X)
+    X_scaled = X  # or use scale_data(X)
 
-    # Compute distance matrices
     distances = {
         "cosine": cosine_distance_matrix(X_scaled),
         "correlation": correlation_distance_matrix(X_scaled),
         "seuclidean": standardized_euclidean_distance_matrix(X_scaled),
-        # "mahalanobis": mahalanobis_distance_matrix(X_scaled)  # optional
+        # "mahalanobis": mahalanobis_distance_matrix(X_scaled)
     }
 
     os.makedirs("graphs", exist_ok=True)
 
     for dist_name, D in distances.items():
-        for eps in eps_values:
+        
+        key = (representation_name, dist_name)
+        
+        if key not in percentiles_map:
+            print(f"Skipping {key} (no percentile data)")
+            continue
+        
+        eps_values = percentiles_map[key]
+        percentile_labels = ["p10", "p20", "p50", "p80", "p90", "p95"]
+        
+        for label_name, eps in zip(percentile_labels, eps_values):
             
             graph = build_graph(labels, D, eps, reverse)
             
-            filename = f"graphs/{representation_name}_{dist_name}_{eps}.json"
+            filename = f"graphs/{representation_name}_{dist_name}_{label_name}.json"
             save_graph(graph, filename)
             
             print(f"Saved: {filename}")
 
 # =========================
-# 8. Run everything
+# 9. Run everything
 # =========================
 if __name__ == "__main__":
     
-    # Your datasets
     file_paths = [
         "transoptas_5pso.csv",
         "tinytla.csv",
@@ -139,16 +172,18 @@ if __name__ == "__main__":
         "doe2vec.csv"
     ]
     
-    eps_values = [0.1, 0.2, 0.5, 1.0, 2.0]
+    stats_file = "distance_stats.csv"
     
-    # STEP 1: Build GLOBAL reverse mapping
+    # Load percentile thresholds
+    percentiles_map = load_percentiles(stats_file)
+    
+    # Build global mapping
     reverse = build_global_reverse_mapping(file_paths)
     save_reverse_mapping(reverse)
     
-    # STEP 2: Generate graphs per dataset
+    # Generate graphs
     for file_path in file_paths:
         representation_name = file_path.split(".")[0]
-        generate_graphs(file_path, representation_name, eps_values, reverse)
+        generate_graphs(file_path, representation_name, percentiles_map, reverse)
         
-
-
+        
