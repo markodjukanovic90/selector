@@ -86,10 +86,10 @@ def build_global_reverse_mapping(file_paths):
 def save_reverse_mapping(reverse):
     os.makedirs("graphs", exist_ok=True)
     
-    with open("graphs/global_reverse_mapping.json", "w") as f:
+    with open("global_reverse_mapping.json", "w") as f:
         json.dump(reverse, f, indent=4)
     
-    print("Saved: graphs/global_reverse_mapping.json")
+    print("Saved: global_reverse_mapping.json")
 
 # =========================
 # 6. Graph construction
@@ -106,7 +106,7 @@ def build_graph(labels, D, eps, reverse):
     
     for i in range(n):
         for j in range(i + 1, n):
-            if D[i, j] <= eps:
+            if D[i, j] >= eps:  ## eps 
                 u = reverse[labels[i]]
                 v = reverse[labels[j]]
                 
@@ -134,7 +134,7 @@ def generate_graphs(file_path, representation_name, percentiles_map, reverse):
         "cosine": cosine_distance_matrix(X_scaled),
         "correlation": correlation_distance_matrix(X_scaled),
         "seuclidean": standardized_euclidean_distance_matrix(X_scaled),
-        # "mahalanobis": mahalanobis_distance_matrix(X_scaled)
+        #"mahalanobis": mahalanobis_distance_matrix(X_scaled)
     }
 
     os.makedirs("graphs", exist_ok=True)
@@ -165,7 +165,7 @@ def generate_graphs(file_path, representation_name, percentiles_map, reverse):
 if __name__ == "__main__":
     
     file_paths = [
-        "transoptas_5pso.csv",
+        #"transoptas_5pso.csv",
         "tinytla.csv",
         "ela.csv",
         "deepela_large_r1.csv",
@@ -176,10 +176,22 @@ if __name__ == "__main__":
     
     # Load percentile thresholds
     percentiles_map = load_percentiles(stats_file)
+    reverse = None
+
+    mapping_file = "global_reverse_mapping.json"
+    if os.path.exists(mapping_file ):
+        print(f"Loading existing mapping from {mapping_file}")
+        with open(mapping_file, "r") as f:
+            reverse = json.load(f)
+    else:
+        print("Building global reverse mapping...")
+        reverse = build_global_reverse_mapping(file_paths)
     
-    # Build global mapping
-    reverse = build_global_reverse_mapping(file_paths)
-    save_reverse_mapping(reverse)
+        #print(f"Saving mapping to {mapping_file}")
+        with open(mapping_file, "w") as f:
+            json.dump(reverse, f, indent=4)
+        save_reverse_mapping(reverse)
+    
     
     # Generate graphs
     for file_path in file_paths:

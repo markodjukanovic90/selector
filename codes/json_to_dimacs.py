@@ -2,54 +2,67 @@ import os
 import json
 import argparse
 
+
 def load_graph(json_path):
     with open(json_path, 'r') as f:
         data = json.load(f)
-    return data
 
-def convert_to_dimacs(graph):
-    # Collect all nodes
+    # Convert keys/values to int (faster later)
+    graph = {int(u): [int(v) for v in neighbors] for u, neighbors in data.items()}
+    return graph
+
+
+def convert_to_dimacs_write(graph, output_path):
+    # ---- Collect nodes ----
     nodes = set()
     for u, neighbors in graph.items():
-        u = int(u)
         nodes.add(u)
         for v in neighbors:
-            nodes.add(int(v))
+            nodes.add(v)
 
-    # Map old IDs → 1..N
+    # Map to 1..N
     nodes = sorted(nodes)
-    id_map = {node: i+1 for i, node in enumerate(nodes)}
+    id_map = {node: i + 1 for i, node in enumerate(nodes)}
 
-    # Build edge set (avoid duplicates)
-    edges = set()
+    # ---- Count edges (no storage!) ----  
+    edge_count = 0
     for u, neighbors in graph.items():
-        u = int(u)
+        u_m = id_map[u]
         for v in neighbors:
-            v = int(v)
-            u_m = id_map[u]
             v_m = id_map[v]
-            if u_m != v_m:
-                edge = tuple(sorted((u_m, v_m)))
-                edges.add(edge)
+            if u_m < v_m:   # avoids duplicates
+                edge_count += 1
 
-    return len(nodes), edges
-
-def write_dimacs(output_path, num_nodes, edges):
+    # ---- Write DIMACS ----
     with open(output_path, 'w') as f:
         f.write("c Converted from JSON\n")
-        f.write(f"p edge {num_nodes} {len(edges)}\n")
-        for u, v in edges:
-            f.write(f"e {u} {v}\n")
+        f.write(f"p edge {len(nodes)} {edge_count}\n")
+
+        for u, neighbors in graph.items():
+            u_m = id_map[u]
+            for v in neighbors:
+                v_m = id_map[v]
+                if u_m < v_m:   # write each edge once
+                    f.write(f"e {u_m} {v_m}\n")
+
 
 def process_file(input_file, output_file):
     graph = load_graph(input_file)
-    n, edges = convert_to_dimacs(graph)
-    write_dimacs(output_file, n, edges)
+    convert_to_dimacs_write(graph, output_file)
+
 
 def main():
-    parser = argparse.ArgumentParser(description="Convert JSON graphs to DIMACS format for NuMDS")
-    parser.add_argument("-i", "--input", required=True, help="Input file or directory (JSON)")
-    parser.add_argument("-o", "--output", required=True, help="Output directory")
+    parser = argparse.ArgumentParser(
+        description="Convert JSON graphs to DIMACS format (memory-efficient)"
+    )
+    parser.add_argument(
+        "-i", "--input", required=True,
+        help="Input file or directory (JSON)"
+    )
+    parser.add_argument(
+        "-o", "--output", required=True,
+        help="Output directory"
+    )
 
     args = parser.parse_args()
 
@@ -57,7 +70,10 @@ def main():
 
     if os.path.isfile(args.input):
         # Single file
-        out_file = os.path.join(args.output, os.path.basename(args.input).replace(".json", ".dimacs"))
+        out_file = os.path.join(
+            args.output,
+            os.path.basename(args.input).replace(".json", ".dimacs")
+        )
         process_file(args.input, out_file)
         print(f"Converted: {args.input} -> {out_file}")
 
@@ -66,11 +82,13 @@ def main():
         for fname in os.listdir(args.input):
             if fname.endswith(".json"):
                 in_path = os.path.join(args.input, fname)
-                out_path = os.path.join(args.output, fname.replace(".json", ".dimacs"))
+                out_path = os.path.join(
+                    args.output,
+                    fname.replace(".json", ".dimacs")
+                )
                 process_file(in_path, out_path)
                 print(f"Converted: {in_path} -> {out_path}")
 
+
 if __name__ == "__main__":
     main()
-
-    #Example of execution: python json_to_dimacs.py -i graph.json -o output_dir (single file) or python json_to_dimacs.py -i ./json_graphs/ -o ./dimacs_instances/
