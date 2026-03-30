@@ -1,64 +1,166 @@
-#!/usr/bin/env python3
-import argparse
-import json
-import time
-import networkx as nx
-
-def load_graph(json_path):
-    """Load a graph from a JSON adjacency list."""
-    with open(json_path, "r") as f:
-        adj = json.load(f)
-    G = nx.Graph()
-    for u, neighbors in adj.items():
-        u = int(u)
-        for v in neighbors:
-            v = int(v)
-            G.add_edge(u, v)
-    return G
-
-def solve_mis(G):
-    """Solve Maximum Independent Set using NetworkX heuristic."""
-    start = time.time()
-    # NetworkX greedy MIS
-    mis_nodes = nx.algorithms.approximation.maximum_independent_set(G)
-    end = time.time()
-    return {
-        "nodes": list(mis_nodes),
-        "objective": len(mis_nodes),
-        "time": end - start
-    }
-
-def solve_mds(G):
-    """Solve Minimum Dominating Set using NetworkX heuristic."""
-    start = time.time()
-    mds_nodes = nx.algorithms.approximation.min_weighted_dominating_set(G)
-    end = time.time()
-    return {
-        "nodes": list(mds_nodes),
-        "objective": len(mds_nodes),
-        "time": end - start
-    }
-
-def main():
-    parser = argparse.ArgumentParser(description="MIS and Minimum Dominating Set solver")
-    parser.add_argument("-i", "--input", required=True, help="Input JSON file with graph")
-    parser.add_argument("-o", "--output", required=True, help="Output JSON file to save solution")
-    parser.add_argument("-a", "--algorithm", default=0,
-                        help="Algorithm to run: MIS or MDS")
-    args = parser.parse_args()
-
-    G = load_graph(args.input)
-
-    if args.algorithm == 0:
-        result = solve_mis(G)
-    else:
-        result = solve_mds(G)
-
-    # Save solution to output JSON
-    with open(args.output, "w") as f:
-        json.dump(result, f, indent=2)
-
-    print(f"{args.algorithm} solved. Objective: {result['objective']}, Time: {result['time']:.4f}s")
-
-if __name__ == "__main__":
-    main()
+ela_cosine_p95_alg0.json, 7805, 23.606821060180664, 7805
+transoptas_5pso_correlation_p80_alg1.json, 5, 1.8341593742370605, 5
+tinytla_seuclidean_p95_alg0.json, 7463, 17.956012725830078, 7463
+transoptas_5pso_correlation_p20_alg0.json, 963, 131.6654303073883, 963
+deepela_large_r1_cosine_p80_alg1.json, 64, 14.691023588180542, 64
+transoptas_5pso_correlation_p20_alg1.json, 1, 3.27717661857605, 1
+transoptas_5pso_seuclidean_p50_alg0.json, 2318, 78.84831118583679, 2318
+doe2vec_seuclidean_p90_alg1.json, 6, 1.3738477230072021, 6
+doe2vec_correlation_p20_alg1.json, 3, 4.4897003173828125, 3
+doe2vec_correlation_p95_alg1.json, 4544, 300.37767124176025, 4544
+deepela_large_r1_seuclidean_p80_alg0.json, 5212, 43.03508257865906, 5212
+ela_seuclidean_p20_alg1.json, 0, 0.0002493858337402344, 0
+tinytla_correlation_p50_alg0.json, 3449, 77.11780381202698, 3449
+transoptas_5pso_seuclidean_p95_alg0.json, 6785, 16.835848808288574, 6785
+deepela_large_r1_correlation_p95_alg1.json, 712, 84.56207585334778, 712
+ela_cosine_p20_alg1.json, 1, 6.215203285217285, 1
+ela_correlation_p90_alg1.json, 93, 9.00933289527893, 93
+ela_seuclidean_p10_alg1.json, 0, 0.0002205371856689453, 0
+ela_seuclidean_p90_alg0.json, 0, 1.8596649169921875e-05, 0
+tinytla_seuclidean_p50_alg0.json, 2585, 92.41927337646484, 2585
+deepela_large_r1_correlation_p80_alg1.json, 64, 16.780518770217896, 64
+transoptas_5pso_correlation_p50_alg0.json, 2869, 100.27319288253784, 2869
+doe2vec_correlation_p20_alg0.json, 792, 172.32217621803284, 792
+deepela_large_r1_seuclidean_p95_alg0.json, 7013, 20.190382719039917, 7013
+ela_correlation_p95_alg1.json, 334, 22.264413833618164, 334
+transoptas_5pso_correlation_p50_alg1.json, 5, 5.827344655990601, 5
+tinytla_cosine_p10_alg1.json, 1, 4.020489454269409, 1
+ela_seuclidean_p80_alg1.json, 0, 0.00023126602172851562, 0
+tinytla_correlation_p90_alg0.json, 7098, 24.39703679084778, 7098
+tinytla_correlation_p95_alg1.json, 501, 29.627485275268555, 501
+tinytla_cosine_p50_alg1.json, 102, 43.30394172668457, 102
+doe2vec_correlation_p50_alg1.json, 14, 8.599543571472168, 14
+doe2vec_seuclidean_p90_alg0.json, 5575, 27.903623819351196, 5575
+tinytla_correlation_p80_alg0.json, 5839, 33.86572074890137, 5839
+deepela_large_r1_cosine_p50_alg0.json, 2504, 73.1916012763977, 2504
+deepela_large_r1_seuclidean_p95_alg1.json, 1, 0.6295039653778076, 1
+ela_correlation_p95_alg0.json, 7817, 19.36231756210327, 7817
+deepela_large_r1_correlation_p95_alg0.json, 5785, 17.639770030975342, 5785
+tinytla_cosine_p90_alg0.json, 7092, 26.408534288406372, 7092
+deepela_large_r1_cosine_p90_alg0.json, 5097, 21.155534029006958, 5097
+doe2vec_cosine_p80_alg1.json, 1520, 604.663149356842, 1520
+doe2vec_cosine_p95_alg1.json, 4533, 299.1758842468262, 4533
+transoptas_5pso_seuclidean_p90_alg0.json, 6071, 21.69423246383667, 6071
+doe2vec_cosine_p20_alg0.json, 782, 129.53660678863525, 782
+ela_seuclidean_p50_alg1.json, 0, 0.00024819374084472656, 0
+ela_seuclidean_p10_alg0.json, 0, 1.6689300537109375e-05, 0
+deepela_large_r1_seuclidean_p90_alg0.json, 6164, 22.54494071006775, 6164
+transoptas_5pso_correlation_p95_alg1.json, 751, 58.18718981742859, 751
+deepela_large_r1_seuclidean_p20_alg1.json, 1, 3.529632091522217, 1
+ela_correlation_p50_alg1.json, 1, 2.2216522693634033, 1
+doe2vec_seuclidean_p95_alg0.json, 6581, 19.81132197380066, 6581
+tinytla_correlation_p50_alg1.json, 102, 43.17320156097412, 102
+ela_cosine_p50_alg0.json, 4581, 59.99524521827698, 4581
+transoptas_5pso_seuclidean_p10_alg1.json, 1, 3.559676170349121, 1
+tinytla_seuclidean_p90_alg1.json, 1, 0.6680057048797607, 1
+doe2vec_correlation_p10_alg1.json, 2, 3.9544193744659424, 2
+tinytla_cosine_p95_alg0.json, 7583, 19.223568439483643, 7583
+tinytla_correlation_p95_alg0.json, 7576, 18.942319631576538, 7576
+ela_correlation_p20_alg0.json, 2078, 96.36927914619446, 2078
+transoptas_5pso_cosine_p20_alg0.json, 966, 123.99635052680969, 966
+transoptas_5pso_cosine_p20_alg1.json, 1, 3.6381490230560303, 1
+ela_cosine_p10_alg1.json, 1, 3.5567355155944824, 1
+deepela_large_r1_cosine_p90_alg1.json, 117, 16.484859943389893, 117
+ela_cosine_p90_alg1.json, 108, 10.40394926071167, 108
+doe2vec_seuclidean_p95_alg1.json, 10, 1.0666108131408691, 10
+deepela_large_r1_seuclidean_p20_alg0.json, 1301, 148.4869785308838, 1301
+tinytla_cosine_p95_alg1.json, 501, 29.100586414337158, 501
+transoptas_5pso_cosine_p50_alg1.json, 5, 4.289417028427124, 5
+ela_seuclidean_p90_alg1.json, 0, 0.0002460479736328125, 0
+transoptas_5pso_seuclidean_p80_alg1.json, 8, 2.6365957260131836, 8
+transoptas_5pso_seuclidean_p20_alg0.json, 692, 126.71846866607666, 692
+tinytla_seuclidean_p20_alg0.json, 759, 109.55165910720825, 759
+transoptas_5pso_cosine_p80_alg1.json, 5, 1.9480762481689453, 5
+deepela_large_r1_correlation_p20_alg1.json, 1, 4.872236967086792, 1
+ela_correlation_p20_alg1.json, 1, 3.397426128387451, 1
+deepela_large_r1_correlation_p80_alg0.json, 4209, 43.371848821640015, 4209
+tinytla_correlation_p90_alg1.json, 491, 59.530482053756714, 491
+deepela_large_r1_seuclidean_p50_alg0.json, 3153, 89.27826404571533, 3153
+ela_correlation_p50_alg0.json, 4627, 60.43655514717102, 4627
+ela_correlation_p80_alg1.json, 13, 2.8903250694274902, 13
+doe2vec_correlation_p95_alg0.json, 3797, 21.908974647521973, 3797
+ela_cosine_p20_alg0.json, 2067, 94.58176612854004, 2067
+deepela_large_r1_seuclidean_p50_alg1.json, 1, 2.691598415374756, 1
+tinytla_cosine_p80_alg0.json, 5834, 36.02668642997742, 5834
+ela_seuclidean_p95_alg0.json, 0, 1.621246337890625e-05, 0
+deepela_large_r1_cosine_p80_alg0.json, 4225, 32.40086126327515, 4225
+tinytla_cosine_p90_alg1.json, 491, 58.90706253051758, 491
+ela_cosine_p95_alg1.json, 339, 22.20097327232361, 339
+transoptas_5pso_cosine_p90_alg0.json, 6395, 23.36783194541931, 6395
+ela_seuclidean_p50_alg0.json, 0, 1.5735626220703125e-05, 0
+ela_seuclidean_p80_alg0.json, 0, 1.52587890625e-05, 0
+deepela_large_r1_cosine_p10_alg1.json, 1, 4.3895039558410645, 1
+doe2vec_cosine_p90_alg1.json, 3835, 586.6094634532928, 3835
+transoptas_5pso_correlation_p95_alg0.json, 7066, 18.285311222076416, 7066
+tinytla_seuclidean_p90_alg0.json, 6965, 23.10003900527954, 6965
+ela_cosine_p50_alg1.json, 1, 4.235015630722046, 1
+transoptas_5pso_cosine_p95_alg1.json, 971, 70.74730682373047, 971
+deepela_large_r1_seuclidean_p80_alg1.json, 1, 1.3489177227020264, 1
+doe2vec_correlation_p80_alg0.json, 2407, 56.762449502944946, 2407
+ela_seuclidean_p95_alg1.json, 0, 0.0002684593200683594, 0
+doe2vec_seuclidean_p50_alg1.json, 2, 3.3838062286376953, 2
+deepela_large_r1_cosine_p20_alg0.json, 1034, 117.95343375205994, 1034
+tinytla_seuclidean_p50_alg1.json, 1, 2.803798198699951, 1
+deepela_large_r1_cosine_p95_alg0.json, 5769, 16.742379665374756, 5769
+ela_correlation_p80_alg0.json, 6947, 37.774550437927246, 6947
+transoptas_5pso_correlation_p10_alg1.json, 1, 3.290717840194702, 1
+transoptas_5pso_cosine_p90_alg1.json, 479, 70.6743414402008, 479
+tinytla_seuclidean_p10_alg1.json, 1, 3.9041318893432617, 1
+tinytla_correlation_p20_alg0.json, 1058, 123.98524761199951, 1058
+doe2vec_seuclidean_p10_alg1.json, 2, 4.251720428466797, 2
+tinytla_correlation_p20_alg1.json, 2, 4.066439151763916, 2
+transoptas_5pso_correlation_p90_alg1.json, 477, 74.37679266929626, 477
+tinytla_seuclidean_p20_alg1.json, 1, 3.6409881114959717, 1
+deepela_large_r1_correlation_p20_alg0.json, 1045, 236.5942554473877, 1045
+tinytla_seuclidean_p80_alg1.json, 1, 1.1199061870574951, 1
+transoptas_5pso_cosine_p10_alg1.json, 1, 6.426799774169922, 1
+doe2vec_seuclidean_p20_alg1.json, 2, 4.676130533218384, 2
+tinytla_correlation_p80_alg1.json, 265, 57.579683780670166, 265
+doe2vec_correlation_p50_alg0.json, 1022, 127.60655879974365, 1022
+doe2vec_cosine_p80_alg0.json, 2315, 40.208959341049194, 2315
+doe2vec_cosine_p20_alg1.json, 5, 5.595085620880127, 5
+ela_seuclidean_p20_alg0.json, 0, 1.7642974853515625e-05, 0
+tinytla_cosine_p20_alg1.json, 2, 4.4176552295684814, 2
+doe2vec_cosine_p50_alg0.json, 1161, 86.69883346557617, 1161
+doe2vec_seuclidean_p20_alg0.json, 548, 183.80307912826538, 548
+tinytla_cosine_p20_alg0.json, 1054, 130.10766005516052, 1054
+doe2vec_cosine_p10_alg1.json, 2, 4.2915380001068115, 2
+doe2vec_seuclidean_p80_alg1.json, 2, 1.5037293434143066, 2
+transoptas_5pso_seuclidean_p80_alg0.json, 4935, 36.29015636444092, 4935
+doe2vec_correlation_p90_alg1.json, 3882, 593.1903603076935, 3882
+transoptas_5pso_seuclidean_p90_alg1.json, 7, 1.9191770553588867, 7
+doe2vec_cosine_p50_alg1.json, 14, 8.541728019714355, 14
+deepela_large_r1_cosine_p95_alg1.json, 746, 75.10604119300842, 746
+tinytla_cosine_p50_alg0.json, 3448, 94.25641560554504, 3448
+tinytla_cosine_p80_alg1.json, 265, 56.1174681186676, 265
+doe2vec_seuclidean_p50_alg0.json, 1737, 79.0622227191925, 1737
+transoptas_5pso_cosine_p50_alg0.json, 2880, 84.69619560241699, 2880
+transoptas_5pso_seuclidean_p20_alg1.json, 2, 3.8748064041137695, 2
+tinytla_seuclidean_p80_alg0.json, 5922, 34.5110809803009, 5922
+doe2vec_correlation_p80_alg1.json, 1755, 685.0712594985962, 1755
+doe2vec_seuclidean_p80_alg0.json, 4164, 41.503520250320435, 4164
+deepela_large_r1_correlation_p10_alg1.json, 1, 5.168234348297119, 1
+deepela_large_r1_correlation_p50_alg0.json, 2530, 92.4323661327362, 2530
+tinytla_seuclidean_p95_alg1.json, 1, 0.3008918762207031, 1
+transoptas_5pso_seuclidean_p95_alg1.json, 5, 0.8328943252563477, 5
+transoptas_5pso_correlation_p80_alg0.json, 5410, 32.152387619018555, 5410
+deepela_large_r1_cosine_p20_alg1.json, 1, 3.964114189147949, 1
+ela_correlation_p10_alg1.json, 1, 4.772801876068115, 1
+deepela_large_r1_seuclidean_p90_alg1.json, 1, 1.2253546714782715, 1
+transoptas_5pso_correlation_p90_alg0.json, 6399, 23.726717233657837, 6399
+doe2vec_cosine_p90_alg0.json, 3122, 25.8585844039917, 3122
+deepela_large_r1_correlation_p50_alg1.json, 2, 3.8929860591888428, 2
+doe2vec_correlation_p90_alg0.json, 3205, 33.09389305114746, 3205
+doe2vec_cosine_p95_alg0.json, 3726, 23.446587800979614, 3726
+deepela_large_r1_correlation_p90_alg1.json, 115, 22.29653787612915, 115
+transoptas_5pso_seuclidean_p50_alg1.json, 2, 3.4985969066619873, 2
+deepela_large_r1_correlation_p90_alg0.json, 5076, 29.854132413864136, 5076
+deepela_large_r1_seuclidean_p10_alg1.json, 1, 3.948113203048706, 1
+tinytla_correlation_p10_alg1.json, 1, 3.4853789806365967, 1
+ela_cosine_p80_alg0.json, 6941, 45.85539436340332, 6941
+transoptas_5pso_cosine_p95_alg0.json, 7064, 18.439992427825928, 7064
+ela_cosine_p80_alg1.json, 13, 3.5614266395568848, 13
+transoptas_5pso_cosine_p80_alg0.json, 5414, 32.80691981315613, 5414
+deepela_large_r1_cosine_p50_alg1.json, 2, 3.3859801292419434, 2
+ela_cosine_p90_alg0.json, 7476, 34.273905515670776, 7476
+ela_correlation_p90_alg0.json, 7489, 25.937251806259155, 7489
