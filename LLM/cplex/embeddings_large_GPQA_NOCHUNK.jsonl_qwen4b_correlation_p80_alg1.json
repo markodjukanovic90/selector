@@ -1,0 +1,10 @@
+{
+    "LB": 2,
+    "status": "Optimal",
+    "objective": 2.0,
+    "solution": [
+        "id177",
+        "id218"
+    ],
+    "time": 0.8593366146087646
+}
