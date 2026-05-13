@@ -1,0 +1,595 @@
+dataset,model_type,size,measure,threshold,objective,LB,solution
+GPQA,e5,small,seuclidean,p10,1.0,1,['id17']
+GPQA_CHUNKED,nemotron,large,correlation,p80,1.0,1,['id359']
+Omni-MATH,e5,small,correlation,p95,6.0,6,"['id142', 'id1085', 'id788', 'id3515', 'id2123', 'id4020']"
+Omni-MATH_CHUNKED,qwen8b,large,correlation,p10,1.0,1,['id1084']
+MMLU-Pro_NOCHUNK,qwen8b,large,cosine,p95,2.0,2,"['id3833', 'id1734']"
+Omni-MATH_CHUNKED,qwen4b,large,cosine,p80,2.0,2,"['id1504', 'id1095']"
+IFEval,gist,small,seuclidean,p20,1.0,1,['id2311']
+MMLU-Pro,gist,small,seuclidean,p95,47.0,47,"['id10566', 'id1821', 'id2705', 'id8283', 'id10379', 'id5632', 'id10828', 'id10799', 'id11100', 'id9648', 'id3412', 'id3769', 'id10676', 'id10355', 'id10839', 'id12208', 'id4678', 'id2935', 'id4652', 'id3502', 'id12235', 'id6422', 'id9116', 'id1062', 'id7440', 'id10094', 'id10075', 'id2472', 'id7215', 'id2407', 'id3143', 'id4143', 'id7706', 'id8637', 'id11934', 'id6917', 'id3125', 'id5508', 'id3876', 'id9267', 'id5514', 'id3058', 'id9961', 'id3656', 'id5292', 'id3280', 'id3819']"
+GPQA_CHUNKED,nemotron,large,correlation,p10,1.0,1,['id100']
+GPQA,gist,small,seuclidean,p90,10.0,10,"['id26', 'id52', 'id86', 'id156', 'id170', 'id280', 'id286', 'id296', 'id380', 'id427']"
+Omni-MATH_NOCHUNK,qwen4b,large,correlation,p10,1.0,1,['id1085']
+GPQA_CHUNKED,nemotron,large,cosine,p50,1.0,1,['id244']
+Omni-MATH_NOCHUNK,qwen8b,large,seuclidean,p90,1.0,1,['id3681']
+GPQA_NOCHUNK,nemotron,large,cosine,p10,1.0,1,['id0']
+Omni-MATH,bge,small,correlation,p20,1.0,1,['id2480']
+Omni-MATH,e5,small,correlation,p10,1.0,1,['id1021']
+IFEval_CHUNKED,qwen4b,large,correlation,p10,1.0,1,['id1000']
+MMLU-Pro,gist,small,seuclidean,p80,5.0,5,"['id3412', 'id2935', 'id6872', 'id3143', 'id9961']"
+GPQA_NOCHUNK,qwen4b,large,correlation,p10,1.0,1,['id118']
+GPQA_CHUNKED,nemotron,large,correlation,p20,1.0,1,['id127']
+IFEval,bge,small,cosine,p95,6.0,6,"['id1251', 'id1999', 'id2225', 'id2859', 'id2880', 'id3563']"
+Omni-MATH_CHUNKED,nemotron,large,seuclidean,p80,2.0,2,"['id1277', 'id2829']"
+MMLU-Pro_NOCHUNK,nemotron,large,cosine,p95,2.0,2,"['id4773', 'id4827']"
+MMLU-Pro_NOCHUNK,nemotron,large,cosine,p20,1.0,1,['id1032']
+GPQA,gist,small,correlation,p10,1.0,1,['id170']
+MMLU-Pro_NOCHUNK,qwen4b,large,seuclidean,p50,1.0,1,['id2321']
+MMLU-Pro,e5,small,cosine,p80,2.0,2,"['id3143', 'id889']"
+Omni-MATH,e5,small,cosine,p50,2.0,2,"['id1009', 'id3515']"
+Omni-MATH,bge,small,correlation,p80,2.0,2,"['id1002', 'id4346']"
+GPQA,e5,small,correlation,p50,1.0,1,['id430']
+Omni-MATH_CHUNKED,nemotron,large,seuclidean,p10,1.0,1,['id1002']
+IFEval_CHUNKED,nemotron,large,seuclidean,p10,1.0,1,['id1019']
+GPQA_CHUNKED,qwen8b,large,correlation,p95,2.0,2,"['id0', 'id344']"
+IFEval_NOCHUNK,qwen8b,large,cosine,p10,1.0,1,['id1000']
+IFEval_CHUNKED,nemotron,large,correlation,p80,1.0,1,['id2311']
+MMLU-Pro,bge,small,correlation,p50,2.0,2,"['id10008', 'id5052']"
+Omni-MATH,bge,small,cosine,p50,2.0,2,"['id1', 'id4346']"
+GPQA_CHUNKED,qwen4b,large,correlation,p20,1.0,1,['id182']
+GPQA_NOCHUNK,qwen8b,large,correlation,p50,1.0,1,['id122']
+GPQA,e5,small,cosine,p50,1.0,1,['id430']
+MMLU-Pro,e5,small,cosine,p50,2.0,2,"['id10008', 'id3280']"
+Omni-MATH_CHUNKED,qwen8b,large,cosine,p90,1.0,1,['id3681']
+GPQA,gist,small,seuclidean,p50,2.0,2,"['id363', 'id385']"
+Omni-MATH_NOCHUNK,qwen8b,large,cosine,p10,1.0,1,['id1085']
+IFEval,e5,small,correlation,p80,2.0,2,"['id1051', 'id3563']"
+MMLU-Pro,gist,small,cosine,p20,2.0,2,"['id10029', 'id3058']"
+IFEval_NOCHUNK,qwen8b,large,seuclidean,p20,1.0,1,['id1000']
+MMLU-Pro,gist,small,correlation,p20,2.0,2,"['id10029', 'id3058']"
+IFEval_CHUNKED,qwen4b,large,seuclidean,p95,2.0,2,"['id1108', 'id1999']"
+GPQA_NOCHUNK,qwen4b,large,cosine,p95,2.0,2,"['id0', 'id344']"
+IFEval_NOCHUNK,qwen8b,large,seuclidean,p95,1.0,1,['id1108']
+IFEval_CHUNKED,qwen4b,large,cosine,p20,1.0,1,['id1000']
+Omni-MATH_CHUNKED,nemotron,large,cosine,p50,1.0,1,['id2829']
+GPQA_NOCHUNK,qwen4b,large,seuclidean,p80,2.0,2,"['id122', 'id201']"
+MMLU-Pro,bge,small,correlation,p10,1.0,1,['id10449']
+MMLU-Pro,bge,small,seuclidean,p20,1.0,1,['id4948']
+MMLU-Pro_NOCHUNK,nemotron,large,correlation,p95,2.0,2,"['id4773', 'id4827']"
+IFEval_NOCHUNK,nemotron,large,correlation,p10,1.0,1,['id1265']
+GPQA,gist,small,seuclidean,p95,31.0,31,"['id8', 'id17', 'id26', 'id52', 'id86', 'id98', 'id115', 'id122', 'id138', 'id153', 'id156', 'id170', 'id174', 'id196', 'id202', 'id204', 'id228', 'id250', 'id282', 'id286', 'id296', 'id299', 'id300', 'id329', 'id363', 'id371', 'id375', 'id376', 'id380', 'id427', 'id443']"
+GPQA_NOCHUNK,qwen8b,large,seuclidean,p95,2.0,2,"['id122', 'id218']"
+IFEval_CHUNKED,nemotron,large,correlation,p20,1.0,1,['id1051']
+GPQA_NOCHUNK,nemotron,large,cosine,p20,1.0,1,['id0']
+GPQA_NOCHUNK,qwen8b,large,cosine,p90,1.0,1,['id26']
+Omni-MATH_NOCHUNK,qwen4b,large,cosine,p50,1.0,1,['id1085']
+Omni-MATH_NOCHUNK,nemotron,large,correlation,p10,1.0,1,['id1002']
+Omni-MATH,gist,small,correlation,p50,2.0,2,"['id2994', 'id3759']"
+GPQA_CHUNKED,qwen4b,large,seuclidean,p90,2.0,2,"['id122', 'id201']"
+IFEval_CHUNKED,qwen4b,large,seuclidean,p10,1.0,1,['id1000']
+GPQA,e5,small,correlation,p80,2.0,2,"['id257', 'id289']"
+Omni-MATH_NOCHUNK,qwen8b,large,correlation,p80,1.0,1,['id3681']
+GPQA_NOCHUNK,qwen4b,large,cosine,p10,1.0,1,['id118']
+GPQA,bge,small,cosine,p50,2.0,2,"['id113', 'id444']"
+Omni-MATH_CHUNKED,qwen4b,large,seuclidean,p80,1.0,1,['id3129']
+Omni-MATH_NOCHUNK,qwen8b,large,correlation,p50,1.0,1,['id189']
+MMLU-Pro,e5,small,cosine,p10,1.0,1,['id10472']
+GPQA,gist,small,cosine,p95,38.0,38,"['id6', 'id8', 'id14', 'id26', 'id30', 'id52', 'id60', 'id86', 'id98', 'id122', 'id156', 'id170', 'id174', 'id196', 'id197', 'id202', 'id204', 'id214', 'id216', 'id228', 'id230', 'id234', 'id280', 'id282', 'id286', 'id296', 'id299', 'id329', 'id352', 'id371', 'id375', 'id380', 'id385', 'id422', 'id427', 'id436', 'id443', 'id444']"
+IFEval,gist,small,seuclidean,p10,1.0,1,['id136']
+Omni-MATH,gist,small,correlation,p90,9.0,9,"['id651', 'id142', 'id900', 'id3214', 'id3409', 'id1399', 'id527', 'id2031', 'id1596']"
+Omni-MATH,bge,small,seuclidean,p95,4.0,4,"['id1002', 'id541', 'id1069', 'id4346']"
+IFEval_CHUNKED,nemotron,large,seuclidean,p80,1.0,1,['id2311']
+IFEval,gist,small,seuclidean,p95,6.0,6,"['id1738', 'id2311', 'id2685', 'id2825', 'id2859', 'id3407']"
+MMLU-Pro,bge,small,cosine,p90,7.0,7,"['id1626', 'id11723', 'id3143', 'id1326', 'id1773', 'id12189', 'id4721']"
+IFEval_CHUNKED,qwen8b,large,correlation,p10,1.0,1,['id1000']
+GPQA,bge,small,correlation,p50,2.0,2,"['id113', 'id444']"
+Omni-MATH,gist,small,seuclidean,p10,1.0,1,['id3608']
+Omni-MATH_CHUNKED,qwen8b,large,seuclidean,p90,1.0,1,['id3681']
+GPQA_NOCHUNK,qwen4b,large,cosine,p90,2.0,2,"['id0', 'id26']"
+Omni-MATH_NOCHUNK,qwen4b,large,seuclidean,p10,1.0,1,['id104']
+GPQA,bge,small,seuclidean,p20,1.0,1,['id214']
+MMLU-Pro_NOCHUNK,qwen4b,large,cosine,p20,1.0,1,['id10615']
+IFEval_NOCHUNK,qwen8b,large,cosine,p50,1.0,1,['id1108']
+Omni-MATH,gist,small,correlation,p20,2.0,2,"['id1', 'id3477']"
+MMLU-Pro,gist,small,correlation,p10,2.0,2,"['id10050', 'id3058']"
+GPQA,e5,small,correlation,p20,1.0,1,['id430']
+IFEval,bge,small,cosine,p80,2.0,2,"['id1592', 'id2859']"
+GPQA,e5,small,seuclidean,p20,1.0,1,['id425']
+MMLU-Pro,gist,small,seuclidean,p90,17.0,17,"['id11100', 'id9648', 'id3412', 'id1846', 'id1626', 'id10676', 'id12235', 'id10075', 'id2472', 'id2407', 'id3143', 'id6708', 'id5967', 'id5514', 'id9961', 'id5292', 'id4353']"
+MMLU-Pro_NOCHUNK,nemotron,large,correlation,p10,1.0,1,['id1009']
+MMLU-Pro,gist,small,seuclidean,p10,2.0,2,"['id10008', 'id3058']"
+IFEval_CHUNKED,qwen4b,large,seuclidean,p20,1.0,1,['id1108']
+Omni-MATH_CHUNKED,qwen4b,large,correlation,p10,1.0,1,['id1085']
+IFEval_CHUNKED,nemotron,large,correlation,p90,2.0,2,"['id1001', 'id219']"
+IFEval_CHUNKED,qwen4b,large,seuclidean,p90,1.0,1,['id1999']
+MMLU-Pro,bge,small,seuclidean,p90,7.0,7,"['id3412', 'id3143', 'id1647', 'id1326', 'id1773', 'id12189', 'id4721']"
+Omni-MATH_CHUNKED,qwen8b,large,correlation,p20,1.0,1,['id1085']
+GPQA_CHUNKED,qwen4b,large,cosine,p90,2.0,2,"['id0', 'id344']"
+IFEval_CHUNKED,qwen4b,large,cosine,p95,1.0,1,['id2245']
+MMLU-Pro_NOCHUNK,qwen4b,large,cosine,p80,2.0,2,"['id4096', 'id10615']"
+IFEval_NOCHUNK,nemotron,large,cosine,p90,6.0,6,"['id1592', 'id1999', 'id2649', 'id3386', 'id3407', 'id3690']"
+IFEval_NOCHUNK,qwen8b,large,cosine,p80,1.0,1,['id1108']
+Omni-MATH_NOCHUNK,qwen4b,large,cosine,p95,2.0,2,"['id189', 'id1144']"
+GPQA,gist,small,seuclidean,p10,1.0,1,['id170']
+Omni-MATH,bge,small,seuclidean,p80,2.0,2,"['id1069', 'id4346']"
+GPQA,bge,small,correlation,p90,10.0,10,"['id30', 'id40', 'id55', 'id228', 'id268', 'id286', 'id289', 'id371', 'id433', 'id444']"
+Omni-MATH,e5,small,seuclidean,p90,3.0,3,"['id1085', 'id1009', 'id4020']"
+MMLU-Pro_NOCHUNK,qwen8b,large,seuclidean,p50,1.0,1,['id10517']
+Omni-MATH_NOCHUNK,nemotron,large,seuclidean,p10,1.0,1,['id1002']
+GPQA_CHUNKED,nemotron,large,cosine,p95,1.0,1,['id359']
+IFEval,e5,small,seuclidean,p50,1.0,1,['id2859']
+Omni-MATH,bge,small,cosine,p90,3.0,3,"['id541', 'id1376', 'id4346']"
+IFEval,bge,small,seuclidean,p90,3.0,3,"['id1592', 'id2859', 'id3563']"
+IFEval_NOCHUNK,qwen4b,large,seuclidean,p50,1.0,1,['id1108']
+MMLU-Pro_NOCHUNK,qwen4b,large,seuclidean,p90,2.0,2,"['id10094', 'id11191']"
+IFEval_CHUNKED,qwen4b,large,cosine,p10,1.0,1,['id1000']
+GPQA_CHUNKED,qwen4b,large,seuclidean,p50,1.0,1,['id201']
+MMLU-Pro,bge,small,seuclidean,p50,2.0,2,"['id10050', 'id5052']"
+GPQA_CHUNKED,qwen4b,large,correlation,p10,1.0,1,['id118']
+GPQA_NOCHUNK,qwen4b,large,seuclidean,p20,1.0,1,['id118']
+GPQA_CHUNKED,qwen4b,large,cosine,p95,2.0,2,"['id101', 'id344']"
+GPQA_CHUNKED,qwen4b,large,correlation,p95,2.0,2,"['id101', 'id344']"
+GPQA_CHUNKED,qwen4b,large,cosine,p10,1.0,1,['id118']
+Omni-MATH,e5,small,cosine,p80,2.0,2,"['id1085', 'id1376']"
+GPQA,e5,small,correlation,p90,6.0,6,"['id17', 'id50', 'id106', 'id229', 'id289', 'id352']"
+GPQA_CHUNKED,nemotron,large,cosine,p80,1.0,1,['id359']
+IFEval_NOCHUNK,nemotron,large,seuclidean,p80,2.0,2,"['id102', 'id1592']"
+MMLU-Pro,e5,small,correlation,p80,2.0,2,"['id3143', 'id889']"
+IFEval_NOCHUNK,qwen8b,large,correlation,p95,1.0,1,['id1999']
+MMLU-Pro,bge,small,cosine,p80,3.0,3,"['id3412', 'id3143', 'id1557']"
+Omni-MATH_CHUNKED,qwen4b,large,correlation,p95,7.0,7,"['id154', 'id599', 'id189', 'id2574', 'id1144', 'id3342', 'id2034']"
+IFEval_CHUNKED,qwen4b,large,seuclidean,p50,1.0,1,['id1108']
+GPQA_CHUNKED,nemotron,large,seuclidean,p80,1.0,1,['id359']
+IFEval_NOCHUNK,nemotron,large,cosine,p10,1.0,1,['id1265']
+GPQA_CHUNKED,qwen4b,large,seuclidean,p10,1.0,1,['id118']
+MMLU-Pro_NOCHUNK,qwen4b,large,correlation,p20,1.0,1,['id10615']
+IFEval_CHUNKED,qwen4b,large,correlation,p90,1.0,1,['id2245']
+Omni-MATH_CHUNKED,qwen4b,large,seuclidean,p50,1.0,1,['id1104']
+IFEval_NOCHUNK,qwen4b,large,correlation,p90,1.0,1,['id1999']
+GPQA,gist,small,correlation,p50,2.0,2,"['id280', 'id427']"
+Omni-MATH_NOCHUNK,qwen8b,large,cosine,p80,1.0,1,['id3681']
+GPQA_NOCHUNK,nemotron,large,seuclidean,p50,1.0,1,['id0']
+IFEval,e5,small,seuclidean,p90,2.0,2,"['id2243', 'id3563']"
+MMLU-Pro,gist,small,cosine,p80,5.0,5,"['id3412', 'id3143', 'id5508', 'id9961', 'id1557']"
+IFEval_CHUNKED,qwen8b,large,cosine,p90,1.0,1,['id1108']
+Omni-MATH_NOCHUNK,qwen4b,large,cosine,p90,2.0,2,"['id154', 'id1095']"
+MMLU-Pro_NOCHUNK,qwen8b,large,correlation,p95,2.0,2,"['id3833', 'id1734']"
+GPQA,gist,small,correlation,p80,4.0,4,"['id86', 'id170', 'id282', 'id427']"
+Omni-MATH_CHUNKED,qwen8b,large,correlation,p90,1.0,1,['id3681']
+MMLU-Pro,e5,small,correlation,p10,1.0,1,['id10472']
+GPQA_CHUNKED,nemotron,large,seuclidean,p10,1.0,1,['id100']
+GPQA,e5,small,correlation,p10,1.0,1,['id214']
+IFEval_NOCHUNK,qwen4b,large,correlation,p95,1.0,1,['id2245']
+IFEval,gist,small,seuclidean,p50,1.0,1,['id2859']
+IFEval_NOCHUNK,nemotron,large,cosine,p80,3.0,3,"['id102', 'id1592', 'id3223']"
+MMLU-Pro,bge,small,cosine,p50,2.0,2,"['id10008', 'id5052']"
+MMLU-Pro_NOCHUNK,qwen8b,large,cosine,p50,1.0,1,['id10615']
+IFEval_CHUNKED,nemotron,large,seuclidean,p95,14.0,14,"['id1129', 'id1174', 'id1187', 'id1286', 'id1644', 'id1954', 'id2311', 'id2337', 'id2739', 'id3126', 'id3224', 'id343', 'id3633', 'id3743']"
+IFEval_CHUNKED,qwen8b,large,correlation,p50,1.0,1,['id1108']
+Omni-MATH,bge,small,cosine,p95,5.0,5,"['id541', 'id1185', 'id2552', 'id4346', 'id2843']"
+IFEval_CHUNKED,nemotron,large,cosine,p90,2.0,2,"['id1001', 'id219']"
+IFEval_NOCHUNK,nemotron,large,seuclidean,p95,13.0,13,"['id1392', 'id1592', 'id1999', 'id2169', 'id2457', 'id2617', 'id2649', 'id2817', 'id2871', 'id3223', 'id3323', 'id3386', 'id3407']"
+IFEval_NOCHUNK,nemotron,large,seuclidean,p90,5.0,5,"['id1592', 'id1999', 'id2617', 'id3386', 'id3690']"
+GPQA_CHUNKED,qwen4b,large,cosine,p50,2.0,2,"['id112', 'id201']"
+Omni-MATH_CHUNKED,qwen8b,large,cosine,p50,1.0,1,['id2975']
+IFEval_CHUNKED,nemotron,large,seuclidean,p50,1.0,1,['id1092']
+MMLU-Pro_NOCHUNK,qwen4b,large,seuclidean,p20,1.0,1,['id10094']
+IFEval_NOCHUNK,qwen4b,large,correlation,p10,1.0,1,['id1000']
+IFEval,e5,small,cosine,p90,2.0,2,"['id1377', 'id3563']"
+IFEval_NOCHUNK,nemotron,large,correlation,p90,6.0,6,"['id1592', 'id1999', 'id2436', 'id2649', 'id3386', 'id3690']"
+MMLU-Pro_NOCHUNK,qwen8b,large,correlation,p50,1.0,1,['id10615']
+Omni-MATH,e5,small,cosine,p20,1.0,1,['id124']
+IFEval_NOCHUNK,qwen4b,large,correlation,p80,1.0,1,['id1999']
+MMLU-Pro_NOCHUNK,qwen8b,large,correlation,p80,2.0,2,"['id4096', 'id10615']"
+GPQA_CHUNKED,qwen8b,large,correlation,p80,1.0,1,['id26']
+Omni-MATH_NOCHUNK,qwen4b,large,correlation,p20,1.0,1,['id1085']
+Omni-MATH_CHUNKED,qwen4b,large,cosine,p95,7.0,7,"['id154', 'id599', 'id189', 'id2574', 'id1144', 'id3342', 'id2034']"
+GPQA_CHUNKED,qwen8b,large,correlation,p10,1.0,1,['id122']
+MMLU-Pro,gist,small,cosine,p10,2.0,2,"['id10050', 'id3058']"
+GPQA_CHUNKED,nemotron,large,cosine,p10,1.0,1,['id100']
+MMLU-Pro,gist,small,correlation,p95,52.0,52,"['id8603', 'id2705', 'id7789', 'id11100', 'id3412', 'id10185', 'id1180', 'id6783', 'id2348', 'id10355', 'id10839', 'id2268', 'id10704', 'id2935', 'id2802', 'id12235', 'id3222', 'id3450', 'id7212', 'id9116', 'id4762', 'id10094', 'id9034', 'id2472', 'id6872', 'id7215', 'id5531', 'id2407', 'id3143', 'id4143', 'id8637', 'id11934', 'id6412', 'id6917', 'id4761', 'id9640', 'id2467', 'id5508', 'id3476', 'id9267', 'id5514', 'id310', 'id3058', 'id9961', 'id3656', 'id4353', 'id7374', 'id3820', 'id1558', 'id9435', 'id6143', 'id4721']"
+Omni-MATH_CHUNKED,nemotron,large,correlation,p95,16.0,16,"['id582', 'id2436', 'id949', 'id487', 'id2087', 'id526', 'id4359', 'id1248', 'id3022', 'id2211', 'id1277', 'id405', 'id2829', 'id1001', 'id1303', 'id3452']"
+Omni-MATH_CHUNKED,qwen4b,large,cosine,p20,1.0,1,['id1085']
+GPQA_NOCHUNK,qwen4b,large,seuclidean,p50,1.0,1,['id201']
+GPQA,e5,small,cosine,p95,24.0,24,"['id17', 'id30', 'id50', 'id64', 'id70', 'id106', 'id145', 'id160', 'id229', 'id234', 'id235', 'id244', 'id257', 'id289', 'id295', 'id341', 'id352', 'id366', 'id408', 'id418', 'id424', 'id425', 'id430', 'id445']"
+IFEval_NOCHUNK,nemotron,large,seuclidean,p20,1.0,1,['id1592']
+Omni-MATH_CHUNKED,qwen4b,large,cosine,p90,2.0,2,"['id154', 'id1095']"
+MMLU-Pro,e5,small,seuclidean,p10,1.0,1,['id10472']
+IFEval_NOCHUNK,qwen8b,large,cosine,p20,1.0,1,['id1000']
+GPQA_CHUNKED,qwen8b,large,cosine,p95,2.0,2,"['id0', 'id344']"
+GPQA,bge,small,correlation,p80,3.0,3,"['id52', 'id127', 'id286']"
+GPQA_CHUNKED,nemotron,large,correlation,p50,1.0,1,['id244']
+MMLU-Pro_NOCHUNK,nemotron,large,seuclidean,p80,1.0,1,['id4801']
+IFEval_CHUNKED,qwen4b,large,correlation,p95,1.0,1,['id2245']
+IFEval,gist,small,seuclidean,p90,3.0,3,"['id2311', 'id2685', 'id2859']"
+IFEval,e5,small,cosine,p50,1.0,1,['id2859']
+GPQA,e5,small,cosine,p80,2.0,2,"['id257', 'id289']"
+Omni-MATH_CHUNKED,qwen4b,large,seuclidean,p10,1.0,1,['id104']
+Omni-MATH,e5,small,seuclidean,p50,2.0,2,"['id1002', 'id4133']"
+Omni-MATH,bge,small,correlation,p90,3.0,3,"['id541', 'id1376', 'id4346']"
+MMLU-Pro_NOCHUNK,qwen8b,large,cosine,p10,1.0,1,['id10094']
+GPQA,gist,small,correlation,p90,14.0,14,"['id17', 'id26', 'id30', 'id33', 'id52', 'id86', 'id156', 'id182', 'id202', 'id204', 'id280', 'id286', 'id380', 'id427']"
+IFEval_NOCHUNK,qwen4b,large,cosine,p10,1.0,1,['id1000']
+MMLU-Pro,e5,small,cosine,p90,3.0,3,"['id11680', 'id889', 'id11874']"
+GPQA_CHUNKED,nemotron,large,seuclidean,p90,1.0,1,['id359']
+Omni-MATH,gist,small,cosine,p90,9.0,9,"['id651', 'id142', 'id900', 'id3214', 'id3409', 'id1399', 'id527', 'id2031', 'id1596']"
+IFEval,bge,small,correlation,p90,3.0,3,"['id1592', 'id2859', 'id3563']"
+Omni-MATH,e5,small,seuclidean,p80,2.0,2,"['id1172', 'id1085']"
+IFEval,e5,small,correlation,p10,1.0,1,['id1203']
+IFEval_NOCHUNK,qwen8b,large,seuclidean,p50,1.0,1,['id1107']
+Omni-MATH,bge,small,seuclidean,p20,1.0,1,['id2480']
+GPQA,gist,small,seuclidean,p20,2.0,2,"['id1', 'id215']"
+Omni-MATH_CHUNKED,qwen8b,large,cosine,p20,1.0,1,['id1085']
+GPQA_CHUNKED,qwen8b,large,seuclidean,p20,1.0,1,['id103']
+IFEval,gist,small,correlation,p90,3.0,3,"['id1332', 'id2311', 'id2859']"
+Omni-MATH_CHUNKED,qwen8b,large,seuclidean,p95,1.0,1,['id3681']
+MMLU-Pro_NOCHUNK,qwen8b,large,seuclidean,p80,1.0,1,['id4357']
+MMLU-Pro,e5,small,correlation,p90,3.0,3,"['id11680', 'id889', 'id11874']"
+Omni-MATH_NOCHUNK,nemotron,large,cosine,p80,1.0,1,['id134']
+IFEval,bge,small,correlation,p10,1.0,1,['id1592']
+IFEval_CHUNKED,qwen8b,large,cosine,p10,1.0,1,['id1000']
+GPQA_NOCHUNK,qwen8b,large,cosine,p95,1.0,1,['id344']
+MMLU-Pro_NOCHUNK,qwen4b,large,cosine,p90,2.0,2,"['id5045', 'id10094']"
+IFEval_CHUNKED,nemotron,large,seuclidean,p90,2.0,2,"['id1012', 'id219']"
+MMLU-Pro_NOCHUNK,nemotron,large,correlation,p90,1.0,1,['id4896']
+GPQA_CHUNKED,qwen8b,large,correlation,p50,1.0,1,['id201']
+MMLU-Pro_NOCHUNK,nemotron,large,seuclidean,p20,1.0,1,['id1032']
+Omni-MATH_CHUNKED,nemotron,large,correlation,p20,1.0,1,['id1005']
+IFEval_CHUNKED,qwen4b,large,cosine,p80,1.0,1,['id1999']
+Omni-MATH_CHUNKED,nemotron,large,cosine,p95,16.0,16,"['id582', 'id2436', 'id949', 'id487', 'id2087', 'id526', 'id4359', 'id1248', 'id3022', 'id2211', 'id1277', 'id405', 'id2829', 'id1001', 'id1303', 'id3452']"
+Omni-MATH_CHUNKED,qwen8b,large,correlation,p95,2.0,2,"['id154', 'id2975']"
+Omni-MATH_NOCHUNK,nemotron,large,seuclidean,p50,1.0,1,['id1095']
+Omni-MATH_CHUNKED,qwen4b,large,correlation,p20,1.0,1,['id1085']
+IFEval_CHUNKED,nemotron,large,seuclidean,p20,1.0,1,['id1051']
+IFEval_CHUNKED,qwen8b,large,seuclidean,p50,1.0,1,['id1107']
+Omni-MATH_NOCHUNK,qwen4b,large,cosine,p10,1.0,1,['id1085']
+Omni-MATH_CHUNKED,qwen8b,large,seuclidean,p20,1.0,1,['id1084']
+IFEval_NOCHUNK,qwen4b,large,correlation,p50,1.0,1,['id1108']
+GPQA_NOCHUNK,qwen8b,large,correlation,p80,1.0,1,['id26']
+IFEval_NOCHUNK,nemotron,large,correlation,p50,2.0,2,"['id1000', 'id1592']"
+Omni-MATH,e5,small,correlation,p50,2.0,2,"['id1009', 'id3515']"
+GPQA_NOCHUNK,qwen8b,large,seuclidean,p20,1.0,1,['id103']
+MMLU-Pro,gist,small,seuclidean,p50,2.0,2,"['id3143', 'id7196']"
+IFEval_CHUNKED,qwen4b,large,seuclidean,p80,1.0,1,['id1108']
+Omni-MATH_NOCHUNK,qwen8b,large,cosine,p90,1.0,1,['id3681']
+Omni-MATH_NOCHUNK,qwen8b,large,seuclidean,p50,1.0,1,['id1144']
+IFEval,e5,small,seuclidean,p20,1.0,1,['id1999']
+GPQA_NOCHUNK,qwen8b,large,seuclidean,p90,1.0,1,['id201']
+MMLU-Pro_NOCHUNK,nemotron,large,seuclidean,p90,1.0,1,['id4896']
+GPQA_NOCHUNK,qwen8b,large,correlation,p90,1.0,1,['id26']
+GPQA,bge,small,cosine,p90,10.0,10,"['id30', 'id40', 'id55', 'id228', 'id268', 'id286', 'id289', 'id371', 'id433', 'id444']"
+GPQA_CHUNKED,qwen4b,large,seuclidean,p80,2.0,2,"['id122', 'id177']"
+IFEval,bge,small,correlation,p50,1.0,1,['id2859']
+IFEval_CHUNKED,qwen8b,large,cosine,p50,1.0,1,['id1108']
+IFEval,e5,small,correlation,p50,1.0,1,['id2859']
+Omni-MATH_CHUNKED,nemotron,large,seuclidean,p20,1.0,1,['id1005']
+IFEval,e5,small,cosine,p10,1.0,1,['id1203']
+Omni-MATH_CHUNKED,qwen4b,large,cosine,p50,1.0,1,['id1085']
+IFEval,e5,small,cosine,p80,2.0,2,"['id1051', 'id3563']"
+MMLU-Pro_NOCHUNK,qwen4b,large,correlation,p95,40.0,40,"['id9579', 'id8845', 'id9373', 'id7314', 'id4557', 'id4096', 'id11756', 'id10220', 'id12007', 'id9305', 'id7371', 'id9019', 'id9343', 'id8648', 'id9698', 'id9570', 'id4289', 'id10094', 'id10324', 'id3973', 'id3926', 'id9860', 'id7747', 'id10314', 'id7855', 'id5047', 'id10263', 'id7655', 'id5508', 'id10744', 'id9346', 'id11771', 'id4023', 'id2826', 'id9299', 'id9132', 'id7374', 'id10216', 'id10087', 'id7788']"
+IFEval_CHUNKED,qwen8b,large,cosine,p95,1.0,1,['id1999']
+Omni-MATH,e5,small,correlation,p80,2.0,2,"['id1085', 'id1376']"
+Omni-MATH_CHUNKED,nemotron,large,cosine,p80,2.0,2,"['id1277', 'id2829']"
+MMLU-Pro_NOCHUNK,nemotron,large,correlation,p20,1.0,1,['id1032']
+Omni-MATH_CHUNKED,qwen4b,large,correlation,p50,1.0,1,['id1085']
+GPQA_NOCHUNK,nemotron,large,cosine,p95,21.0,21,"['id0', 'id14', 'id41', 'id83', 'id97', 'id114', 'id196', 'id219', 'id251', 'id257', 'id278', 'id290', 'id300', 'id308', 'id320', 'id324', 'id399', 'id403', 'id413', 'id426', 'id436']"
+IFEval_CHUNKED,qwen8b,large,seuclidean,p10,1.0,1,['id1000']
+GPQA_NOCHUNK,qwen8b,large,cosine,p10,1.0,1,['id122']
+GPQA_NOCHUNK,nemotron,large,correlation,p80,2.0,2,"['id0', 'id320']"
+Omni-MATH,bge,small,correlation,p95,5.0,5,"['id541', 'id1185', 'id2552', 'id4346', 'id2843']"
+Omni-MATH_CHUNKED,qwen4b,large,seuclidean,p90,2.0,2,"['id154', 'id1']"
+IFEval,gist,small,cosine,p10,1.0,1,['id136']
+IFEval_NOCHUNK,qwen8b,large,correlation,p20,1.0,1,['id1000']
+MMLU-Pro_NOCHUNK,qwen8b,large,cosine,p80,2.0,2,"['id4096', 'id10615']"
+GPQA_CHUNKED,qwen8b,large,seuclidean,p50,1.0,1,['id177']
+MMLU-Pro_NOCHUNK,nemotron,large,correlation,p80,1.0,1,['id4801']
+MMLU-Pro,bge,small,correlation,p90,7.0,7,"['id1626', 'id11723', 'id3143', 'id1326', 'id1773', 'id12189', 'id4721']"
+Omni-MATH_NOCHUNK,qwen4b,large,correlation,p90,2.0,2,"['id154', 'id1095']"
+IFEval_NOCHUNK,qwen4b,large,correlation,p20,1.0,1,['id1000']
+IFEval,e5,small,correlation,p90,2.0,2,"['id1377', 'id3563']"
+GPQA,gist,small,cosine,p80,4.0,4,"['id86', 'id170', 'id282', 'id427']"
+GPQA_CHUNKED,qwen4b,large,correlation,p80,2.0,2,"['id122', 'id208']"
+MMLU-Pro_NOCHUNK,qwen8b,large,correlation,p10,1.0,1,['id10094']
+Omni-MATH,gist,small,seuclidean,p80,3.0,3,"['id900', 'id1399', 'id2994']"
+IFEval_NOCHUNK,qwen8b,large,cosine,p90,1.0,1,['id1999']
+IFEval,gist,small,correlation,p95,8.0,8,"['id1738', 'id2311', 'id2571', 'id2577', 'id2685', 'id2859', 'id3156', 'id3414']"
+IFEval,e5,small,seuclidean,p10,1.0,1,['id1203']
+GPQA,bge,small,correlation,p95,37.0,37,"['id36', 'id40', 'id43', 'id54', 'id55', 'id57', 'id59', 'id78', 'id93', 'id94', 'id96', 'id98', 'id122', 'id127', 'id153', 'id167', 'id176', 'id216', 'id228', 'id244', 'id264', 'id268', 'id277', 'id286', 'id289', 'id291', 'id298', 'id307', 'id329', 'id371', 'id385', 'id409', 'id418', 'id421', 'id428', 'id434', 'id444']"
+MMLU-Pro_NOCHUNK,qwen4b,large,cosine,p95,38.0,38,"['id9579', 'id8845', 'id9373', 'id7314', 'id4096', 'id11756', 'id10220', 'id12007', 'id9305', 'id7371', 'id9019', 'id9343', 'id8648', 'id9698', 'id9570', 'id4289', 'id10094', 'id10324', 'id3973', 'id3926', 'id9860', 'id7747', 'id10314', 'id7855', 'id5047', 'id10263', 'id7655', 'id5508', 'id10744', 'id9346', 'id11771', 'id4023', 'id2826', 'id9299', 'id9132', 'id10216', 'id10087', 'id7788']"
+GPQA_CHUNKED,qwen8b,large,seuclidean,p95,2.0,2,"['id193', 'id201']"
+IFEval,bge,small,cosine,p50,1.0,1,['id2859']
+Omni-MATH,gist,small,seuclidean,p90,7.0,7,"['id142', 'id2971', 'id1399', 'id326', 'id2994', 'id4423', 'id3759']"
+Omni-MATH_NOCHUNK,nemotron,large,seuclidean,p80,1.0,1,['id134']
+Omni-MATH_NOCHUNK,qwen8b,large,correlation,p90,1.0,1,['id3681']
+MMLU-Pro,e5,small,seuclidean,p95,5.0,5,"['id11680', 'id1178', 'id11874', 'id3280', 'id4721']"
+GPQA_NOCHUNK,qwen4b,large,seuclidean,p90,2.0,2,"['id112', 'id122']"
+IFEval_NOCHUNK,qwen4b,large,seuclidean,p10,1.0,1,['id1000']
+Omni-MATH_CHUNKED,qwen4b,large,cosine,p10,1.0,1,['id1085']
+Omni-MATH_CHUNKED,qwen4b,large,correlation,p90,2.0,2,"['id154', 'id1095']"
+GPQA_NOCHUNK,qwen4b,large,correlation,p20,1.0,1,['id122']
+IFEval_CHUNKED,nemotron,large,correlation,p10,1.0,1,['id1019']
+IFEval,e5,small,correlation,p20,1.0,1,['id1999']
+IFEval_NOCHUNK,qwen4b,large,cosine,p95,1.0,1,['id2245']
+IFEval_CHUNKED,qwen8b,large,correlation,p95,1.0,1,['id1999']
+GPQA_NOCHUNK,qwen4b,large,correlation,p50,2.0,2,"['id112', 'id201']"
+IFEval,e5,small,seuclidean,p80,2.0,2,"['id1098', 'id3563']"
+MMLU-Pro,bge,small,correlation,p20,1.0,1,['id4948']
+GPQA_NOCHUNK,nemotron,large,correlation,p95,21.0,21,"['id0', 'id14', 'id41', 'id83', 'id97', 'id114', 'id196', 'id219', 'id251', 'id257', 'id278', 'id290', 'id300', 'id308', 'id320', 'id324', 'id399', 'id403', 'id413', 'id426', 'id436']"
+IFEval,gist,small,cosine,p80,2.0,2,"['id1122', 'id2859']"
+MMLU-Pro,gist,small,correlation,p50,2.0,2,"['id11934', 'id5508']"
+IFEval_NOCHUNK,qwen8b,large,correlation,p80,1.0,1,['id1108']
+Omni-MATH_NOCHUNK,nemotron,large,correlation,p95,1.0,1,['id134']
+Omni-MATH_CHUNKED,qwen4b,large,correlation,p80,2.0,2,"['id1504', 'id1095']"
+Omni-MATH_NOCHUNK,qwen4b,large,correlation,p80,2.0,2,"['id154', 'id1095']"
+IFEval,bge,small,correlation,p95,6.0,6,"['id1251', 'id1999', 'id2225', 'id2859', 'id2880', 'id3563']"
+Omni-MATH_CHUNKED,qwen8b,large,cosine,p10,1.0,1,['id1084']
+Omni-MATH_CHUNKED,nemotron,large,correlation,p10,1.0,1,['id1002']
+IFEval,gist,small,correlation,p10,1.0,1,['id136']
+Omni-MATH_NOCHUNK,nemotron,large,seuclidean,p90,1.0,1,['id134']
+MMLU-Pro,e5,small,seuclidean,p80,2.0,2,"['id11537', 'id889']"
+Omni-MATH_CHUNKED,qwen8b,large,seuclidean,p80,1.0,1,['id3012']
+MMLU-Pro,e5,small,cosine,p95,6.0,6,"['id11680', 'id889', 'id1557', 'id11874', 'id3280', 'id4721']"
+MMLU-Pro_NOCHUNK,qwen4b,large,seuclidean,p10,1.0,1,['id10094']
+IFEval,gist,small,correlation,p50,2.0,2,"['id1000', 'id2859']"
+GPQA_NOCHUNK,nemotron,large,cosine,p50,1.0,1,['id0']
+MMLU-Pro,e5,small,cosine,p20,1.0,1,['id10472']
+GPQA_CHUNKED,qwen8b,large,cosine,p50,1.0,1,['id201']
+IFEval_NOCHUNK,qwen4b,large,cosine,p90,1.0,1,['id1999']
+Omni-MATH_NOCHUNK,qwen4b,large,cosine,p20,1.0,1,['id1085']
+IFEval_CHUNKED,qwen4b,large,correlation,p80,1.0,1,['id1999']
+GPQA_NOCHUNK,qwen8b,large,seuclidean,p50,1.0,1,['id122']
+Omni-MATH,gist,small,correlation,p10,1.0,1,['id3608']
+Omni-MATH,gist,small,seuclidean,p20,2.0,2,"['id1', 'id3477']"
+MMLU-Pro_NOCHUNK,qwen8b,large,seuclidean,p90,1.0,1,['id4357']
+MMLU-Pro,bge,small,cosine,p20,1.0,1,['id4948']
+IFEval_NOCHUNK,qwen8b,large,seuclidean,p10,1.0,1,['id1000']
+Omni-MATH,bge,small,cosine,p80,2.0,2,"['id1002', 'id4346']"
+GPQA_CHUNKED,nemotron,large,seuclidean,p50,1.0,1,['id244']
+MMLU-Pro_NOCHUNK,nemotron,large,cosine,p10,1.0,1,['id1009']
+MMLU-Pro_NOCHUNK,nemotron,large,seuclidean,p95,2.0,2,"['id4773', 'id4827']"
+IFEval_NOCHUNK,qwen4b,large,cosine,p20,1.0,1,['id1000']
+Omni-MATH_CHUNKED,nemotron,large,correlation,p50,1.0,1,['id2829']
+GPQA_NOCHUNK,qwen8b,large,seuclidean,p80,1.0,1,['id201']
+MMLU-Pro,e5,small,seuclidean,p90,2.0,2,"['id11680', 'id889']"
+GPQA_CHUNKED,nemotron,large,correlation,p95,1.0,1,['id359']
+Omni-MATH_NOCHUNK,qwen4b,large,seuclidean,p90,2.0,2,"['id154', 'id1085']"
+GPQA,gist,small,cosine,p90,14.0,14,"['id17', 'id26', 'id30', 'id33', 'id52', 'id86', 'id156', 'id182', 'id202', 'id204', 'id280', 'id286', 'id380', 'id427']"
+GPQA_NOCHUNK,qwen8b,large,cosine,p50,1.0,1,['id122']
+Omni-MATH,bge,small,correlation,p10,1.0,1,['id1069']
+GPQA_CHUNKED,nemotron,large,cosine,p20,1.0,1,['id127']
+MMLU-Pro,gist,small,seuclidean,p20,2.0,2,"['id10639', 'id3058']"
+MMLU-Pro_NOCHUNK,nemotron,large,seuclidean,p10,1.0,1,['id1009']
+GPQA_NOCHUNK,nemotron,large,correlation,p10,1.0,1,['id0']
+MMLU-Pro_NOCHUNK,qwen4b,large,correlation,p10,1.0,1,['id10094']
+Omni-MATH_CHUNKED,nemotron,large,seuclidean,p95,7.0,7,"['id3777', 'id2436', 'id487', 'id1248', 'id2829', 'id905', 'id1001']"
+MMLU-Pro,gist,small,cosine,p90,15.0,15,"['id8603', 'id9648', 'id3412', 'id4678', 'id3450', 'id900', 'id6857', 'id3143', 'id3125', 'id5508', 'id9267', 'id5514', 'id1326', 'id9961', 'id4353']"
+MMLU-Pro,gist,small,correlation,p90,15.0,15,"['id8603', 'id9648', 'id3412', 'id4678', 'id3450', 'id900', 'id6857', 'id3143', 'id3125', 'id5508', 'id9267', 'id5514', 'id1326', 'id9961', 'id4353']"
+IFEval_CHUNKED,qwen4b,large,cosine,p50,1.0,1,['id1108']
+GPQA_CHUNKED,qwen8b,large,correlation,p20,1.0,1,['id122']
+GPQA_CHUNKED,nemotron,large,seuclidean,p20,1.0,1,['id127']
+MMLU-Pro_NOCHUNK,qwen8b,large,seuclidean,p20,1.0,1,['id10094']
+Omni-MATH,gist,small,seuclidean,p50,2.0,2,"['id2994', 'id1277']"
+GPQA,e5,small,cosine,p10,1.0,1,['id214']
+IFEval,gist,small,correlation,p20,1.0,1,['id2311']
+IFEval,bge,small,seuclidean,p10,1.0,1,['id1592']
+Omni-MATH,bge,small,cosine,p10,1.0,1,['id1069']
+MMLU-Pro_NOCHUNK,nemotron,large,correlation,p50,1.0,1,['id1251']
+Omni-MATH_NOCHUNK,qwen8b,large,seuclidean,p95,1.0,1,['id3681']
+GPQA_CHUNKED,qwen4b,large,correlation,p90,2.0,2,"['id0', 'id344']"
+IFEval_NOCHUNK,nemotron,large,seuclidean,p10,1.0,1,['id1265']
+GPQA_CHUNKED,qwen8b,large,cosine,p90,1.0,1,['id344']
+MMLU-Pro_NOCHUNK,nemotron,large,cosine,p80,1.0,1,['id4801']
+MMLU-Pro_NOCHUNK,nemotron,large,cosine,p90,1.0,1,['id4896']
+Omni-MATH,gist,small,correlation,p80,4.0,4,"['id142', 'id2535', 'id2994', 'id3759']"
+GPQA_NOCHUNK,nemotron,large,cosine,p80,2.0,2,"['id0', 'id320']"
+Omni-MATH,e5,small,seuclidean,p95,6.0,6,"['id142', 'id1085', 'id4133', 'id788', 'id3571', 'id2123']"
+Omni-MATH_NOCHUNK,qwen4b,large,correlation,p95,2.0,2,"['id189', 'id1144']"
+GPQA_CHUNKED,qwen8b,large,cosine,p20,1.0,1,['id122']
+GPQA,bge,small,seuclidean,p95,38.0,38,"['id30', 'id36', 'id40', 'id54', 'id55', 'id57', 'id78', 'id93', 'id96', 'id133', 'id153', 'id167', 'id176', 'id194', 'id214', 'id216', 'id226', 'id228', 'id237', 'id264', 'id268', 'id274', 'id277', 'id286', 'id289', 'id291', 'id298', 'id308', 'id325', 'id329', 'id371', 'id385', 'id409', 'id418', 'id428', 'id429', 'id434', 'id444']"
+GPQA_NOCHUNK,nemotron,large,cosine,p90,2.0,2,"['id257', 'id413']"
+IFEval_CHUNKED,nemotron,large,correlation,p50,1.0,1,['id1092']
+IFEval_NOCHUNK,qwen4b,large,cosine,p50,1.0,1,['id1108']
+Omni-MATH_CHUNKED,nemotron,large,correlation,p90,4.0,4,"['id3777', 'id2436', 'id1248', 'id2829']"
+MMLU-Pro,bge,small,correlation,p95,41.0,41,"['id3035', 'id6371', 'id6615', 'id3972', 'id6737', 'id3412', 'id2107', 'id1666', 'id7173', 'id10839', 'id2268', 'id9347', 'id2276', 'id3488', 'id1678', 'id3222', 'id11900', 'id6002', 'id2662', 'id2715', 'id440', 'id11723', 'id3143', 'id4143', 'id2993', 'id1747', 'id6412', 'id9640', 'id1734', 'id11191', 'id2007', 'id4896', 'id310', 'id1326', 'id7653', 'id1302', 'id1557', 'id1773', 'id12189', 'id2294', 'id4721']"
+Omni-MATH_NOCHUNK,nemotron,large,correlation,p80,1.0,1,['id134']
+GPQA,bge,small,cosine,p10,1.0,1,['id113']
+IFEval_NOCHUNK,qwen8b,large,correlation,p10,1.0,1,['id1000']
+GPQA_NOCHUNK,qwen4b,large,cosine,p50,2.0,2,"['id112', 'id201']"
+Omni-MATH,e5,small,cosine,p10,1.0,1,['id1021']
+MMLU-Pro,bge,small,seuclidean,p80,3.0,3,"['id3143', 'id4896', 'id1326']"
+GPQA,bge,small,seuclidean,p50,2.0,2,"['id0', 'id444']"
+Omni-MATH_NOCHUNK,qwen4b,large,seuclidean,p20,1.0,1,['id1085']
+MMLU-Pro_NOCHUNK,nemotron,large,cosine,p50,1.0,1,['id1251']
+Omni-MATH,gist,small,seuclidean,p95,20.0,20,"['id1829', 'id651', 'id3885', 'id2307', 'id3391', 'id348', 'id4371', 'id2196', 'id3409', 'id3479', 'id1399', 'id2964', 'id326', 'id2549', 'id489', 'id2994', 'id2031', 'id4423', 'id4000', 'id3694']"
+IFEval_CHUNKED,qwen8b,large,cosine,p80,1.0,1,['id1108']
+MMLU-Pro_NOCHUNK,qwen8b,large,seuclidean,p95,2.0,2,"['id3833', 'id11191']"
+GPQA,bge,small,correlation,p20,1.0,1,['id214']
+IFEval_NOCHUNK,nemotron,large,correlation,p95,14.0,14,"['id102', 'id1392', 'id1592', 'id1999', 'id2169', 'id2457', 'id2617', 'id2649', 'id2817', 'id3098', 'id3223', 'id3386', 'id3407', 'id3690']"
+Omni-MATH_NOCHUNK,qwen4b,large,correlation,p50,1.0,1,['id1085']
+GPQA_NOCHUNK,qwen4b,large,correlation,p95,2.0,2,"['id0', 'id344']"
+IFEval_CHUNKED,qwen8b,large,seuclidean,p95,1.0,1,['id1108']
+IFEval_NOCHUNK,nemotron,large,cosine,p50,2.0,2,"['id1000', 'id1592']"
+IFEval_CHUNKED,qwen8b,large,seuclidean,p20,1.0,1,['id1000']
+IFEval,e5,small,cosine,p20,1.0,1,['id1999']
+MMLU-Pro,bge,small,cosine,p95,41.0,41,"['id3035', 'id6371', 'id6615', 'id3972', 'id6737', 'id3412', 'id2107', 'id1666', 'id7173', 'id10839', 'id2268', 'id9347', 'id2276', 'id3488', 'id1678', 'id3222', 'id11900', 'id6002', 'id2662', 'id2715', 'id440', 'id11723', 'id3143', 'id4143', 'id2993', 'id1747', 'id6412', 'id9640', 'id1734', 'id11191', 'id2007', 'id4896', 'id310', 'id1326', 'id7653', 'id1302', 'id1557', 'id1773', 'id12189', 'id2294', 'id4721']"
+IFEval_NOCHUNK,qwen4b,large,seuclidean,p20,1.0,1,['id1108']
+IFEval_NOCHUNK,qwen4b,large,seuclidean,p90,1.0,1,['id1999']
+IFEval,e5,small,seuclidean,p95,2.0,2,"['id2859', 'id3563']"
+IFEval_CHUNKED,nemotron,large,cosine,p80,1.0,1,['id2311']
+Omni-MATH_CHUNKED,qwen8b,large,seuclidean,p10,1.0,1,['id1084']
+IFEval,gist,small,cosine,p20,1.0,1,['id2311']
+GPQA,bge,small,seuclidean,p80,3.0,3,"['id127', 'id286', 'id444']"
+GPQA_NOCHUNK,qwen8b,large,correlation,p20,1.0,1,['id122']
+Omni-MATH_NOCHUNK,nemotron,large,seuclidean,p95,1.0,1,['id134']
+Omni-MATH_NOCHUNK,nemotron,large,seuclidean,p20,1.0,1,['id1002']
+GPQA,bge,small,cosine,p95,37.0,37,"['id36', 'id40', 'id43', 'id54', 'id55', 'id57', 'id59', 'id78', 'id93', 'id94', 'id96', 'id98', 'id122', 'id127', 'id153', 'id167', 'id176', 'id216', 'id228', 'id244', 'id264', 'id268', 'id277', 'id286', 'id289', 'id291', 'id298', 'id307', 'id329', 'id371', 'id385', 'id409', 'id418', 'id421', 'id428', 'id434', 'id444']"
+Omni-MATH,gist,small,correlation,p95,22.0,22,"['id1829', 'id651', 'id3885', 'id559', 'id3391', 'id142', 'id348', 'id1657', 'id556', 'id2004', 'id4289', 'id2971', 'id1450', 'id1399', 'id1084', 'id326', 'id2549', 'id2994', 'id3584', 'id527', 'id2031', 'id3759']"
+IFEval,bge,small,correlation,p80,2.0,2,"['id1592', 'id2859']"
+GPQA_NOCHUNK,qwen4b,large,correlation,p90,2.0,2,"['id0', 'id26']"
+Omni-MATH_CHUNKED,nemotron,large,seuclidean,p90,3.0,3,"['id1068', 'id1248', 'id2829']"
+GPQA_NOCHUNK,nemotron,large,seuclidean,p10,1.0,1,['id0']
+Omni-MATH_NOCHUNK,nemotron,large,correlation,p50,1.0,1,['id1095']
+Omni-MATH_NOCHUNK,qwen8b,large,seuclidean,p10,1.0,1,['id1084']
+IFEval_CHUNKED,nemotron,large,cosine,p95,24.0,24,"['id1129', 'id1174', 'id1187', 'id1512', 'id1546', 'id1944', 'id1954', 'id201', 'id2069', 'id2311', 'id2337', 'id2372', 'id2739', 'id279', 'id2904', 'id3057', 'id3126', 'id3224', 'id337', 'id343', 'id349', 'id3619', 'id3633', 'id3743']"
+Omni-MATH_NOCHUNK,qwen4b,large,seuclidean,p95,2.0,2,"['id154', 'id1085']"
+Omni-MATH,e5,small,correlation,p90,3.0,3,"['id142', 'id1085', 'id4020']"
+IFEval,e5,small,correlation,p95,2.0,2,"['id2859', 'id3563']"
+GPQA,bge,small,seuclidean,p10,1.0,1,['id113']
+Omni-MATH,e5,small,correlation,p20,1.0,1,['id124']
+GPQA_NOCHUNK,qwen4b,large,cosine,p80,2.0,2,"['id177', 'id218']"
+GPQA,e5,small,cosine,p20,1.0,1,['id430']
+Omni-MATH_NOCHUNK,qwen4b,large,cosine,p80,2.0,2,"['id154', 'id1095']"
+IFEval_NOCHUNK,qwen4b,large,seuclidean,p95,2.0,2,"['id1108', 'id1999']"
+GPQA_NOCHUNK,qwen4b,large,seuclidean,p95,2.0,2,"['id122', 'id201']"
+MMLU-Pro,gist,small,correlation,p80,5.0,5,"['id3412', 'id3143', 'id5508', 'id9961', 'id1557']"
+GPQA,e5,small,seuclidean,p50,1.0,1,['id430']
+IFEval_NOCHUNK,qwen8b,large,correlation,p50,1.0,1,['id1108']
+GPQA_CHUNKED,qwen8b,large,seuclidean,p10,1.0,1,['id103']
+IFEval_CHUNKED,qwen8b,large,cosine,p20,1.0,1,['id1000']
+Omni-MATH,gist,small,cosine,p80,4.0,4,"['id142', 'id2535', 'id2994', 'id3759']"
+Omni-MATH_CHUNKED,qwen8b,large,correlation,p50,1.0,1,['id2975']
+GPQA,gist,small,cosine,p50,2.0,2,"['id280', 'id427']"
+IFEval_CHUNKED,nemotron,large,correlation,p95,24.0,24,"['id1129', 'id1174', 'id1187', 'id1512', 'id1546', 'id1944', 'id1954', 'id201', 'id2069', 'id2311', 'id2337', 'id2372', 'id2739', 'id279', 'id2904', 'id3057', 'id3126', 'id3224', 'id337', 'id343', 'id349', 'id3619', 'id3633', 'id3743']"
+GPQA_NOCHUNK,nemotron,large,seuclidean,p20,1.0,1,['id0']
+IFEval_NOCHUNK,qwen4b,large,seuclidean,p80,1.0,1,['id1108']
+MMLU-Pro_NOCHUNK,qwen8b,large,seuclidean,p10,1.0,1,['id10094']
+MMLU-Pro,e5,small,correlation,p20,1.0,1,['id10472']
+Omni-MATH_NOCHUNK,qwen8b,large,cosine,p20,1.0,1,['id1085']
+Omni-MATH,gist,small,cosine,p20,2.0,2,"['id1', 'id3477']"
+MMLU-Pro_NOCHUNK,qwen4b,large,cosine,p50,2.0,2,"['id10094', 'id10615']"
+GPQA,bge,small,correlation,p10,1.0,1,['id113']
+Omni-MATH,e5,small,seuclidean,p10,1.0,1,['id1021']
+Omni-MATH_NOCHUNK,qwen8b,large,seuclidean,p20,1.0,1,['id1084']
+GPQA,gist,small,seuclidean,p80,4.0,4,"['id86', 'id286', 'id363', 'id427']"
+IFEval_NOCHUNK,qwen8b,large,seuclidean,p80,1.0,1,['id1108']
+MMLU-Pro,e5,small,seuclidean,p50,2.0,2,"['id10008', 'id3280']"
+GPQA,gist,small,correlation,p95,38.0,38,"['id6', 'id8', 'id14', 'id26', 'id30', 'id52', 'id60', 'id86', 'id98', 'id122', 'id156', 'id170', 'id174', 'id196', 'id197', 'id202', 'id204', 'id214', 'id216', 'id228', 'id230', 'id234', 'id280', 'id282', 'id286', 'id296', 'id299', 'id329', 'id352', 'id371', 'id375', 'id380', 'id385', 'id422', 'id427', 'id436', 'id443', 'id444']"
+GPQA_CHUNKED,qwen8b,large,seuclidean,p80,1.0,1,['id201']
+IFEval_NOCHUNK,qwen8b,large,correlation,p90,1.0,1,['id1999']
+MMLU-Pro_NOCHUNK,qwen8b,large,cosine,p90,2.0,2,"['id1035', 'id3833']"
+IFEval,bge,small,cosine,p10,1.0,1,['id1592']
+GPQA,bge,small,cosine,p20,1.0,1,['id214']
+GPQA_NOCHUNK,qwen8b,large,cosine,p80,1.0,1,['id26']
+IFEval_CHUNKED,nemotron,large,cosine,p10,1.0,1,['id1019']
+MMLU-Pro_NOCHUNK,qwen4b,large,seuclidean,p95,2.0,2,"['id3143', 'id11191']"
+Omni-MATH_CHUNKED,nemotron,large,cosine,p90,4.0,4,"['id3777', 'id2436', 'id1248', 'id2829']"
+IFEval,bge,small,seuclidean,p80,2.0,2,"['id1592', 'id2859']"
+IFEval_CHUNKED,nemotron,large,cosine,p20,1.0,1,['id1051']
+Omni-MATH_NOCHUNK,qwen8b,large,seuclidean,p80,1.0,1,['id3012']
+Omni-MATH,gist,small,cosine,p95,22.0,22,"['id1829', 'id651', 'id3885', 'id559', 'id3391', 'id142', 'id348', 'id1657', 'id556', 'id2004', 'id4289', 'id2971', 'id1450', 'id1399', 'id1084', 'id326', 'id2549', 'id2994', 'id3584', 'id527', 'id2031', 'id3759']"
+MMLU-Pro,bge,small,correlation,p80,3.0,3,"['id3412', 'id3143', 'id1557']"
+GPQA_CHUNKED,nemotron,large,cosine,p90,1.0,1,['id359']
+Omni-MATH_NOCHUNK,nemotron,large,cosine,p90,1.0,1,['id134']
+IFEval_NOCHUNK,nemotron,large,cosine,p20,1.0,1,['id1592']
+MMLU-Pro,bge,small,seuclidean,p10,1.0,1,['id10449']
+GPQA_NOCHUNK,nemotron,large,correlation,p50,1.0,1,['id0']
+Omni-MATH_CHUNKED,nemotron,large,seuclidean,p50,1.0,1,['id1248']
+IFEval,bge,small,cosine,p20,1.0,1,['id1592']
+Omni-MATH,bge,small,seuclidean,p10,1.0,1,['id1069']
+IFEval_NOCHUNK,nemotron,large,correlation,p20,1.0,1,['id1592']
+GPQA_CHUNKED,qwen4b,large,correlation,p50,2.0,2,"['id112', 'id201']"
+GPQA_NOCHUNK,qwen8b,large,correlation,p10,1.0,1,['id122']
+Omni-MATH_NOCHUNK,nemotron,large,cosine,p10,1.0,1,['id1002']
+GPQA,e5,small,cosine,p90,6.0,6,"['id17', 'id50', 'id106', 'id229', 'id289', 'id352']"
+GPQA_CHUNKED,nemotron,large,correlation,p90,1.0,1,['id359']
+IFEval,gist,small,cosine,p90,3.0,3,"['id1332', 'id2311', 'id2859']"
+MMLU-Pro_NOCHUNK,qwen4b,large,correlation,p90,2.0,2,"['id5045', 'id10094']"
+MMLU-Pro,bge,small,seuclidean,p95,30.0,30,"['id6371', 'id6615', 'id6737', 'id11100', 'id3752', 'id2107', 'id7173', 'id1678', 'id3141', 'id3222', 'id2849', 'id2715', 'id440', 'id11723', 'id7259', 'id3143', 'id6412', 'id9640', 'id1647', 'id4896', 'id3175', 'id310', 'id1851', 'id1302', 'id1557', 'id1773', 'id12189', 'id5052', 'id2294', 'id4721']"
+GPQA,e5,small,correlation,p95,24.0,24,"['id17', 'id30', 'id50', 'id64', 'id70', 'id106', 'id145', 'id160', 'id229', 'id234', 'id235', 'id244', 'id257', 'id289', 'id295', 'id341', 'id352', 'id366', 'id408', 'id418', 'id424', 'id425', 'id430', 'id445']"
+IFEval_NOCHUNK,nemotron,large,cosine,p95,14.0,14,"['id102', 'id1392', 'id1592', 'id1999', 'id2169', 'id2457', 'id2617', 'id2649', 'id2817', 'id3098', 'id3223', 'id3386', 'id3407', 'id3690']"
+Omni-MATH_NOCHUNK,nemotron,large,cosine,p95,1.0,1,['id134']
+IFEval,bge,small,correlation,p20,1.0,1,['id1592']
+GPQA_NOCHUNK,qwen8b,large,correlation,p95,1.0,1,['id344']
+GPQA_CHUNKED,nemotron,large,seuclidean,p95,1.0,1,['id359']
+IFEval_NOCHUNK,nemotron,large,correlation,p80,3.0,3,"['id102', 'id1592', 'id3223']"
+GPQA_NOCHUNK,nemotron,large,correlation,p20,1.0,1,['id0']
+Omni-MATH_CHUNKED,qwen4b,large,seuclidean,p20,1.0,1,['id1085']
+Omni-MATH_CHUNKED,qwen8b,large,correlation,p80,1.0,1,['id3681']
+GPQA_NOCHUNK,nemotron,large,seuclidean,p95,20.0,20,"['id0', 'id14', 'id41', 'id97', 'id114', 'id163', 'id251', 'id257', 'id278', 'id290', 'id308', 'id320', 'id324', 'id333', 'id344', 'id399', 'id403', 'id413', 'id426', 'id436']"
+GPQA,e5,small,seuclidean,p90,6.0,6,"['id50', 'id106', 'id229', 'id289', 'id352', 'id410']"
+IFEval_CHUNKED,nemotron,large,cosine,p50,1.0,1,['id1092']
+GPQA,bge,small,seuclidean,p90,7.0,7,"['id55', 'id215', 'id228', 'id268', 'id286', 'id289', 'id371']"
+Omni-MATH_NOCHUNK,qwen8b,large,correlation,p20,1.0,1,['id1085']
+IFEval_CHUNKED,qwen8b,large,correlation,p90,1.0,1,['id1108']
+MMLU-Pro,e5,small,correlation,p50,2.0,2,"['id10008', 'id3280']"
+Omni-MATH_NOCHUNK,qwen4b,large,seuclidean,p50,1.0,1,['id1104']
+Omni-MATH,bge,small,correlation,p50,2.0,2,"['id1', 'id4346']"
+MMLU-Pro_NOCHUNK,nemotron,large,seuclidean,p50,1.0,1,['id1251']
+GPQA_CHUNKED,qwen4b,large,cosine,p20,1.0,1,['id182']
+Omni-MATH_NOCHUNK,nemotron,large,correlation,p20,1.0,1,['id1002']
+MMLU-Pro_NOCHUNK,qwen4b,large,cosine,p10,1.0,1,['id10094']
+GPQA,gist,small,cosine,p10,1.0,1,['id170']
+MMLU-Pro_NOCHUNK,qwen8b,large,cosine,p20,1.0,1,['id10615']
+GPQA_CHUNKED,qwen8b,large,correlation,p90,1.0,1,['id344']
+IFEval_CHUNKED,qwen8b,large,seuclidean,p90,1.0,1,['id1108']
+Omni-MATH,e5,small,cosine,p95,6.0,6,"['id142', 'id1085', 'id788', 'id3515', 'id2123', 'id4020']"
+Omni-MATH_CHUNKED,qwen8b,large,cosine,p80,1.0,1,['id3681']
+Omni-MATH,e5,small,cosine,p90,3.0,3,"['id142', 'id1085', 'id4020']"
+Omni-MATH_CHUNKED,qwen8b,large,seuclidean,p50,1.0,1,['id1144']
+GPQA_CHUNKED,qwen8b,large,cosine,p10,1.0,1,['id122']
+GPQA_NOCHUNK,qwen8b,large,cosine,p20,1.0,1,['id122']
+GPQA_CHUNKED,qwen4b,large,seuclidean,p95,2.0,2,"['id122', 'id201']"
+MMLU-Pro,bge,small,cosine,p10,1.0,1,['id10449']
+MMLU-Pro,e5,small,seuclidean,p20,1.0,1,['id10472']
+GPQA,e5,small,seuclidean,p95,20.0,20,"['id17', 'id30', 'id50', 'id64', 'id106', 'id145', 'id160', 'id229', 'id234', 'id235', 'id257', 'id289', 'id295', 'id341', 'id352', 'id366', 'id418', 'id425', 'id430', 'id445']"
+IFEval_CHUNKED,qwen8b,large,correlation,p80,1.0,1,['id1108']
+Omni-MATH,gist,small,cosine,p10,1.0,1,['id3608']
+IFEval_CHUNKED,qwen4b,large,cosine,p90,1.0,1,['id1999']
+Omni-MATH_NOCHUNK,nemotron,large,cosine,p50,1.0,1,['id1095']
+Omni-MATH_CHUNKED,qwen4b,large,seuclidean,p95,2.0,2,"['id154', 'id1085']"
+IFEval,bge,small,seuclidean,p20,1.0,1,['id1592']
+GPQA_NOCHUNK,nemotron,large,seuclidean,p90,2.0,2,"['id257', 'id413']"
+Omni-MATH_CHUNKED,nemotron,large,cosine,p10,1.0,1,['id1002']
+IFEval_NOCHUNK,qwen4b,large,cosine,p80,1.0,1,['id1999']
+IFEval,bge,small,seuclidean,p50,1.0,1,['id2859']
+GPQA_CHUNKED,qwen8b,large,cosine,p80,1.0,1,['id26']
+MMLU-Pro_NOCHUNK,qwen4b,large,seuclidean,p80,2.0,2,"['id10094', 'id10615']"
+Omni-MATH_NOCHUNK,qwen8b,large,correlation,p95,2.0,2,"['id189', 'id1654']"
+Omni-MATH_NOCHUNK,qwen8b,large,cosine,p50,1.0,1,['id189']
+MMLU-Pro_NOCHUNK,qwen4b,large,correlation,p50,2.0,2,"['id10094', 'id10615']"
+GPQA_NOCHUNK,nemotron,large,seuclidean,p80,2.0,2,"['id0', 'id214']"
+GPQA_NOCHUNK,qwen4b,large,cosine,p20,1.0,1,['id122']
+Omni-MATH_NOCHUNK,qwen8b,large,cosine,p95,2.0,2,"['id189', 'id1654']"
+IFEval_CHUNKED,qwen4b,large,correlation,p50,1.0,1,['id1108']
+Omni-MATH_CHUNKED,qwen8b,large,cosine,p95,2.0,2,"['id154', 'id2975']"
+GPQA_CHUNKED,qwen8b,large,seuclidean,p90,1.0,1,['id201']
+GPQA_NOCHUNK,qwen4b,large,correlation,p80,2.0,2,"['id177', 'id218']"
+Omni-MATH,bge,small,seuclidean,p90,2.0,2,"['id2196', 'id4346']"
+GPQA,gist,small,correlation,p20,2.0,2,"['id1', 'id215']"
+IFEval_CHUNKED,qwen8b,large,seuclidean,p80,1.0,1,['id1108']
+IFEval,e5,small,cosine,p95,2.0,2,"['id2859', 'id3563']"
+MMLU-Pro_NOCHUNK,qwen8b,large,correlation,p20,1.0,1,['id10615']
+MMLU-Pro,e5,small,correlation,p95,6.0,6,"['id11680', 'id889', 'id1557', 'id11874', 'id3280', 'id4721']"
+GPQA,bge,small,cosine,p80,3.0,3,"['id52', 'id127', 'id286']"
+GPQA_CHUNKED,qwen4b,large,seuclidean,p20,1.0,1,['id118']
+Omni-MATH_NOCHUNK,qwen8b,large,correlation,p10,1.0,1,['id1085']
+IFEval,gist,small,cosine,p95,8.0,8,"['id1738', 'id2311', 'id2571', 'id2577', 'id2685', 'id2859', 'id3156', 'id3414']"
+MMLU-Pro,gist,small,cosine,p95,52.0,52,"['id8603', 'id2705', 'id7789', 'id11100', 'id3412', 'id10185', 'id1180', 'id6783', 'id2348', 'id10355', 'id10839', 'id2268', 'id10704', 'id2935', 'id2802', 'id12235', 'id3222', 'id3450', 'id7212', 'id9116', 'id4762', 'id10094', 'id9034', 'id2472', 'id6872', 'id7215', 'id5531', 'id2407', 'id3143', 'id4143', 'id8637', 'id11934', 'id6412', 'id6917', 'id4761', 'id9640', 'id2467', 'id5508', 'id3476', 'id9267', 'id5514', 'id310', 'id3058', 'id9961', 'id3656', 'id4353', 'id7374', 'id3820', 'id1558', 'id9435', 'id6143', 'id4721']"
+MMLU-Pro_NOCHUNK,qwen8b,large,correlation,p90,2.0,2,"['id1035', 'id3833']"
+GPQA,e5,small,seuclidean,p80,3.0,3,"['id30', 'id229', 'id430']"
+IFEval_NOCHUNK,qwen8b,large,cosine,p95,1.0,1,['id1999']
+IFEval,gist,small,cosine,p50,2.0,2,"['id1000', 'id2859']"
+IFEval_CHUNKED,qwen4b,large,correlation,p20,1.0,1,['id1000']
+IFEval_NOCHUNK,qwen8b,large,seuclidean,p90,1.0,1,['id1108']
+GPQA_NOCHUNK,qwen8b,large,seuclidean,p10,1.0,1,['id103']
+IFEval,bge,small,cosine,p90,3.0,3,"['id1592', 'id2859', 'id3563']"
+GPQA,gist,small,cosine,p20,2.0,2,"['id1', 'id215']"
+Omni-MATH_NOCHUNK,qwen4b,large,seuclidean,p80,1.0,1,['id3129']
+Omni-MATH,gist,small,cosine,p50,2.0,2,"['id2994', 'id3759']"
+GPQA_NOCHUNK,qwen4b,large,seuclidean,p10,1.0,1,['id118']
+Omni-MATH,bge,small,cosine,p20,1.0,1,['id2480']
+Omni-MATH_NOCHUNK,nemotron,large,cosine,p20,1.0,1,['id1002']
+IFEval_NOCHUNK,nemotron,large,seuclidean,p50,2.0,2,"['id1000', 'id1592']"
+IFEval,bge,small,seuclidean,p95,5.0,5,"['id1999', 'id2225', 'id2859', 'id2880', 'id3563']"
+MMLU-Pro,gist,small,cosine,p50,2.0,2,"['id11934', 'id5508']"
+IFEval,gist,small,correlation,p80,2.0,2,"['id1122', 'id2859']"
+Omni-MATH,bge,small,seuclidean,p50,2.0,2,"['id4346', 'id1001']"
+Omni-MATH_NOCHUNK,nemotron,large,correlation,p90,1.0,1,['id134']
+IFEval,gist,small,seuclidean,p80,2.0,2,"['id1122', 'id2859']"
+Omni-MATH_CHUNKED,nemotron,large,cosine,p20,1.0,1,['id1005']
+GPQA_CHUNKED,qwen4b,large,cosine,p80,2.0,2,"['id122', 'id177']"
+MMLU-Pro_NOCHUNK,qwen4b,large,correlation,p80,2.0,2,"['id4096', 'id10615']"
+GPQA_NOCHUNK,nemotron,large,correlation,p90,2.0,2,"['id257', 'id413']"
+IFEval_CHUNKED,qwen8b,large,correlation,p20,1.0,1,['id1000']
+Omni-MATH,e5,small,seuclidean,p20,1.0,1,['id124']
+Omni-MATH_CHUNKED,nemotron,large,correlation,p80,2.0,2,"['id2829', 'id905']"

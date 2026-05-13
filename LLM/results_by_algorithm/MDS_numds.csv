@@ -1,0 +1,2971 @@
+dataset,model_type,size,seed,measure,threshold,objective,solution
+Omni-MATH,e5,small,40,cosine,p10,1,[10]
+GPQA,bge,small,40,correlation,p10,1,[17]
+GPQA_NOCHUNK,qwen4b,large,20,euclidean,p10,1,[44]
+Omni-MATH_CHUNKED,nemotron,large,50,euclidean,p90,3,"[900, 568, 553]"
+IFEval_CHUNKED,nemotron,large,50,correlation,p80,1,[245]
+Omni-MATH_NOCHUNK,qwen4b,large,50,correlation,p95,2,"[296, 648]"
+IFEval_CHUNKED,nemotron,large,10,correlation,p95,24,"[245, 530, 196, 407, 367, 393, 331, 342, 23, 93, 34, 257, 36, 250, 425, 186, 455, 180, 179, 510, 470, 481, 505, 100]"
+MMLU-Pro,qwen8b,large,20,correlation,p20,1,[276]
+GPQA_CHUNKED,qwen8b,large,30,euclidean,p20,1,[20]
+IFEval,bge,small,40,euclidean,p95,5,"[359, 222, 494, 185, 364]"
+Omni-MATH_NOCHUNK,qwen8b,large,10,cosine,p90,1,[281]
+Omni-MATH,e5,small,10,correlation,p90,3,"[137, 187, 904]"
+GPQA,e5,small,10,cosine,p80,2,"[51, 106]"
+IFEval_CHUNKED,nemotron,large,50,correlation,p90,2,"[2, 245]"
+MMLU-Pro,nemotron,large,20,euclidean,p10,1,[2]
+IFEval_NOCHUNK,qwen4b,large,10,cosine,p50,1,[19]
+Omni-MATH_NOCHUNK,qwen4b,large,40,correlation,p10,1,[7]
+IFEval_CHUNKED,qwen4b,large,10,euclidean,p10,1,[1]
+Omni-MATH_CHUNKED,qwen8b,large,30,cosine,p90,1,[281]
+Omni-MATH_CHUNKED,nemotron,large,10,cosine,p80,2,"[900, 854]"
+IFEval,e5,small,50,cosine,p95,2,"[494, 359]"
+MMLU-Pro,nemotron,large,20,cosine,p10,1,[2]
+MMLU-Pro,e5,small,30,correlation,p95,6,"[572, 830, 728, 0, 0, 0]"
+MMLU-Pro,nemotron,large,40,correlation,p10,1,[2]
+GPQA_NOCHUNK,nemotron,large,10,cosine,p10,1,[1]
+IFEval_CHUNKED,qwen8b,large,20,cosine,p10,1,[1]
+Omni-MATH_CHUNKED,nemotron,large,10,cosine,p90,4,"[900, 568, 29, 314]"
+Omni-MATH,gist,small,20,correlation,p80,4,"[19, 610, 773, 921]"
+Omni-MATH_NOCHUNK,qwen4b,large,30,correlation,p50,1,[149]
+GPQA_NOCHUNK,qwen8b,large,50,correlation,p80,1,[27]
+IFEval,bge,small,20,cosine,p10,1,[109]
+GPQA_NOCHUNK,nemotron,large,30,correlation,p20,1,[1]
+Omni-MATH,gist,small,30,euclidean,p10,1,[121]
+MMLU-Pro,nemotron,large,10,euclidean,p10,1,[2]
+IFEval_NOCHUNK,nemotron,large,20,euclidean,p20,1,[109]
+Omni-MATH_NOCHUNK,nemotron,large,10,correlation,p90,1,[906]
+GPQA_CHUNKED,nemotron,large,10,cosine,p80,1,[358]
+IFEval,gist,small,50,cosine,p80,2,"[20, 359]"
+Omni-MATH_NOCHUNK,qwen8b,large,50,cosine,p10,1,[7]
+GPQA_NOCHUNK,qwen4b,large,20,cosine,p10,1,[27]
+Omni-MATH_CHUNKED,nemotron,large,50,cosine,p90,4,"[900, 568, 29, 314]"
+Omni-MATH_CHUNKED,qwen8b,large,20,correlation,p10,1,[7]
+MMLU-Pro,bge,small,30,correlation,p95,41,"[602, 996, 140, 205, 739, 690, 366, 766, 741, 843, 722, 830, 884, 26, 648, 820, 22, 69, 575, 172, 420, 705, 323, 314, 526, 494, 963, 546, 778, 288, 241, 718, 670, 763, 279, 401, 474, 603, 104, 619, 655]"
+Omni-MATH_NOCHUNK,qwen8b,large,50,euclidean,p95,1,[281]
+MMLU-Pro,qwen8b,large,20,euclidean,p80,1,[185]
+GPQA_CHUNKED,qwen4b,large,40,cosine,p50,2,"[201, 301]"
+GPQA_NOCHUNK,qwen8b,large,40,cosine,p80,1,[27]
+Omni-MATH,gist,small,20,correlation,p95,22,"[68, 157, 279, 346, 449, 553, 580, 789, 0, 0, 4017, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"
+GPQA_NOCHUNK,qwen4b,large,40,correlation,p80,2,"[27, 343]"
+IFEval_NOCHUNK,qwen4b,large,50,euclidean,p50,1,[19]
+Omni-MATH,bge,small,30,euclidean,p95,4,"[277, 306, 582, 0]"
+IFEval,gist,small,50,cosine,p90,3,"[245, 311, 359]"
+GPQA,bge,small,50,cosine,p50,2,"[1, 443]"
+IFEval,bge,small,10,cosine,p20,1,[109]
+Omni-MATH_CHUNKED,nemotron,large,10,euclidean,p80,2,"[900, 568]"
+GPQA_NOCHUNK,qwen4b,large,40,euclidean,p80,2,"[193, 201]"
+IFEval_CHUNKED,qwen8b,large,20,euclidean,p95,1,[19]
+Omni-MATH,e5,small,10,euclidean,p50,2,"[64, 498]"
+MMLU-Pro,bge,small,30,correlation,p90,7,"[766, 884, 602, 575, 213, 884, 49]"
+IFEval_CHUNKED,nemotron,large,40,correlation,p90,2,"[2, 245]"
+MMLU-Pro,nemotron,large,10,correlation,p80,1,[221]
+IFEval_NOCHUNK,nemotron,large,20,cosine,p10,1,[53]
+Omni-MATH_NOCHUNK,nemotron,large,40,correlation,p90,1,[906]
+MMLU-Pro,e5,small,40,euclidean,p50,2,"[5, 765]"
+MMLU-Pro,nemotron,large,10,euclidean,p50,1,[8]
+IFEval_CHUNKED,nemotron,large,50,correlation,p50,1,[15]
+MMLU-Pro,bge,small,10,euclidean,p10,1,[22]
+IFEval_NOCHUNK,qwen8b,large,40,euclidean,p80,1,[19]
+IFEval,bge,small,20,correlation,p90,3,"[109, 359, 494]"
+Omni-MATH_CHUNKED,nemotron,large,40,correlation,p50,1,[900]
+GPQA,e5,small,50,euclidean,p10,1,[18]
+Omni-MATH,bge,small,40,correlation,p50,2,"[1, 772]"
+Omni-MATH,bge,small,20,cosine,p20,1,[19]
+Omni-MATH,bge,small,10,correlation,p95,5,"[134, 306, 552, 573, 0]"
+Omni-MATH,bge,small,20,correlation,p95,5,"[134, 306, 552, 573, 0]"
+Omni-MATH_CHUNKED,nemotron,large,40,euclidean,p50,1,[32]
+MMLU-Pro,nemotron,large,40,cosine,p50,1,[8]
+MMLU-Pro,bge,small,30,euclidean,p95,30,"[602, 996, 739, 205, 843, 366, 722, 797, 26, 478, 884, 830, 820, 37, 373, 538, 39, 131, 582, 963, 763, 401, 104, 655, 670, 241, 109, 526, 546, 902]"
+IFEval,bge,small,20,correlation,p20,1,[109]
+Omni-MATH_CHUNKED,nemotron,large,10,correlation,p80,2,"[900, 854]"
+MMLU-Pro,e5,small,10,euclidean,p10,1,[5]
+IFEval_NOCHUNK,qwen4b,large,40,correlation,p50,1,[19]
+MMLU-Pro,qwen8b,large,10,cosine,p50,1,[829]
+MMLU-Pro,gist,small,20,euclidean,p50,2,"[602, 759]"
+GPQA,gist,small,40,correlation,p10,1,[44]
+Omni-MATH_NOCHUNK,qwen4b,large,50,correlation,p20,1,[7]
+Omni-MATH_CHUNKED,qwen4b,large,20,euclidean,p90,2,"[5, 24]"
+Omni-MATH,gist,small,10,cosine,p20,2,"[1, 460]"
+Omni-MATH_CHUNKED,qwen8b,large,50,euclidean,p10,1,[7]
+GPQA_NOCHUNK,nemotron,large,40,correlation,p20,1,[1]
+Omni-MATH_CHUNKED,qwen8b,large,50,cosine,p90,1,[281]
+GPQA_CHUNKED,qwen4b,large,20,correlation,p80,2,"[1, 343]"
+Omni-MATH_CHUNKED,nemotron,large,30,cosine,p90,4,"[900, 568, 29, 314]"
+Omni-MATH,bge,small,30,cosine,p80,2,"[12, 772]"
+Omni-MATH_NOCHUNK,qwen8b,large,30,cosine,p20,1,[7]
+Omni-MATH_CHUNKED,nemotron,large,30,correlation,p80,2,"[900, 854]"
+MMLU-Pro,e5,small,10,correlation,p50,2,"[5, 624]"
+Omni-MATH,e5,small,20,correlation,p80,2,"[3, 187]"
+GPQA,gist,small,30,correlation,p50,2,"[11, 362]"
+Omni-MATH_CHUNKED,nemotron,large,40,cosine,p90,4,"[900, 568, 29, 314]"
+GPQA_NOCHUNK,qwen4b,large,50,cosine,p80,2,"[27, 343]"
+GPQA_NOCHUNK,qwen8b,large,30,euclidean,p95,2,"[1, 27]"
+GPQA,gist,small,50,euclidean,p10,1,[44]
+Omni-MATH,e5,small,40,correlation,p95,6,"[187, 551, 157, 904, 839, 657]"
+IFEval_CHUNKED,qwen8b,large,50,cosine,p10,1,[1]
+MMLU-Pro,qwen4b,large,10,euclidean,p80,2,"[705, 842]"
+Omni-MATH_NOCHUNK,qwen8b,large,30,correlation,p50,1,[59]
+GPQA_CHUNKED,qwen8b,large,20,correlation,p50,1,[27]
+IFEval,gist,small,20,cosine,p95,8,"[359, 245, 323, 140, 430, 516, 494, 464]"
+GPQA,gist,small,30,euclidean,p90,10,"[9, 31, 53, 87, 113, 379, 2033, 0, 742580480, 32567]"
+GPQA_NOCHUNK,qwen4b,large,50,cosine,p10,1,[27]
+GPQA,e5,small,10,euclidean,p50,1,[429]
+GPQA_NOCHUNK,nemotron,large,30,cosine,p20,1,[1]
+IFEval_NOCHUNK,nemotron,large,10,correlation,p50,2,"[1, 109]"
+GPQA,gist,small,40,correlation,p50,2,"[11, 362]"
+IFEval,gist,small,20,correlation,p80,2,"[20, 359]"
+GPQA_CHUNKED,nemotron,large,50,euclidean,p20,1,[16]
+MMLU-Pro,gist,small,30,euclidean,p80,5,"[140, 423, 545, 799, 0]"
+Omni-MATH_NOCHUNK,qwen4b,large,50,cosine,p50,1,[149]
+Omni-MATH,e5,small,10,cosine,p80,2,"[3, 187]"
+IFEval_CHUNKED,qwen4b,large,40,correlation,p20,1,[1]
+MMLU-Pro,bge,small,20,cosine,p50,2,"[4, 902]"
+IFEval,gist,small,40,euclidean,p90,3,"[245, 282, 359]"
+GPQA_CHUNKED,qwen8b,large,30,correlation,p80,1,[27]
+IFEval_CHUNKED,nemotron,large,50,correlation,p10,1,[5]
+Omni-MATH_CHUNKED,qwen4b,large,50,correlation,p20,1,[7]
+Omni-MATH_CHUNKED,qwen8b,large,10,cosine,p95,2,"[1, 281]"
+MMLU-Pro,qwen4b,large,50,euclidean,p95,2,"[13, 705]"
+Omni-MATH_NOCHUNK,qwen8b,large,30,euclidean,p90,1,[281]
+GPQA,e5,small,10,euclidean,p80,3,"[93, 229, 429]"
+Omni-MATH,bge,small,20,euclidean,p20,1,[19]
+GPQA_NOCHUNK,qwen4b,large,30,cosine,p90,2,"[1, 27]"
+IFEval_NOCHUNK,nemotron,large,30,euclidean,p95,13,"[109, 185, 212, 312, 424, 280, 459, 517, 316, 6, 349, 462, 78]"
+GPQA_NOCHUNK,qwen4b,large,50,correlation,p95,2,"[1, 343]"
+Omni-MATH_CHUNKED,qwen4b,large,40,euclidean,p20,1,[7]
+IFEval_CHUNKED,nemotron,large,20,correlation,p90,2,"[2, 245]"
+Omni-MATH_NOCHUNK,nemotron,large,30,euclidean,p20,1,[10]
+Omni-MATH,bge,small,30,correlation,p10,1,[19]
+GPQA,bge,small,10,correlation,p20,1,[214]
+GPQA,gist,small,30,euclidean,p80,4,"[9, 87, 282, 0]"
+GPQA,gist,small,40,correlation,p95,38,"[426, 379, 87, 286, 351, 296, 280, 282, 299, 9, 31, 443, 61, 170, 228, 53, 196, 303, 384, 214, 156, 421, 442, 174, 216, 7, 15, 435, 99, 202, 374, 370, 122, 27, 234, 204, 329, 230]"
+IFEval_CHUNKED,qwen4b,large,30,correlation,p20,1,[1]
+Omni-MATH,bge,small,10,euclidean,p80,2,"[3, 772]"
+Omni-MATH,bge,small,40,correlation,p80,2,"[12, 772]"
+Omni-MATH_NOCHUNK,nemotron,large,50,euclidean,p95,1,[906]
+Omni-MATH_NOCHUNK,nemotron,large,30,correlation,p20,1,[10]
+Omni-MATH,e5,small,30,cosine,p10,1,[10]
+MMLU-Pro,gist,small,30,cosine,p90,15,"[140, 563, 766, 1, 423, 602, 128, 709, 335, 745, 750, 0, 0, 0, 1873]"
+IFEval_CHUNKED,qwen8b,large,10,correlation,p10,1,[1]
+GPQA_NOCHUNK,qwen4b,large,30,cosine,p80,2,"[27, 343]"
+Omni-MATH,e5,small,30,correlation,p90,3,"[137, 187, 904]"
+Omni-MATH_CHUNKED,qwen4b,large,30,correlation,p20,1,[7]
+GPQA_NOCHUNK,qwen4b,large,20,euclidean,p90,2,"[4, 201]"
+Omni-MATH_NOCHUNK,qwen4b,large,10,euclidean,p90,2,"[5, 24]"
+Omni-MATH,e5,small,10,cosine,p20,1,[136]
+MMLU-Pro,e5,small,20,euclidean,p10,1,[5]
+Omni-MATH_NOCHUNK,qwen4b,large,50,euclidean,p80,1,[149]
+GPQA_CHUNKED,qwen8b,large,50,euclidean,p95,2,"[4, 201]"
+Omni-MATH_CHUNKED,qwen4b,large,20,correlation,p80,2,"[15, 24]"
+GPQA_CHUNKED,nemotron,large,40,cosine,p50,1,[244]
+IFEval,e5,small,20,euclidean,p50,1,[359]
+Omni-MATH,e5,small,10,cosine,p90,3,"[137, 187, 904]"
+MMLU-Pro,qwen8b,large,10,correlation,p50,1,[829]
+MMLU-Pro,gist,small,40,euclidean,p90,17,"[799, 140, 213, 260, 646, 486, 506, 602, 321, 874, 867, 867, 335, 352, 1425, 0, 346280048]"
+GPQA,gist,small,10,cosine,p80,4,"[34, 87, 282, 0]"
+Omni-MATH_CHUNKED,qwen4b,large,40,correlation,p50,1,[149]
+MMLU-Pro,qwen4b,large,40,correlation,p80,2,"[8, 829]"
+MMLU-Pro,e5,small,10,euclidean,p50,2,"[5, 765]"
+GPQA_CHUNKED,nemotron,large,40,euclidean,p10,1,[15]
+Omni-MATH_NOCHUNK,qwen4b,large,10,correlation,p50,1,[149]
+GPQA,gist,small,50,correlation,p80,4,"[34, 87, 282, 0]"
+GPQA_NOCHUNK,qwen8b,large,50,cosine,p80,1,[27]
+Omni-MATH_NOCHUNK,nemotron,large,10,cosine,p20,1,[10]
+GPQA_CHUNKED,qwen8b,large,10,cosine,p10,1,[27]
+Omni-MATH_NOCHUNK,qwen8b,large,40,cosine,p95,2,"[1, 281]"
+IFEval,bge,small,30,cosine,p90,3,"[222, 494, 196]"
+Omni-MATH_NOCHUNK,qwen8b,large,40,euclidean,p95,1,[281]
+Omni-MATH_CHUNKED,qwen8b,large,40,euclidean,p10,1,[7]
+MMLU-Pro,gist,small,30,cosine,p95,52,"[602, 140, 506, 545, 709, 996, 798, 799, 651, 1, 274, 841, 458, 745, 900, 730, 342, 334, 643, 907, 927, 874, 492, 194, 464, 702, 667, 756, 670, 893, 660, 588, 655, 216, 433, 603, 401, 109, 375, 40, 43, 279, 564, 288, 966, 486, 254, 521, 346, 211, 423, 981]"
+GPQA,e5,small,50,correlation,p80,2,"[51, 106]"
+IFEval_NOCHUNK,qwen4b,large,10,euclidean,p80,1,[19]
+GPQA_CHUNKED,nemotron,large,20,correlation,p10,1,[15]
+Omni-MATH_NOCHUNK,qwen8b,large,10,correlation,p10,1,[7]
+Omni-MATH_CHUNKED,qwen4b,large,50,euclidean,p80,1,[149]
+Omni-MATH_NOCHUNK,nemotron,large,40,cosine,p10,1,[10]
+Omni-MATH,e5,small,50,cosine,p10,1,[10]
+GPQA_CHUNKED,qwen4b,large,20,cosine,p50,2,"[201, 301]"
+IFEval_NOCHUNK,nemotron,large,10,cosine,p95,14,"[109, 185, 312, 212, 424, 280, 459, 517, 316, 362, 349, 403, 462, 78]"
+IFEval_CHUNKED,qwen4b,large,30,cosine,p90,1,[185]
+Omni-MATH_NOCHUNK,qwen4b,large,40,cosine,p80,2,"[15, 24]"
+MMLU-Pro,qwen4b,large,40,euclidean,p95,2,"[13, 705]"
+Omni-MATH_NOCHUNK,qwen4b,large,50,cosine,p90,2,"[24, 86]"
+Omni-MATH_NOCHUNK,nemotron,large,30,euclidean,p10,1,[10]
+IFEval_CHUNKED,qwen4b,large,10,euclidean,p20,1,[19]
+Omni-MATH_NOCHUNK,nemotron,large,40,correlation,p20,1,[10]
+GPQA,bge,small,30,cosine,p80,3,"[87, 286, 443]"
+MMLU-Pro,e5,small,50,euclidean,p20,1,[5]
+MMLU-Pro,nemotron,large,50,cosine,p50,1,[8]
+IFEval_NOCHUNK,nemotron,large,20,correlation,p20,1,[109]
+Omni-MATH_CHUNKED,nemotron,large,50,euclidean,p20,1,[32]
+MMLU-Pro,bge,small,50,euclidean,p20,1,[696]
+MMLU-Pro,nemotron,large,40,euclidean,p95,2,"[96, 739]"
+IFEval_NOCHUNK,qwen8b,large,10,cosine,p90,1,[185]
+IFEval_CHUNKED,qwen8b,large,20,cosine,p20,1,[1]
+GPQA_CHUNKED,nemotron,large,20,cosine,p10,1,[15]
+Omni-MATH_CHUNKED,qwen4b,large,50,correlation,p80,2,"[15, 24]"
+Omni-MATH_NOCHUNK,qwen8b,large,10,euclidean,p20,1,[7]
+Omni-MATH_NOCHUNK,qwen8b,large,20,euclidean,p90,1,[281]
+GPQA_CHUNKED,nemotron,large,40,cosine,p95,1,[358]
+MMLU-Pro,nemotron,large,30,cosine,p95,2,"[96, 739]"
+IFEval,gist,small,10,cosine,p90,3,"[245, 311, 359]"
+GPQA,bge,small,40,euclidean,p95,38,"[286, 56, 443, 384, 428, 268, 95, 289, 31, 55, 153, 228, 133, 94, 298, 433, 79, 325, 329, 58, 41, 370, 37, 97, 308, 291, 427, 277, 167, 176, 194, 408, 216, 274, 417, 264, 226, 237]"
+GPQA,e5,small,40,correlation,p20,1,[429]
+Omni-MATH_CHUNKED,nemotron,large,40,correlation,p20,1,[32]
+IFEval_CHUNKED,qwen4b,large,30,correlation,p90,1,[227]
+Omni-MATH,gist,small,10,euclidean,p95,20,"[921, 19, 136, 427, 431, 422, 319, 583, 773, 68, 922, 925, 0, 0, 481, 0, 490959376, 32520, 490959376, 32520]"
+MMLU-Pro,nemotron,large,20,euclidean,p95,2,"[96, 739]"
+GPQA,gist,small,40,cosine,p90,14,"[379, 426, 286, 87, 182, 53, 82, 156, 27, 204, 202, 170, 244, 280]"
+GPQA,gist,small,10,euclidean,p95,31,"[379, 286, 299, 170, 426, 282, 87, 196, 362, 9, 228, 296, 153, 300, 383, 53, 374, 156, 174, 122, 442, 115, 138, 375, 250, 370, 202, 27, 99, 329, 204]"
+MMLU-Pro,qwen8b,large,50,correlation,p90,2,"[626, 620]"
+IFEval_NOCHUNK,nemotron,large,40,euclidean,p95,13,"[109, 185, 212, 312, 424, 280, 459, 517, 316, 6, 349, 462, 78]"
+MMLU-Pro,gist,small,50,cosine,p50,2,"[799, 423]"
+Omni-MATH_CHUNKED,nemotron,large,10,cosine,p95,16,"[900, 568, 854, 352, 729, 2, 381, 456, 447, 962, 964, 859, 967, 562, 838, 314]"
+IFEval_CHUNKED,qwen4b,large,50,cosine,p90,1,[185]
+Omni-MATH,gist,small,50,correlation,p50,2,"[11, 773]"
+GPQA,e5,small,20,euclidean,p90,6,"[51, 351, 429, 229, 18, 429]"
+MMLU-Pro,qwen4b,large,10,correlation,p10,1,[9]
+MMLU-Pro,gist,small,30,cosine,p10,2,"[1, 798]"
+IFEval_NOCHUNK,qwen8b,large,20,correlation,p80,1,[19]
+Omni-MATH_CHUNKED,qwen4b,large,30,euclidean,p50,1,[71]
+GPQA_NOCHUNK,qwen4b,large,10,correlation,p10,1,[27]
+GPQA_NOCHUNK,qwen4b,large,20,euclidean,p50,1,[201]
+MMLU-Pro,gist,small,40,cosine,p50,2,"[651, 996]"
+GPQA_CHUNKED,qwen4b,large,30,euclidean,p80,2,"[193, 201]"
+MMLU-Pro,bge,small,40,cosine,p10,1,[22]
+IFEval,gist,small,20,correlation,p50,2,"[121, 359]"
+Omni-MATH_CHUNKED,nemotron,large,20,correlation,p90,4,"[900, 568, 29, 314]"
+IFEval_CHUNKED,nemotron,large,20,correlation,p95,24,"[245, 530, 196, 407, 367, 393, 331, 342, 23, 93, 34, 257, 36, 250, 425, 186, 455, 180, 179, 510, 470, 481, 505, 100]"
+MMLU-Pro,bge,small,30,cosine,p50,2,"[4, 902]"
+IFEval_NOCHUNK,nemotron,large,10,correlation,p90,6,"[459, 316, 275, 517, 109, 185]"
+MMLU-Pro,qwen8b,large,40,euclidean,p10,1,[4]
+MMLU-Pro,bge,small,20,cosine,p10,1,[22]
+IFEval,bge,small,10,euclidean,p90,3,"[109, 359, 494]"
+GPQA_NOCHUNK,qwen8b,large,30,cosine,p10,1,[27]
+IFEval_CHUNKED,qwen4b,large,50,correlation,p50,1,[19]
+Omni-MATH_CHUNKED,qwen8b,large,20,correlation,p20,1,[7]
+GPQA_CHUNKED,nemotron,large,10,correlation,p90,1,[358]
+IFEval,e5,small,10,cosine,p50,1,[359]
+MMLU-Pro,e5,small,10,correlation,p95,6,"[572, 830, 728, 0, 0, 0]"
+IFEval_NOCHUNK,qwen4b,large,10,correlation,p95,1,[227]
+MMLU-Pro,nemotron,large,10,cosine,p80,1,[221]
+IFEval,e5,small,40,correlation,p50,1,[359]
+Omni-MATH,bge,small,40,cosine,p10,1,[19]
+IFEval_NOCHUNK,nemotron,large,30,cosine,p10,1,[53]
+GPQA_NOCHUNK,nemotron,large,30,correlation,p95,21,"[257, 320, 196, 1, 412, 435, 425, 114, 308, 219, 290, 15, 402, 278, 324, 398, 98, 300, 251, 84, 42]"
+Omni-MATH,bge,small,10,cosine,p80,2,"[12, 772]"
+GPQA_CHUNKED,nemotron,large,10,correlation,p10,1,[15]
+IFEval_CHUNKED,qwen8b,large,50,cosine,p95,1,[185]
+IFEval,e5,small,30,euclidean,p90,2,"[44, 494]"
+Omni-MATH_CHUNKED,qwen8b,large,50,euclidean,p95,1,[281]
+GPQA,gist,small,10,correlation,p90,14,"[379, 426, 286, 87, 182, 53, 82, 156, 27, 204, 202, 170, 244, 280]"
+MMLU-Pro,qwen8b,large,50,euclidean,p90,1,[460]
+IFEval,bge,small,40,cosine,p90,3,"[222, 494, 196]"
+GPQA,gist,small,20,euclidean,p50,2,"[102, 286]"
+IFEval_CHUNKED,qwen4b,large,30,correlation,p95,1,[227]
+GPQA,gist,small,10,correlation,p80,4,"[34, 87, 282, 0]"
+IFEval,gist,small,40,correlation,p90,3,"[245, 311, 359]"
+IFEval_CHUNKED,qwen4b,large,10,cosine,p90,1,[185]
+IFEval_CHUNKED,qwen8b,large,20,euclidean,p20,1,[1]
+Omni-MATH_NOCHUNK,nemotron,large,40,euclidean,p90,1,[906]
+IFEval_CHUNKED,nemotron,large,50,cosine,p20,1,[9]
+Omni-MATH,gist,small,30,correlation,p50,2,"[11, 773]"
+Omni-MATH_CHUNKED,qwen4b,large,30,correlation,p10,1,[7]
+MMLU-Pro,e5,small,20,correlation,p20,1,[5]
+GPQA_NOCHUNK,qwen4b,large,20,euclidean,p80,2,"[193, 201]"
+GPQA_CHUNKED,qwen8b,large,20,correlation,p90,1,[343]
+IFEval_NOCHUNK,qwen8b,large,50,euclidean,p95,1,[19]
+GPQA_CHUNKED,qwen8b,large,10,euclidean,p50,1,[27]
+GPQA_CHUNKED,qwen8b,large,50,cosine,p20,1,[27]
+MMLU-Pro,gist,small,50,correlation,p10,2,"[1, 798]"
+Omni-MATH_NOCHUNK,qwen8b,large,20,euclidean,p95,1,[281]
+MMLU-Pro,bge,small,10,euclidean,p90,7,"[602, 766, 884, 722, 575, 884, 49]"
+Omni-MATH,e5,small,30,euclidean,p20,1,[121]
+MMLU-Pro,gist,small,50,euclidean,p80,5,"[140, 423, 545, 799, 0]"
+GPQA_NOCHUNK,qwen8b,large,30,correlation,p90,1,[27]
+IFEval,gist,small,10,cosine,p80,2,"[20, 359]"
+IFEval,bge,small,30,cosine,p95,6,"[359, 222, 494, 185, 313, 364]"
+MMLU-Pro,qwen4b,large,30,correlation,p50,2,"[46, 829]"
+GPQA,gist,small,20,correlation,p90,14,"[379, 426, 286, 87, 182, 53, 82, 156, 27, 204, 202, 170, 244, 280]"
+GPQA_NOCHUNK,qwen8b,large,30,correlation,p80,1,[27]
+IFEval_NOCHUNK,nemotron,large,20,correlation,p95,14,"[109, 185, 312, 212, 424, 280, 459, 517, 316, 362, 349, 403, 78, 462]"
+Omni-MATH,bge,small,40,cosine,p50,2,"[1, 772]"
+IFEval_NOCHUNK,nemotron,large,20,cosine,p50,2,"[1, 109]"
+Omni-MATH_NOCHUNK,qwen4b,large,30,cosine,p20,1,[7]
+GPQA,gist,small,10,correlation,p20,2,"[2, 31]"
+IFEval,bge,small,10,cosine,p50,1,[359]
+IFEval_CHUNKED,qwen4b,large,20,correlation,p50,1,[19]
+MMLU-Pro,qwen4b,large,50,euclidean,p80,2,"[705, 842]"
+IFEval_NOCHUNK,qwen8b,large,20,euclidean,p90,1,[19]
+IFEval_CHUNKED,qwen8b,large,20,correlation,p95,1,[185]
+IFEval_NOCHUNK,nemotron,large,50,cosine,p90,6,"[459, 316, 462, 517, 109, 185]"
+IFEval,gist,small,40,correlation,p80,2,"[20, 359]"
+IFEval_NOCHUNK,nemotron,large,30,correlation,p80,3,"[6, 109, 312]"
+GPQA,e5,small,30,cosine,p95,24,"[106, 289, 229, 424, 429, 351, 51, 244, 257, 31, 295, 18, 234, 340, 65, 444, 235, 365, 71, 160, 423, 145, 417, 407]"
+MMLU-Pro,e5,small,30,cosine,p95,6,"[572, 830, 728, 0, 0, 0]"
+Omni-MATH_CHUNKED,nemotron,large,50,euclidean,p80,2,"[900, 568]"
+GPQA_NOCHUNK,nemotron,large,40,euclidean,p95,20,"[257, 343, 1, 412, 333, 435, 425, 98, 402, 324, 42, 114, 15, 163, 308, 398, 251, 278, 290, 196]"
+IFEval_CHUNKED,qwen8b,large,50,euclidean,p90,1,[19]
+GPQA_NOCHUNK,qwen8b,large,40,euclidean,p90,1,[201]
+IFEval_CHUNKED,qwen4b,large,50,euclidean,p20,1,[19]
+MMLU-Pro,bge,small,10,cosine,p20,1,[696]
+IFEval,e5,small,50,euclidean,p50,1,[359]
+Omni-MATH,bge,small,50,correlation,p10,1,[19]
+IFEval_NOCHUNK,qwen4b,large,10,cosine,p80,1,[185]
+GPQA_CHUNKED,qwen8b,large,50,cosine,p80,1,[27]
+GPQA_NOCHUNK,qwen4b,large,40,cosine,p80,2,"[27, 343]"
+IFEval,gist,small,30,cosine,p50,2,"[121, 359]"
+IFEval_NOCHUNK,qwen4b,large,10,euclidean,p20,1,[19]
+GPQA_CHUNKED,qwen4b,large,30,cosine,p50,2,"[201, 301]"
+MMLU-Pro,bge,small,40,correlation,p10,1,[22]
+GPQA,bge,small,40,cosine,p50,2,"[1, 443]"
+IFEval_NOCHUNK,nemotron,large,40,cosine,p10,1,[53]
+GPQA_CHUNKED,qwen8b,large,50,euclidean,p80,1,[27]
+MMLU-Pro,gist,small,50,cosine,p80,5,"[140, 709, 799, 602, 830]"
+IFEval_NOCHUNK,nemotron,large,40,cosine,p20,1,[109]
+GPQA_NOCHUNK,nemotron,large,50,correlation,p20,1,[1]
+Omni-MATH_NOCHUNK,qwen4b,large,40,euclidean,p50,1,[71]
+MMLU-Pro,gist,small,10,correlation,p95,52,"[602, 140, 506, 545, 709, 996, 798, 799, 651, 1, 274, 841, 458, 745, 900, 730, 342, 334, 643, 907, 927, 874, 492, 194, 464, 702, 667, 756, 670, 893, 660, 588, 655, 216, 433, 603, 401, 109, 375, 40, 43, 279, 564, 288, 966, 486, 254, 521, 346, 211, 423, 981]"
+IFEval,bge,small,40,euclidean,p90,3,"[109, 359, 494]"
+Omni-MATH_CHUNKED,qwen8b,large,10,correlation,p50,1,[59]
+GPQA,gist,small,10,euclidean,p10,1,[44]
+GPQA,e5,small,10,euclidean,p90,6,"[51, 351, 429, 229, 18, 429]"
+Omni-MATH,bge,small,10,cosine,p10,1,[19]
+MMLU-Pro,qwen8b,large,50,euclidean,p10,1,[4]
+IFEval_NOCHUNK,nemotron,large,50,correlation,p80,3,"[6, 109, 312]"
+GPQA_CHUNKED,qwen4b,large,30,euclidean,p50,1,[85]
+MMLU-Pro,qwen8b,large,40,euclidean,p50,1,[56]
+IFEval,gist,small,50,euclidean,p10,1,[69]
+IFEval_CHUNKED,nemotron,large,40,euclidean,p80,1,[245]
+IFEval,e5,small,10,euclidean,p95,2,"[494, 359]"
+GPQA,bge,small,20,euclidean,p50,2,"[1, 443]"
+GPQA,gist,small,50,cosine,p90,14,"[379, 426, 286, 87, 182, 53, 82, 156, 27, 204, 202, 170, 244, 280]"
+GPQA_NOCHUNK,qwen4b,large,20,correlation,p90,2,"[1, 27]"
+MMLU-Pro,e5,small,10,cosine,p20,1,[5]
+MMLU-Pro,gist,small,50,correlation,p20,2,"[1, 798]"
+Omni-MATH,gist,small,50,correlation,p95,22,"[68, 157, 279, 346, 449, 553, 580, 789, 0, 0, 4017, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"
+IFEval_CHUNKED,qwen8b,large,20,correlation,p50,1,[19]
+MMLU-Pro,gist,small,30,correlation,p10,2,"[1, 798]"
+IFEval_NOCHUNK,qwen4b,large,40,correlation,p80,1,[185]
+GPQA_CHUNKED,nemotron,large,40,correlation,p95,1,[358]
+GPQA_CHUNKED,nemotron,large,10,correlation,p50,1,[244]
+IFEval_NOCHUNK,qwen8b,large,30,correlation,p80,1,[19]
+IFEval_CHUNKED,nemotron,large,50,euclidean,p20,1,[9]
+MMLU-Pro,qwen8b,large,50,cosine,p50,1,[829]
+GPQA_CHUNKED,nemotron,large,20,euclidean,p95,1,[358]
+IFEval_NOCHUNK,qwen4b,large,50,correlation,p90,1,[185]
+GPQA_NOCHUNK,nemotron,large,10,euclidean,p80,2,"[257, 404]"
+Omni-MATH_CHUNKED,qwen8b,large,30,euclidean,p95,1,[281]
+Omni-MATH,bge,small,40,cosine,p90,3,"[134, 306, 772]"
+MMLU-Pro,nemotron,large,30,correlation,p50,1,[8]
+MMLU-Pro,nemotron,large,20,euclidean,p90,1,[739]
+MMLU-Pro,gist,small,20,euclidean,p80,5,"[140, 423, 545, 799, 0]"
+MMLU-Pro,gist,small,30,correlation,p50,2,"[1, 709]"
+Omni-MATH_NOCHUNK,nemotron,large,50,euclidean,p90,1,[906]
+Omni-MATH_CHUNKED,qwen8b,large,50,euclidean,p80,1,[281]
+GPQA_CHUNKED,qwen8b,large,10,euclidean,p20,1,[20]
+MMLU-Pro,gist,small,30,cosine,p80,5,"[140, 799, 506, 602, 58]"
+Omni-MATH_NOCHUNK,qwen4b,large,40,cosine,p95,2,"[296, 648]"
+MMLU-Pro,qwen4b,large,40,cosine,p20,1,[13]
+GPQA_NOCHUNK,qwen4b,large,10,correlation,p95,2,"[1, 343]"
+MMLU-Pro,bge,small,50,euclidean,p90,7,"[602, 884, 766, 722, 575, 884, 49]"
+IFEval,e5,small,50,correlation,p20,1,[185]
+MMLU-Pro,gist,small,20,correlation,p90,15,"[140, 1, 602, 709, 423, 128, 766, 563, 335, 745, 750, 0, 0, 0, 1873]"
+Omni-MATH_NOCHUNK,qwen8b,large,40,cosine,p90,1,[281]
+GPQA_CHUNKED,qwen8b,large,40,euclidean,p50,1,[27]
+IFEval_CHUNKED,qwen4b,large,30,euclidean,p90,1,[185]
+GPQA_CHUNKED,nemotron,large,20,correlation,p95,1,[358]
+Omni-MATH_CHUNKED,qwen8b,large,40,correlation,p95,2,"[1, 281]"
+MMLU-Pro,e5,small,20,cosine,p90,3,"[64, 572, 765]"
+Omni-MATH,bge,small,40,euclidean,p50,2,"[1, 772]"
+Omni-MATH_NOCHUNK,qwen4b,large,20,euclidean,p80,1,[149]
+GPQA_CHUNKED,qwen4b,large,10,euclidean,p50,1,[85]
+GPQA_CHUNKED,nemotron,large,20,correlation,p80,1,[358]
+IFEval,gist,small,30,euclidean,p80,2,"[20, 359]"
+IFEval_NOCHUNK,qwen4b,large,30,correlation,p95,1,[227]
+MMLU-Pro,qwen4b,large,50,euclidean,p50,1,[13]
+IFEval_CHUNKED,qwen8b,large,50,euclidean,p95,1,[19]
+MMLU-Pro,e5,small,30,cosine,p20,1,[5]
+Omni-MATH_NOCHUNK,qwen4b,large,40,euclidean,p95,2,"[5, 24]"
+GPQA_CHUNKED,qwen4b,large,20,correlation,p20,1,[182]
+MMLU-Pro,qwen8b,large,50,correlation,p80,2,"[2, 626]"
+Omni-MATH,e5,small,40,cosine,p80,2,"[3, 187]"
+MMLU-Pro,bge,small,50,correlation,p95,41,"[602, 996, 140, 205, 739, 690, 366, 766, 741, 843, 722, 830, 884, 26, 648, 820, 22, 69, 575, 172, 420, 705, 323, 314, 526, 494, 963, 546, 778, 288, 241, 718, 670, 763, 279, 401, 474, 603, 104, 619, 655]"
+IFEval,e5,small,40,cosine,p50,1,[359]
+IFEval_NOCHUNK,nemotron,large,30,correlation,p90,6,"[459, 316, 275, 517, 109, 185]"
+IFEval_NOCHUNK,qwen4b,large,30,correlation,p10,1,[1]
+Omni-MATH,bge,small,40,euclidean,p80,2,"[3, 772]"
+IFEval_CHUNKED,qwen8b,large,30,cosine,p50,1,[19]
+IFEval,bge,small,30,euclidean,p95,5,"[359, 222, 494, 185, 364]"
+GPQA,e5,small,20,euclidean,p10,1,[18]
+GPQA_NOCHUNK,nemotron,large,30,correlation,p80,2,"[1, 257]"
+Omni-MATH_CHUNKED,qwen4b,large,10,euclidean,p95,2,"[5, 24]"
+Omni-MATH,bge,small,10,cosine,p50,2,"[1, 772]"
+Omni-MATH_CHUNKED,qwen4b,large,20,cosine,p20,1,[7]
+IFEval,gist,small,10,cosine,p10,1,[69]
+IFEval_NOCHUNK,qwen8b,large,20,correlation,p20,1,[1]
+Omni-MATH,bge,small,50,correlation,p50,2,"[1, 772]"
+GPQA_CHUNKED,nemotron,large,30,euclidean,p80,1,[358]
+GPQA,e5,small,50,euclidean,p50,1,[429]
+IFEval_NOCHUNK,qwen8b,large,20,correlation,p50,1,[19]
+MMLU-Pro,gist,small,10,correlation,p20,2,"[1, 798]"
+GPQA_CHUNKED,qwen8b,large,40,euclidean,p80,1,[27]
+GPQA_NOCHUNK,nemotron,large,30,cosine,p10,1,[1]
+MMLU-Pro,bge,small,40,correlation,p95,41,"[602, 996, 140, 205, 739, 690, 366, 766, 741, 843, 722, 830, 884, 26, 648, 820, 22, 69, 575, 172, 420, 705, 323, 314, 526, 494, 963, 546, 778, 288, 241, 718, 670, 763, 279, 401, 474, 603, 104, 619, 655]"
+IFEval,e5,small,50,euclidean,p80,2,"[151, 494]"
+GPQA_NOCHUNK,nemotron,large,50,cosine,p20,1,[1]
+MMLU-Pro,qwen4b,large,30,cosine,p80,2,"[8, 829]"
+IFEval,e5,small,10,euclidean,p10,1,[37]
+IFEval_CHUNKED,qwen8b,large,10,correlation,p80,1,[19]
+GPQA_CHUNKED,nemotron,large,40,correlation,p80,1,[358]
+IFEval,e5,small,20,cosine,p95,2,"[494, 359]"
+IFEval_NOCHUNK,qwen4b,large,30,cosine,p90,1,[185]
+IFEval_NOCHUNK,qwen4b,large,30,correlation,p20,1,[1]
+GPQA_CHUNKED,qwen4b,large,10,correlation,p90,2,"[1, 343]"
+Omni-MATH,bge,small,30,correlation,p20,1,[19]
+GPQA_CHUNKED,qwen8b,large,20,correlation,p95,2,"[1, 343]"
+MMLU-Pro,bge,small,10,cosine,p10,1,[22]
+Omni-MATH_CHUNKED,qwen8b,large,20,euclidean,p20,1,[7]
+IFEval_NOCHUNK,qwen8b,large,20,euclidean,p95,1,[19]
+IFEval_CHUNKED,nemotron,large,20,euclidean,p20,1,[9]
+Omni-MATH,gist,small,40,cosine,p90,9,"[789, 19, 925, 157, 553, 583, 111, 59, 652]"
+IFEval_CHUNKED,nemotron,large,40,correlation,p50,1,[15]
+IFEval_CHUNKED,nemotron,large,30,euclidean,p20,1,[9]
+MMLU-Pro,gist,small,10,cosine,p95,52,"[602, 140, 506, 545, 709, 996, 798, 799, 651, 1, 274, 841, 458, 745, 900, 730, 342, 334, 643, 907, 927, 874, 492, 194, 464, 702, 667, 756, 670, 893, 660, 588, 655, 216, 433, 603, 401, 109, 375, 40, 43, 279, 564, 288, 966, 486, 254, 521, 346, 211, 423, 981]"
+IFEval,e5,small,30,cosine,p50,1,[359]
+IFEval,bge,small,50,cosine,p10,1,[109]
+IFEval_CHUNKED,nemotron,large,10,cosine,p95,24,"[245, 530, 196, 407, 367, 393, 331, 342, 23, 93, 34, 257, 36, 250, 425, 186, 455, 180, 179, 510, 470, 481, 505, 100]"
+MMLU-Pro,gist,small,40,correlation,p10,2,"[1, 798]"
+GPQA_NOCHUNK,qwen8b,large,30,cosine,p50,1,[27]
+GPQA_NOCHUNK,qwen8b,large,30,correlation,p50,1,[27]
+GPQA_NOCHUNK,nemotron,large,40,cosine,p90,2,"[257, 412]"
+GPQA_CHUNKED,qwen4b,large,40,cosine,p95,2,"[27, 177]"
+GPQA_NOCHUNK,qwen4b,large,50,correlation,p20,1,[122]
+GPQA_NOCHUNK,qwen8b,large,40,euclidean,p50,1,[27]
+GPQA_CHUNKED,qwen8b,large,50,euclidean,p20,1,[20]
+MMLU-Pro,bge,small,30,euclidean,p10,1,[22]
+Omni-MATH_CHUNKED,nemotron,large,50,euclidean,p50,1,[32]
+IFEval_NOCHUNK,nemotron,large,50,correlation,p95,14,"[109, 185, 312, 212, 424, 280, 459, 517, 316, 362, 349, 403, 78, 462]"
+IFEval,e5,small,10,cosine,p20,1,[185]
+Omni-MATH_NOCHUNK,nemotron,large,30,cosine,p80,1,[149]
+IFEval_CHUNKED,nemotron,large,10,correlation,p20,1,[9]
+MMLU-Pro,qwen8b,large,30,correlation,p80,2,"[2, 626]"
+GPQA_NOCHUNK,qwen4b,large,10,cosine,p80,2,"[27, 343]"
+IFEval_CHUNKED,nemotron,large,30,euclidean,p10,1,[5]
+GPQA,gist,small,50,correlation,p20,2,"[2, 31]"
+IFEval_CHUNKED,nemotron,large,40,cosine,p50,1,[15]
+GPQA,e5,small,50,correlation,p10,1,[31]
+MMLU-Pro,qwen8b,large,40,correlation,p80,2,"[2, 626]"
+MMLU-Pro,qwen8b,large,20,cosine,p50,1,[829]
+IFEval_NOCHUNK,qwen8b,large,10,euclidean,p95,1,[19]
+Omni-MATH_CHUNKED,nemotron,large,50,cosine,p95,16,"[900, 568, 854, 352, 729, 2, 381, 456, 447, 962, 964, 859, 967, 562, 838, 314]"
+Omni-MATH_CHUNKED,qwen8b,large,40,correlation,p10,1,[7]
+IFEval_CHUNKED,qwen4b,large,50,euclidean,p80,1,[19]
+IFEval_CHUNKED,qwen8b,large,40,correlation,p90,1,[19]
+IFEval_NOCHUNK,nemotron,large,30,cosine,p95,14,"[109, 185, 312, 212, 424, 280, 459, 517, 316, 362, 349, 403, 462, 78]"
+IFEval,e5,small,10,cosine,p80,2,"[151, 494]"
+Omni-MATH,bge,small,30,euclidean,p80,2,"[3, 772]"
+IFEval_CHUNKED,qwen4b,large,40,cosine,p90,1,[185]
+GPQA_CHUNKED,qwen4b,large,40,euclidean,p20,1,[45]
+IFEval_CHUNKED,qwen4b,large,30,euclidean,p10,1,[1]
+Omni-MATH_NOCHUNK,qwen4b,large,20,correlation,p95,2,"[296, 648]"
+Omni-MATH_CHUNKED,nemotron,large,20,cosine,p10,1,[19]
+MMLU-Pro,bge,small,20,correlation,p10,1,[22]
+Omni-MATH,bge,small,30,correlation,p50,2,"[1, 772]"
+IFEval_NOCHUNK,nemotron,large,30,euclidean,p50,2,"[1, 109]"
+MMLU-Pro,bge,small,50,cosine,p10,1,[22]
+MMLU-Pro,qwen8b,large,10,correlation,p10,1,[9]
+Omni-MATH_NOCHUNK,nemotron,large,30,cosine,p10,1,[10]
+IFEval_NOCHUNK,nemotron,large,10,euclidean,p50,2,"[1, 109]"
+GPQA,e5,small,20,cosine,p95,24,"[106, 289, 229, 424, 429, 351, 51, 244, 257, 31, 295, 18, 234, 340, 65, 444, 235, 365, 71, 160, 423, 145, 417, 407]"
+IFEval,e5,small,20,correlation,p20,1,[185]
+GPQA,bge,small,30,euclidean,p10,1,[17]
+MMLU-Pro,qwen8b,large,50,euclidean,p50,1,[56]
+IFEval_CHUNKED,qwen8b,large,30,correlation,p95,1,[185]
+GPQA_NOCHUNK,qwen8b,large,50,euclidean,p80,1,[27]
+IFEval_CHUNKED,qwen8b,large,10,correlation,p20,1,[1]
+Omni-MATH_CHUNKED,nemotron,large,50,correlation,p10,1,[19]
+GPQA_NOCHUNK,qwen8b,large,20,euclidean,p90,1,[201]
+Omni-MATH_CHUNKED,nemotron,large,20,euclidean,p95,7,"[900, 961, 568, 29, 381, 962, 314]"
+Omni-MATH,e5,small,10,cosine,p50,2,"[1, 657]"
+GPQA_CHUNKED,qwen4b,large,40,euclidean,p80,2,"[193, 201]"
+Omni-MATH,bge,small,50,euclidean,p80,2,"[3, 772]"
+MMLU-Pro,qwen8b,large,10,correlation,p20,1,[276]
+Omni-MATH_CHUNKED,qwen4b,large,20,cosine,p50,1,[149]
+MMLU-Pro,nemotron,large,10,euclidean,p90,1,[739]
+IFEval_CHUNKED,nemotron,large,30,cosine,p90,2,"[2, 245]"
+GPQA_CHUNKED,qwen4b,large,10,euclidean,p90,2,"[4, 201]"
+GPQA_NOCHUNK,qwen8b,large,10,euclidean,p95,2,"[1, 27]"
+Omni-MATH_CHUNKED,nemotron,large,30,euclidean,p20,1,[32]
+GPQA_CHUNKED,qwen4b,large,10,cosine,p95,2,"[27, 177]"
+Omni-MATH_NOCHUNK,qwen4b,large,10,euclidean,p50,1,[71]
+IFEval,e5,small,20,correlation,p90,2,"[10, 494]"
+IFEval,e5,small,50,correlation,p90,2,"[10, 494]"
+MMLU-Pro,e5,small,10,correlation,p80,2,"[71, 765]"
+IFEval,e5,small,30,correlation,p10,1,[37]
+Omni-MATH_CHUNKED,qwen4b,large,50,cosine,p90,2,"[24, 86]"
+GPQA,e5,small,30,euclidean,p20,1,[424]
+MMLU-Pro,qwen8b,large,20,cosine,p80,2,"[2, 626]"
+Omni-MATH_NOCHUNK,qwen4b,large,50,cosine,p10,1,[7]
+MMLU-Pro,bge,small,20,correlation,p20,1,[696]
+Omni-MATH,gist,small,10,correlation,p20,2,"[1, 460]"
+IFEval_NOCHUNK,nemotron,large,30,correlation,p20,1,[109]
+MMLU-Pro,gist,small,30,euclidean,p10,2,"[1, 798]"
+IFEval_CHUNKED,qwen4b,large,20,correlation,p20,1,[1]
+Omni-MATH_NOCHUNK,nemotron,large,30,euclidean,p50,1,[46]
+GPQA_NOCHUNK,qwen4b,large,50,correlation,p50,2,"[201, 301]"
+GPQA_CHUNKED,nemotron,large,20,euclidean,p10,1,[15]
+IFEval_NOCHUNK,qwen8b,large,10,cosine,p50,1,[19]
+IFEval,bge,small,40,cosine,p10,1,[109]
+IFEval_CHUNKED,nemotron,large,10,euclidean,p90,2,"[2, 215]"
+IFEval_NOCHUNK,qwen4b,large,50,euclidean,p80,1,[19]
+MMLU-Pro,gist,small,20,euclidean,p20,2,"[1, 798]"
+MMLU-Pro,nemotron,large,10,cosine,p50,1,[8]
+IFEval,gist,small,50,euclidean,p50,1,[359]
+GPQA,bge,small,50,cosine,p10,1,[17]
+Omni-MATH_CHUNKED,nemotron,large,40,cosine,p95,16,"[900, 568, 854, 352, 729, 2, 381, 456, 447, 962, 964, 859, 967, 562, 838, 314]"
+IFEval_NOCHUNK,nemotron,large,40,correlation,p90,6,"[459, 316, 275, 517, 109, 185]"
+GPQA_CHUNKED,nemotron,large,30,cosine,p95,1,[358]
+MMLU-Pro,gist,small,50,correlation,p50,2,"[799, 423]"
+IFEval_NOCHUNK,nemotron,large,50,euclidean,p80,2,"[6, 109]"
+Omni-MATH,bge,small,30,euclidean,p50,2,"[1, 772]"
+Omni-MATH_CHUNKED,qwen4b,large,10,cosine,p50,1,[149]
+GPQA,gist,small,10,correlation,p50,2,"[11, 362]"
+GPQA,gist,small,50,euclidean,p90,10,"[9, 31, 53, 87, 113, 379, 2033, 0, 355545344, 32512]"
+GPQA,gist,small,50,cosine,p50,2,"[11, 362]"
+GPQA_NOCHUNK,nemotron,large,20,euclidean,p10,1,[1]
+GPQA,e5,small,20,cosine,p50,1,[429]
+Omni-MATH_NOCHUNK,qwen8b,large,50,euclidean,p10,1,[7]
+Omni-MATH_NOCHUNK,qwen4b,large,10,euclidean,p80,1,[149]
+MMLU-Pro,gist,small,20,euclidean,p90,17,"[128, 140, 213, 260, 799, 486, 506, 602, 646, 874, 867, 867, 335, 352, 1425, 0, 1569190000]"
+GPQA_CHUNKED,qwen4b,large,30,euclidean,p95,2,"[4, 343]"
+MMLU-Pro,nemotron,large,20,cosine,p50,1,[8]
+IFEval,e5,small,50,correlation,p10,1,[37]
+GPQA,e5,small,50,euclidean,p80,3,"[93, 229, 429]"
+Omni-MATH,e5,small,10,correlation,p20,1,[136]
+GPQA_NOCHUNK,nemotron,large,20,correlation,p90,2,"[257, 412]"
+Omni-MATH_NOCHUNK,qwen8b,large,20,euclidean,p50,1,[33]
+GPQA_CHUNKED,nemotron,large,20,cosine,p20,1,[16]
+IFEval_CHUNKED,qwen4b,large,10,cosine,p20,1,[1]
+GPQA_NOCHUNK,qwen8b,large,40,correlation,p90,1,[27]
+GPQA_NOCHUNK,qwen8b,large,40,correlation,p95,1,[343]
+GPQA,gist,small,40,cosine,p10,1,[44]
+GPQA,gist,small,50,euclidean,p50,2,"[102, 286]"
+MMLU-Pro,bge,small,40,correlation,p20,1,[696]
+MMLU-Pro,gist,small,40,euclidean,p95,47,"[140, 602, 924, 709, 545, 799, 486, 689, 342, 274, 408, 841, 745, 643, 46, 927, 635, 42, 447, 65, 260, 744, 109, 40, 603, 359, 588, 34, 92, 433, 375, 86, 451, 660, 756, 464, 279, 798, 867, 506, 367, 651, 33, 249, 282, 492, 335]"
+IFEval,gist,small,30,cosine,p90,3,"[245, 311, 359]"
+IFEval,gist,small,20,cosine,p80,2,"[20, 359]"
+GPQA_CHUNKED,qwen4b,large,10,cosine,p20,1,[182]
+Omni-MATH_CHUNKED,qwen4b,large,20,correlation,p50,1,[149]
+IFEval,e5,small,20,correlation,p10,1,[37]
+MMLU-Pro,gist,small,10,cosine,p20,2,"[1, 798]"
+IFEval,bge,small,50,cosine,p20,1,[109]
+MMLU-Pro,qwen4b,large,50,cosine,p95,38,"[464, 93, 709, 620, 536, 313, 481, 257, 197, 426, 487, 489, 541, 177, 692, 889, 179, 378, 17, 497, 760, 725, 66, 628, 152, 75, 41, 808, 614, 223, 779, 452, 875, 923, 732, 98, 920, 919]"
+MMLU-Pro,qwen4b,large,10,euclidean,p10,1,[4]
+IFEval,e5,small,10,cosine,p90,2,"[10, 494]"
+MMLU-Pro,bge,small,10,correlation,p20,1,[696]
+IFEval_NOCHUNK,qwen8b,large,20,cosine,p20,1,[1]
+Omni-MATH_NOCHUNK,qwen4b,large,30,euclidean,p80,1,[149]
+IFEval_NOCHUNK,nemotron,large,40,euclidean,p90,5,"[459, 109, 517, 185, 312]"
+Omni-MATH_NOCHUNK,qwen8b,large,50,correlation,p95,2,"[1, 281]"
+GPQA,e5,small,40,euclidean,p95,20,"[106, 289, 229, 429, 424, 351, 51, 257, 295, 18, 235, 234, 145, 417, 160, 340, 65, 365, 444, 31]"
+IFEval_NOCHUNK,nemotron,large,50,cosine,p50,2,"[1, 109]"
+Omni-MATH_NOCHUNK,nemotron,large,40,euclidean,p10,1,[10]
+IFEval_NOCHUNK,nemotron,large,50,correlation,p50,2,"[1, 109]"
+GPQA_NOCHUNK,qwen4b,large,40,correlation,p50,2,"[201, 301]"
+IFEval_NOCHUNK,nemotron,large,20,cosine,p95,14,"[109, 185, 312, 212, 424, 280, 459, 517, 316, 362, 349, 403, 462, 78]"
+Omni-MATH,bge,small,40,correlation,p90,3,"[134, 306, 772]"
+Omni-MATH_NOCHUNK,qwen4b,large,20,euclidean,p10,1,[7]
+GPQA_NOCHUNK,qwen8b,large,20,correlation,p80,1,[27]
+IFEval_NOCHUNK,qwen8b,large,30,correlation,p10,1,[1]
+GPQA_CHUNKED,qwen8b,large,40,correlation,p80,1,[27]
+Omni-MATH_NOCHUNK,qwen4b,large,20,correlation,p80,2,"[15, 24]"
+GPQA_CHUNKED,nemotron,large,20,correlation,p50,1,[244]
+IFEval_NOCHUNK,qwen8b,large,10,cosine,p80,1,[19]
+Omni-MATH_CHUNKED,qwen8b,large,50,cosine,p80,1,[281]
+MMLU-Pro,qwen8b,large,50,correlation,p10,1,[9]
+Omni-MATH_NOCHUNK,nemotron,large,20,cosine,p50,1,[46]
+GPQA,gist,small,20,euclidean,p20,2,"[2, 31]"
+IFEval_NOCHUNK,qwen8b,large,40,correlation,p20,1,[1]
+MMLU-Pro,qwen8b,large,40,correlation,p20,1,[276]
+Omni-MATH_NOCHUNK,qwen8b,large,50,cosine,p90,1,[281]
+IFEval_NOCHUNK,nemotron,large,10,euclidean,p20,1,[109]
+MMLU-Pro,qwen4b,large,30,euclidean,p95,2,"[13, 705]"
+IFEval,bge,small,20,euclidean,p20,1,[109]
+GPQA_NOCHUNK,qwen4b,large,30,correlation,p50,2,"[201, 301]"
+IFEval_NOCHUNK,qwen8b,large,50,euclidean,p20,1,[1]
+GPQA_NOCHUNK,qwen4b,large,50,euclidean,p95,2,"[4, 27]"
+IFEval_NOCHUNK,qwen4b,large,30,cosine,p80,1,[185]
+Omni-MATH_CHUNKED,nemotron,large,20,euclidean,p90,3,"[900, 568, 553]"
+MMLU-Pro,gist,small,10,euclidean,p90,17,"[128, 140, 213, 260, 799, 486, 506, 602, 646, 874, 867, 867, 335, 352, 1425, 0, 828477328]"
+IFEval_NOCHUNK,nemotron,large,30,cosine,p90,6,"[459, 316, 462, 517, 109, 185]"
+IFEval_NOCHUNK,nemotron,large,30,euclidean,p10,1,[53]
+GPQA_CHUNKED,qwen8b,large,20,cosine,p50,1,[27]
+Omni-MATH,e5,small,30,cosine,p80,2,"[3, 187]"
+IFEval_NOCHUNK,qwen4b,large,40,correlation,p20,1,[1]
+GPQA_NOCHUNK,qwen4b,large,30,euclidean,p95,2,"[4, 27]"
+MMLU-Pro,qwen4b,large,20,correlation,p95,40,"[464, 93, 709, 620, 487, 197, 452, 489, 481, 152, 497, 541, 536, 378, 313, 875, 66, 808, 41, 75, 889, 893, 779, 78, 760, 179, 177, 223, 732, 725, 919, 920, 923, 98, 692, 257, 17, 628, 426, 614]"
+IFEval_CHUNKED,nemotron,large,50,euclidean,p10,1,[5]
+GPQA_CHUNKED,nemotron,large,10,correlation,p80,1,[358]
+Omni-MATH_CHUNKED,qwen4b,large,30,euclidean,p80,1,[149]
+GPQA_NOCHUNK,nemotron,large,40,euclidean,p20,1,[1]
+GPQA,gist,small,10,correlation,p10,1,[44]
+GPQA,e5,small,10,correlation,p10,1,[31]
+GPQA_NOCHUNK,nemotron,large,50,cosine,p80,2,"[1, 257]"
+GPQA_NOCHUNK,qwen4b,large,20,correlation,p10,1,[27]
+IFEval_CHUNKED,qwen4b,large,40,euclidean,p95,2,"[7, 227]"
+IFEval,e5,small,20,correlation,p50,1,[359]
+MMLU-Pro,qwen8b,large,40,cosine,p80,2,"[2, 626]"
+Omni-MATH_CHUNKED,nemotron,large,20,cosine,p80,2,"[900, 854]"
+IFEval_CHUNKED,qwen4b,large,40,cosine,p50,1,[19]
+Omni-MATH_CHUNKED,qwen4b,large,10,cosine,p20,1,[7]
+IFEval_NOCHUNK,qwen8b,large,40,euclidean,p20,1,[1]
+MMLU-Pro,qwen4b,large,30,correlation,p80,2,"[8, 829]"
+Omni-MATH_NOCHUNK,qwen4b,large,40,cosine,p90,2,"[24, 86]"
+IFEval_NOCHUNK,qwen8b,large,30,euclidean,p90,1,[19]
+GPQA_NOCHUNK,nemotron,large,50,euclidean,p95,20,"[257, 343, 1, 412, 333, 435, 425, 98, 402, 324, 42, 114, 15, 163, 308, 398, 251, 278, 290, 196]"
+Omni-MATH_CHUNKED,nemotron,large,50,correlation,p20,1,[32]
+MMLU-Pro,nemotron,large,30,euclidean,p20,1,[8]
+IFEval,bge,small,20,euclidean,p50,1,[359]
+Omni-MATH,gist,small,20,cosine,p20,2,"[1, 460]"
+MMLU-Pro,nemotron,large,20,euclidean,p50,1,[8]
+GPQA_NOCHUNK,qwen4b,large,30,correlation,p20,1,[122]
+Omni-MATH_CHUNKED,nemotron,large,40,cosine,p10,1,[19]
+GPQA_CHUNKED,qwen8b,large,10,euclidean,p80,1,[27]
+GPQA_NOCHUNK,qwen8b,large,40,cosine,p10,1,[27]
+IFEval_CHUNKED,qwen8b,large,50,cosine,p20,1,[1]
+IFEval,gist,small,40,cosine,p20,1,[245]
+Omni-MATH_CHUNKED,nemotron,large,10,correlation,p10,1,[19]
+IFEval_CHUNKED,nemotron,large,10,cosine,p20,1,[9]
+IFEval_CHUNKED,nemotron,large,10,euclidean,p95,14,"[245, 530, 196, 34, 425, 331, 23, 36, 180, 250, 407, 122, 510, 470]"
+MMLU-Pro,bge,small,20,euclidean,p10,1,[22]
+IFEval_NOCHUNK,nemotron,large,10,cosine,p50,2,"[1, 109]"
+Omni-MATH,e5,small,30,euclidean,p90,3,"[187, 895, 904]"
+Omni-MATH_CHUNKED,nemotron,large,30,correlation,p10,1,[19]
+GPQA_CHUNKED,nemotron,large,40,correlation,p50,1,[244]
+Omni-MATH_CHUNKED,nemotron,large,50,correlation,p95,16,"[900, 568, 854, 352, 729, 2, 314, 962, 964, 562, 838, 967, 381, 859, 456, 447]"
+Omni-MATH_NOCHUNK,qwen8b,large,10,correlation,p80,1,[281]
+Omni-MATH_CHUNKED,nemotron,large,10,euclidean,p95,7,"[900, 961, 568, 29, 381, 962, 314]"
+IFEval,e5,small,50,cosine,p80,2,"[151, 494]"
+GPQA_CHUNKED,qwen8b,large,20,cosine,p20,1,[27]
+GPQA,bge,small,50,cosine,p90,10,"[286, 443, 289, 41, 370, 228, 56, 268, 31, 143]"
+GPQA,bge,small,40,cosine,p95,37,"[286, 56, 443, 268, 95, 384, 44, 289, 244, 127, 153, 228, 55, 420, 298, 37, 216, 291, 307, 167, 370, 277, 433, 41, 329, 427, 58, 60, 122, 417, 264, 79, 99, 176, 97, 94, 408]"
+Omni-MATH,gist,small,20,euclidean,p80,3,"[295, 583, 773]"
+MMLU-Pro,nemotron,large,50,euclidean,p95,2,"[96, 739]"
+Omni-MATH,bge,small,40,correlation,p20,1,[19]
+IFEval_CHUNKED,nemotron,large,50,cosine,p50,1,[15]
+IFEval_CHUNKED,nemotron,large,50,correlation,p95,24,"[245, 530, 196, 407, 367, 393, 331, 342, 23, 93, 34, 257, 36, 250, 425, 186, 455, 180, 179, 510, 470, 481, 505, 100]"
+MMLU-Pro,gist,small,40,correlation,p20,2,"[1, 798]"
+IFEval_CHUNKED,nemotron,large,40,cosine,p80,1,[245]
+MMLU-Pro,bge,small,50,correlation,p10,1,[22]
+Omni-MATH_CHUNKED,qwen4b,large,20,euclidean,p80,1,[149]
+MMLU-Pro,qwen4b,large,50,correlation,p95,40,"[464, 93, 709, 620, 487, 197, 452, 489, 481, 152, 497, 541, 536, 378, 313, 875, 66, 808, 41, 75, 889, 893, 779, 78, 760, 179, 177, 223, 732, 725, 919, 920, 923, 98, 692, 257, 17, 628, 426, 614]"
+GPQA_CHUNKED,qwen8b,large,10,correlation,p10,1,[27]
+Omni-MATH,gist,small,10,cosine,p80,4,"[19, 610, 773, 921]"
+IFEval_NOCHUNK,qwen4b,large,50,euclidean,p95,2,"[7, 227]"
+IFEval_NOCHUNK,qwen4b,large,30,euclidean,p10,1,[1]
+Omni-MATH,gist,small,10,cosine,p90,9,"[790, 19, 295, 157, 427, 583, 860, 297, 652]"
+GPQA,bge,small,10,cosine,p95,37,"[286, 56, 443, 268, 95, 384, 44, 289, 244, 127, 153, 228, 55, 420, 298, 37, 216, 291, 307, 167, 370, 277, 433, 41, 329, 427, 58, 60, 122, 417, 264, 79, 99, 176, 97, 94, 408]"
+MMLU-Pro,e5,small,50,cosine,p80,2,"[71, 765]"
+Omni-MATH,bge,small,20,correlation,p80,2,"[12, 772]"
+GPQA,gist,small,10,cosine,p50,2,"[11, 362]"
+GPQA,e5,small,40,cosine,p50,1,[429]
+IFEval,gist,small,40,euclidean,p10,1,[69]
+GPQA_CHUNKED,nemotron,large,30,correlation,p80,1,[358]
+IFEval_NOCHUNK,qwen8b,large,30,correlation,p90,1,[185]
+Omni-MATH_CHUNKED,qwen8b,large,40,euclidean,p50,1,[33]
+IFEval,e5,small,30,euclidean,p10,1,[37]
+IFEval,e5,small,30,cosine,p80,2,"[151, 494]"
+MMLU-Pro,qwen8b,large,40,cosine,p10,1,[9]
+Omni-MATH,gist,small,10,cosine,p10,1,[696]
+Omni-MATH_NOCHUNK,nemotron,large,50,cosine,p90,1,[906]
+IFEval,e5,small,30,correlation,p50,1,[359]
+GPQA,gist,small,30,cosine,p90,14,"[379, 426, 286, 87, 182, 53, 82, 156, 27, 204, 202, 170, 244, 280]"
+Omni-MATH_NOCHUNK,nemotron,large,30,euclidean,p90,1,[906]
+IFEval,gist,small,50,cosine,p20,1,[245]
+MMLU-Pro,nemotron,large,40,cosine,p90,1,[739]
+Omni-MATH,gist,small,50,cosine,p20,2,"[1, 460]"
+MMLU-Pro,qwen4b,large,20,cosine,p95,38,"[464, 93, 709, 620, 536, 313, 481, 257, 197, 426, 487, 489, 541, 177, 692, 889, 179, 378, 17, 497, 760, 725, 66, 628, 152, 75, 41, 808, 614, 223, 779, 452, 875, 923, 732, 98, 920, 919]"
+Omni-MATH_NOCHUNK,qwen4b,large,10,euclidean,p10,1,[7]
+GPQA_CHUNKED,nemotron,large,20,euclidean,p20,1,[16]
+GPQA_CHUNKED,qwen8b,large,10,cosine,p80,1,[27]
+Omni-MATH_CHUNKED,qwen4b,large,50,euclidean,p95,2,"[5, 24]"
+MMLU-Pro,bge,small,10,cosine,p80,3,"[26, 739, 884]"
+IFEval_CHUNKED,nemotron,large,30,euclidean,p90,2,"[2, 215]"
+Omni-MATH_NOCHUNK,nemotron,large,20,euclidean,p95,1,[906]
+MMLU-Pro,nemotron,large,20,euclidean,p20,1,[8]
+GPQA_CHUNKED,qwen8b,large,40,correlation,p20,1,[27]
+MMLU-Pro,nemotron,large,10,correlation,p50,1,[8]
+IFEval_NOCHUNK,qwen8b,large,50,correlation,p80,1,[19]
+Omni-MATH_NOCHUNK,nemotron,large,30,correlation,p50,1,[46]
+MMLU-Pro,gist,small,10,euclidean,p80,5,"[140, 423, 545, 799, 0]"
+IFEval_CHUNKED,qwen8b,large,40,correlation,p20,1,[1]
+MMLU-Pro,nemotron,large,30,cosine,p90,1,[739]
+IFEval_NOCHUNK,nemotron,large,50,correlation,p10,1,[53]
+Omni-MATH_CHUNKED,qwen8b,large,50,correlation,p80,1,[281]
+Omni-MATH_CHUNKED,qwen4b,large,40,correlation,p90,2,"[24, 86]"
+GPQA,bge,small,20,correlation,p20,1,[214]
+GPQA_NOCHUNK,nemotron,large,10,euclidean,p95,20,"[257, 343, 1, 412, 333, 435, 425, 98, 402, 324, 42, 114, 15, 163, 308, 398, 251, 278, 290, 196]"
+Omni-MATH_NOCHUNK,qwen4b,large,50,euclidean,p90,2,"[5, 24]"
+MMLU-Pro,qwen8b,large,30,correlation,p20,1,[276]
+GPQA,bge,small,20,cosine,p50,2,"[1, 443]"
+MMLU-Pro,bge,small,30,cosine,p10,1,[22]
+GPQA_NOCHUNK,qwen8b,large,10,cosine,p95,1,[343]
+GPQA_NOCHUNK,nemotron,large,10,cosine,p90,2,"[257, 412]"
+GPQA_CHUNKED,nemotron,large,30,cosine,p90,1,[358]
+Omni-MATH_NOCHUNK,qwen8b,large,10,euclidean,p90,1,[281]
+IFEval,e5,small,20,euclidean,p20,1,[185]
+Omni-MATH_CHUNKED,nemotron,large,20,cosine,p50,1,[900]
+GPQA_NOCHUNK,qwen8b,large,10,euclidean,p20,1,[20]
+GPQA_CHUNKED,qwen8b,large,40,euclidean,p10,1,[4]
+IFEval,e5,small,50,cosine,p50,1,[359]
+Omni-MATH,bge,small,20,correlation,p50,2,"[1, 772]"
+MMLU-Pro,bge,small,40,cosine,p90,7,"[884, 602, 366, 575, 648, 884, 49]"
+IFEval_CHUNKED,nemotron,large,20,correlation,p80,1,[245]
+Omni-MATH,gist,small,10,correlation,p95,22,"[68, 157, 279, 346, 449, 553, 580, 789, 0, 0, 4017, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"
+GPQA_CHUNKED,qwen8b,large,20,correlation,p80,1,[27]
+GPQA,bge,small,50,euclidean,p10,1,[17]
+IFEval_NOCHUNK,qwen8b,large,50,euclidean,p90,1,[19]
+Omni-MATH_CHUNKED,nemotron,large,10,euclidean,p50,1,[32]
+Omni-MATH,gist,small,50,euclidean,p20,2,"[1, 460]"
+GPQA,e5,small,30,euclidean,p95,20,"[106, 289, 229, 429, 424, 351, 51, 257, 295, 18, 235, 234, 145, 417, 160, 340, 65, 365, 444, 31]"
+Omni-MATH,bge,small,40,euclidean,p20,1,[19]
+Omni-MATH,gist,small,20,cosine,p95,22,"[12, 68, 157, 346, 449, 553, 580, 789, 0, 0, 4017, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"
+GPQA_CHUNKED,qwen8b,large,50,cosine,p95,2,"[1, 343]"
+MMLU-Pro,qwen8b,large,10,euclidean,p50,1,[56]
+IFEval,bge,small,10,euclidean,p10,1,[109]
+IFEval_NOCHUNK,qwen4b,large,50,cosine,p50,1,[19]
+GPQA,bge,small,20,euclidean,p80,3,"[88, 286, 443]"
+GPQA,bge,small,20,cosine,p10,1,[17]
+Omni-MATH,gist,small,30,cosine,p50,2,"[11, 773]"
+MMLU-Pro,e5,small,40,cosine,p90,3,"[64, 572, 765]"
+IFEval,e5,small,40,cosine,p10,1,[37]
+GPQA,gist,small,30,cosine,p50,2,"[11, 362]"
+IFEval_NOCHUNK,qwen4b,large,40,correlation,p95,1,[227]
+GPQA,e5,small,40,euclidean,p20,1,[424]
+Omni-MATH_NOCHUNK,qwen8b,large,50,correlation,p50,1,[59]
+GPQA_CHUNKED,nemotron,large,10,euclidean,p95,1,[358]
+MMLU-Pro,e5,small,50,cosine,p20,1,[5]
+MMLU-Pro,bge,small,20,euclidean,p80,3,"[26, 739, 884]"
+MMLU-Pro,nemotron,large,50,euclidean,p90,1,[739]
+Omni-MATH_NOCHUNK,qwen4b,large,40,correlation,p50,1,[149]
+IFEval,bge,small,20,correlation,p80,2,"[109, 359]"
+Omni-MATH_NOCHUNK,nemotron,large,10,euclidean,p50,1,[46]
+IFEval,gist,small,20,euclidean,p95,6,"[17, 140, 245, 323, 0, 0]"
+Omni-MATH_NOCHUNK,qwen4b,large,10,cosine,p95,2,"[296, 648]"
+GPQA_NOCHUNK,nemotron,large,30,euclidean,p50,1,[1]
+Omni-MATH_CHUNKED,qwen8b,large,30,correlation,p80,1,[281]
+IFEval_CHUNKED,qwen8b,large,10,correlation,p90,1,[19]
+Omni-MATH_CHUNKED,nemotron,large,40,euclidean,p90,3,"[900, 568, 553]"
+IFEval_NOCHUNK,qwen8b,large,20,cosine,p80,1,[19]
+GPQA_NOCHUNK,nemotron,large,10,euclidean,p50,1,[1]
+Omni-MATH_NOCHUNK,qwen8b,large,20,euclidean,p10,1,[7]
+Omni-MATH_NOCHUNK,qwen4b,large,20,cosine,p10,1,[7]
+MMLU-Pro,nemotron,large,30,euclidean,p80,1,[221]
+Omni-MATH_NOCHUNK,nemotron,large,30,euclidean,p95,1,[906]
+GPQA,bge,small,50,correlation,p80,3,"[87, 286, 443]"
+IFEval_NOCHUNK,qwen8b,large,30,correlation,p50,1,[19]
+MMLU-Pro,e5,small,20,euclidean,p80,2,"[71, 765]"
+GPQA,bge,small,40,euclidean,p50,2,"[1, 443]"
+GPQA,e5,small,40,correlation,p80,2,"[51, 106]"
+MMLU-Pro,gist,small,50,euclidean,p10,2,"[1, 798]"
+Omni-MATH,gist,small,10,euclidean,p10,1,[121]
+MMLU-Pro,qwen8b,large,20,correlation,p50,1,[829]
+Omni-MATH_CHUNKED,nemotron,large,10,euclidean,p90,3,"[900, 568, 553]"
+Omni-MATH_CHUNKED,qwen8b,large,50,euclidean,p50,1,[33]
+GPQA_NOCHUNK,nemotron,large,50,euclidean,p20,1,[1]
+MMLU-Pro,nemotron,large,40,euclidean,p80,1,[221]
+GPQA,e5,small,40,euclidean,p80,3,"[93, 229, 429]"
+GPQA_CHUNKED,qwen4b,large,10,correlation,p20,1,[182]
+Omni-MATH_NOCHUNK,qwen4b,large,10,cosine,p20,1,[7]
+GPQA_NOCHUNK,nemotron,large,10,cosine,p20,1,[1]
+IFEval_CHUNKED,qwen4b,large,50,correlation,p10,1,[1]
+MMLU-Pro,bge,small,50,euclidean,p10,1,[22]
+IFEval,bge,small,40,correlation,p90,3,"[109, 359, 494]"
+IFEval_CHUNKED,qwen4b,large,20,cosine,p10,1,[1]
+GPQA,gist,small,20,cosine,p95,38,"[426, 379, 87, 286, 351, 296, 280, 282, 299, 9, 31, 443, 61, 170, 228, 53, 196, 303, 384, 214, 156, 421, 442, 174, 216, 7, 15, 435, 99, 202, 374, 370, 122, 27, 234, 204, 329, 230]"
+IFEval_NOCHUNK,qwen8b,large,40,cosine,p95,1,[185]
+Omni-MATH,e5,small,10,cosine,p10,1,[10]
+IFEval_CHUNKED,qwen4b,large,40,euclidean,p90,1,[185]
+GPQA_NOCHUNK,qwen4b,large,40,correlation,p90,2,"[1, 27]"
+GPQA_NOCHUNK,qwen8b,large,30,euclidean,p50,1,[27]
+GPQA_NOCHUNK,qwen8b,large,10,correlation,p90,1,[27]
+IFEval_NOCHUNK,qwen4b,large,40,euclidean,p95,2,"[7, 227]"
+IFEval,gist,small,20,correlation,p20,1,[245]
+GPQA_NOCHUNK,qwen4b,large,50,cosine,p50,2,"[201, 301]"
+Omni-MATH_NOCHUNK,nemotron,large,30,cosine,p50,1,[46]
+IFEval_NOCHUNK,qwen4b,large,20,correlation,p90,1,[185]
+IFEval,gist,small,30,euclidean,p10,1,[69]
+GPQA_CHUNKED,nemotron,large,20,correlation,p90,1,[358]
+MMLU-Pro,nemotron,large,50,euclidean,p50,1,[8]
+Omni-MATH_CHUNKED,nemotron,large,30,correlation,p20,1,[32]
+MMLU-Pro,qwen8b,large,10,cosine,p95,2,"[620, 626]"
+GPQA_CHUNKED,qwen8b,large,10,euclidean,p10,1,[4]
+Omni-MATH_NOCHUNK,qwen4b,large,30,euclidean,p10,1,[7]
+Omni-MATH_NOCHUNK,nemotron,large,20,euclidean,p80,1,[149]
+GPQA_NOCHUNK,qwen8b,large,50,cosine,p90,1,[27]
+MMLU-Pro,e5,small,40,cosine,p95,6,"[572, 830, 728, 0, 0, 0]"
+IFEval_NOCHUNK,qwen8b,large,20,cosine,p90,1,[185]
+IFEval_NOCHUNK,nemotron,large,30,euclidean,p20,1,[109]
+IFEval_CHUNKED,qwen4b,large,10,euclidean,p80,1,[19]
+GPQA_NOCHUNK,qwen8b,large,30,cosine,p95,1,[343]
+Omni-MATH,e5,small,30,correlation,p20,1,[136]
+IFEval_CHUNKED,qwen8b,large,50,euclidean,p20,1,[1]
+Omni-MATH_CHUNKED,qwen4b,large,20,cosine,p90,2,"[24, 86]"
+IFEval,bge,small,20,cosine,p80,2,"[109, 359]"
+IFEval,gist,small,10,correlation,p90,3,"[245, 311, 359]"
+GPQA_CHUNKED,nemotron,large,10,cosine,p90,1,[358]
+IFEval_NOCHUNK,qwen4b,large,20,euclidean,p50,1,[19]
+Omni-MATH,e5,small,40,cosine,p20,1,[136]
+Omni-MATH,gist,small,40,correlation,p90,9,"[789, 19, 925, 157, 583, 553, 111, 224, 741]"
+Omni-MATH_NOCHUNK,nemotron,large,20,cosine,p20,1,[10]
+Omni-MATH_NOCHUNK,qwen8b,large,50,correlation,p10,1,[7]
+IFEval,e5,small,50,correlation,p95,2,"[494, 359]"
+Omni-MATH_NOCHUNK,nemotron,large,10,cosine,p90,1,[906]
+Omni-MATH,bge,small,30,cosine,p90,3,"[134, 306, 772]"
+MMLU-Pro,qwen8b,large,40,correlation,p90,2,"[626, 620]"
+IFEval,e5,small,20,cosine,p50,1,[359]
+GPQA,bge,small,30,correlation,p80,3,"[87, 286, 443]"
+IFEval_NOCHUNK,qwen4b,large,20,cosine,p20,1,[1]
+Omni-MATH_NOCHUNK,qwen4b,large,40,euclidean,p80,1,[149]
+GPQA_CHUNKED,qwen4b,large,10,correlation,p10,1,[27]
+Omni-MATH_NOCHUNK,nemotron,large,50,cosine,p10,1,[10]
+IFEval,bge,small,50,euclidean,p80,2,"[109, 359]"
+Omni-MATH,bge,small,40,cosine,p80,2,"[12, 772]"
+GPQA,e5,small,50,cosine,p90,6,"[18, 51, 56, 351, 424, 0]"
+IFEval,e5,small,40,correlation,p95,2,"[494, 359]"
+Omni-MATH_CHUNKED,qwen8b,large,10,euclidean,p80,1,[281]
+MMLU-Pro,gist,small,50,correlation,p80,5,"[140, 709, 799, 602, 830]"
+GPQA,bge,small,10,cosine,p50,2,"[1, 443]"
+Omni-MATH_NOCHUNK,qwen4b,large,20,cosine,p20,1,[7]
+Omni-MATH_CHUNKED,nemotron,large,40,euclidean,p20,1,[32]
+GPQA_CHUNKED,qwen4b,large,10,cosine,p50,2,"[201, 301]"
+IFEval_NOCHUNK,qwen8b,large,20,euclidean,p20,1,[1]
+MMLU-Pro,qwen8b,large,40,euclidean,p95,2,"[460, 626]"
+GPQA_NOCHUNK,qwen8b,large,20,correlation,p95,1,[343]
+MMLU-Pro,nemotron,large,40,correlation,p20,1,[8]
+Omni-MATH_NOCHUNK,qwen4b,large,30,correlation,p95,2,"[296, 648]"
+GPQA,gist,small,30,euclidean,p10,1,[44]
+Omni-MATH,e5,small,20,correlation,p95,6,"[187, 551, 157, 904, 839, 657]"
+MMLU-Pro,nemotron,large,20,cosine,p80,1,[221]
+GPQA,e5,small,40,correlation,p95,24,"[106, 289, 229, 424, 429, 351, 51, 244, 257, 31, 295, 18, 234, 340, 65, 444, 235, 365, 71, 160, 423, 145, 417, 407]"
+Omni-MATH_CHUNKED,qwen8b,large,30,correlation,p95,2,"[1, 281]"
+GPQA_CHUNKED,qwen4b,large,50,euclidean,p10,1,[44]
+IFEval,gist,small,30,cosine,p10,1,[69]
+Omni-MATH_CHUNKED,qwen4b,large,30,euclidean,p90,2,"[5, 24]"
+Omni-MATH_NOCHUNK,qwen4b,large,50,euclidean,p50,1,[71]
+IFEval_NOCHUNK,qwen8b,large,10,correlation,p90,1,[185]
+Omni-MATH,gist,small,50,cosine,p95,22,"[12, 68, 157, 346, 449, 553, 580, 789, 0, 0, 4017, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"
+GPQA,gist,small,40,cosine,p20,2,"[2, 31]"
+Omni-MATH,e5,small,50,euclidean,p20,1,[121]
+GPQA_CHUNKED,nemotron,large,20,euclidean,p50,1,[56]
+Omni-MATH,e5,small,50,euclidean,p90,3,"[187, 895, 904]"
+MMLU-Pro,qwen4b,large,40,euclidean,p90,2,"[13, 705]"
+MMLU-Pro,qwen8b,large,20,euclidean,p50,1,[56]
+IFEval_CHUNKED,qwen4b,large,10,cosine,p50,1,[19]
+Omni-MATH_CHUNKED,nemotron,large,40,correlation,p90,4,"[900, 568, 29, 314]"
+Omni-MATH_CHUNKED,nemotron,large,10,correlation,p90,4,"[900, 568, 29, 314]"
+MMLU-Pro,e5,small,30,correlation,p80,2,"[71, 765]"
+GPQA_CHUNKED,qwen4b,large,30,correlation,p20,1,[182]
+MMLU-Pro,e5,small,40,euclidean,p80,2,"[71, 765]"
+Omni-MATH_CHUNKED,qwen4b,large,30,cosine,p95,7,"[24, 296, 648, 512, 811, 809, 276]"
+GPQA_NOCHUNK,nemotron,large,30,euclidean,p10,1,[1]
+IFEval,gist,small,30,euclidean,p90,3,"[245, 282, 359]"
+GPQA_CHUNKED,qwen8b,large,40,euclidean,p20,1,[20]
+MMLU-Pro,qwen4b,large,50,correlation,p50,2,"[46, 829]"
+IFEval,gist,small,20,cosine,p20,1,[245]
+GPQA_CHUNKED,qwen4b,large,50,cosine,p95,2,"[27, 177]"
+IFEval_CHUNKED,qwen8b,large,20,euclidean,p10,1,[1]
+IFEval,gist,small,10,correlation,p80,2,"[20, 359]"
+Omni-MATH,bge,small,50,correlation,p90,3,"[134, 306, 772]"
+MMLU-Pro,nemotron,large,20,correlation,p10,1,[2]
+MMLU-Pro,nemotron,large,50,correlation,p95,2,"[96, 739]"
+Omni-MATH,gist,small,10,cosine,p50,2,"[11, 773]"
+IFEval_CHUNKED,qwen4b,large,50,correlation,p20,1,[1]
+Omni-MATH_NOCHUNK,nemotron,large,50,euclidean,p50,1,[46]
+IFEval_NOCHUNK,nemotron,large,50,euclidean,p95,13,"[109, 185, 212, 312, 424, 280, 459, 517, 316, 6, 349, 462, 78]"
+IFEval,bge,small,10,correlation,p90,3,"[109, 359, 494]"
+GPQA,bge,small,40,euclidean,p80,3,"[88, 286, 443]"
+GPQA_NOCHUNK,qwen8b,large,50,euclidean,p20,1,[20]
+MMLU-Pro,qwen8b,large,50,euclidean,p80,1,[185]
+MMLU-Pro,bge,small,20,cosine,p80,3,"[26, 739, 884]"
+IFEval_CHUNKED,qwen8b,large,30,euclidean,p10,1,[1]
+Omni-MATH_CHUNKED,qwen4b,large,50,correlation,p90,2,"[24, 86]"
+GPQA_CHUNKED,nemotron,large,30,cosine,p10,1,[15]
+Omni-MATH_CHUNKED,qwen4b,large,50,correlation,p95,7,"[24, 296, 648, 809, 276, 512, 811]"
+IFEval_CHUNKED,qwen4b,large,40,cosine,p95,1,[227]
+Omni-MATH_CHUNKED,qwen8b,large,40,cosine,p10,1,[7]
+IFEval_CHUNKED,qwen8b,large,20,correlation,p10,1,[1]
+MMLU-Pro,qwen4b,large,10,correlation,p80,2,"[8, 829]"
+GPQA_NOCHUNK,qwen4b,large,30,cosine,p95,2,"[1, 343]"
+Omni-MATH_CHUNKED,qwen4b,large,40,euclidean,p95,2,"[5, 24]"
+MMLU-Pro,nemotron,large,40,cosine,p80,1,[221]
+MMLU-Pro,gist,small,40,euclidean,p50,2,"[602, 759]"
+Omni-MATH_CHUNKED,qwen4b,large,20,euclidean,p20,1,[7]
+IFEval,bge,small,40,correlation,p80,2,"[109, 359]"
+IFEval,bge,small,30,euclidean,p10,1,[109]
+MMLU-Pro,nemotron,large,10,correlation,p95,2,"[96, 739]"
+IFEval_NOCHUNK,nemotron,large,10,correlation,p20,1,[109]
+MMLU-Pro,gist,small,30,cosine,p50,2,"[1, 709]"
+GPQA_NOCHUNK,qwen4b,large,40,euclidean,p10,1,[44]
+Omni-MATH,bge,small,10,correlation,p90,3,"[134, 306, 772]"
+Omni-MATH_CHUNKED,qwen4b,large,40,cosine,p10,1,[7]
+IFEval,e5,small,10,euclidean,p50,1,[359]
+Omni-MATH,gist,small,10,cosine,p95,22,"[12, 68, 157, 346, 449, 553, 580, 789, 0, 0, 4017, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"
+GPQA_NOCHUNK,qwen4b,large,30,correlation,p80,2,"[27, 343]"
+IFEval_CHUNKED,qwen4b,large,30,euclidean,p95,2,"[7, 227]"
+Omni-MATH_NOCHUNK,nemotron,large,50,correlation,p90,1,[906]
+IFEval_NOCHUNK,qwen8b,large,30,euclidean,p10,1,[1]
+IFEval_NOCHUNK,qwen8b,large,50,correlation,p10,1,[1]
+Omni-MATH,e5,small,50,correlation,p90,3,"[137, 187, 904]"
+Omni-MATH_NOCHUNK,qwen8b,large,20,euclidean,p20,1,[7]
+IFEval,gist,small,50,cosine,p10,1,[69]
+Omni-MATH_CHUNKED,nemotron,large,30,cosine,p95,16,"[900, 568, 854, 352, 729, 2, 381, 456, 447, 962, 964, 859, 967, 562, 838, 314]"
+Omni-MATH_NOCHUNK,nemotron,large,20,euclidean,p90,1,[906]
+MMLU-Pro,gist,small,40,cosine,p20,2,"[1, 798]"
+Omni-MATH_NOCHUNK,qwen4b,large,30,euclidean,p90,2,"[5, 24]"
+Omni-MATH_NOCHUNK,qwen4b,large,10,correlation,p80,2,"[15, 24]"
+GPQA,gist,small,50,euclidean,p95,31,"[379, 286, 299, 170, 426, 282, 87, 196, 362, 9, 228, 296, 153, 300, 383, 53, 374, 156, 174, 122, 442, 115, 138, 375, 250, 370, 202, 27, 99, 329, 204]"
+GPQA_NOCHUNK,qwen4b,large,10,cosine,p50,2,"[201, 301]"
+GPQA_NOCHUNK,qwen8b,large,40,correlation,p10,1,[27]
+MMLU-Pro,nemotron,large,50,cosine,p10,1,[2]
+IFEval_NOCHUNK,nemotron,large,30,euclidean,p80,2,"[6, 109]"
+MMLU-Pro,bge,small,50,euclidean,p95,30,"[602, 996, 739, 205, 843, 366, 722, 797, 26, 478, 884, 830, 820, 37, 373, 538, 39, 131, 582, 963, 763, 401, 104, 655, 670, 241, 109, 526, 546, 902]"
+IFEval_NOCHUNK,qwen8b,large,10,correlation,p20,1,[1]
+GPQA_NOCHUNK,nemotron,large,50,cosine,p90,2,"[257, 412]"
+MMLU-Pro,gist,small,10,euclidean,p95,47,"[140, 602, 924, 709, 545, 799, 486, 689, 342, 274, 408, 841, 745, 643, 46, 927, 635, 42, 447, 65, 260, 744, 109, 40, 603, 359, 588, 34, 92, 433, 375, 86, 451, 660, 756, 464, 279, 798, 867, 506, 367, 651, 33, 249, 282, 492, 335]"
+IFEval_CHUNKED,qwen8b,large,30,cosine,p80,1,[19]
+Omni-MATH,bge,small,40,euclidean,p90,2,"[12, 772]"
+GPQA_NOCHUNK,qwen8b,large,50,euclidean,p50,1,[27]
+Omni-MATH_NOCHUNK,qwen8b,large,30,euclidean,p80,1,[281]
+IFEval_NOCHUNK,qwen8b,large,10,cosine,p10,1,[1]
+IFEval,e5,small,30,euclidean,p50,1,[359]
+Omni-MATH,gist,small,10,euclidean,p20,2,"[1, 460]"
+GPQA,bge,small,20,correlation,p90,10,"[286, 443, 289, 41, 370, 228, 56, 268, 31, 143]"
+GPQA,e5,small,10,correlation,p80,2,"[51, 106]"
+MMLU-Pro,gist,small,50,euclidean,p90,17,"[799, 140, 213, 260, 867, 486, 506, 602, 321, 874, 646, 867, 335, 352, 1425, 0, 1441226864]"
+IFEval_CHUNKED,qwen4b,large,40,cosine,p10,1,[1]
+GPQA_CHUNKED,qwen4b,large,30,correlation,p50,2,"[201, 301]"
+IFEval_NOCHUNK,nemotron,large,50,cosine,p20,1,[109]
+Omni-MATH_NOCHUNK,nemotron,large,20,correlation,p10,1,[10]
+IFEval_CHUNKED,qwen4b,large,30,cosine,p95,1,[227]
+IFEval,gist,small,20,euclidean,p90,3,"[245, 282, 359]"
+GPQA_NOCHUNK,nemotron,large,20,cosine,p80,2,"[1, 257]"
+GPQA,bge,small,20,euclidean,p95,38,"[286, 56, 443, 384, 428, 268, 95, 289, 31, 55, 153, 228, 133, 94, 298, 433, 79, 325, 329, 58, 41, 370, 37, 97, 308, 291, 427, 277, 167, 176, 194, 408, 216, 274, 417, 264, 226, 237]"
+Omni-MATH_CHUNKED,nemotron,large,40,correlation,p80,2,"[900, 854]"
+GPQA_NOCHUNK,qwen4b,large,30,euclidean,p10,1,[44]
+GPQA_NOCHUNK,qwen4b,large,20,cosine,p20,1,[122]
+Omni-MATH_NOCHUNK,qwen4b,large,10,cosine,p10,1,[7]
+GPQA_NOCHUNK,qwen4b,large,30,euclidean,p80,2,"[193, 201]"
+GPQA_CHUNKED,qwen4b,large,10,correlation,p95,2,"[27, 177]"
+Omni-MATH_CHUNKED,nemotron,large,20,cosine,p95,16,"[900, 568, 854, 352, 729, 2, 381, 456, 447, 962, 964, 859, 967, 562, 838, 314]"
+IFEval,bge,small,20,cosine,p90,3,"[222, 494, 196]"
+MMLU-Pro,qwen4b,large,50,cosine,p10,1,[9]
+GPQA_CHUNKED,qwen4b,large,50,correlation,p95,2,"[27, 177]"
+Omni-MATH,gist,small,20,correlation,p50,2,"[11, 773]"
+MMLU-Pro,e5,small,50,correlation,p50,2,"[5, 624]"
+Omni-MATH_CHUNKED,qwen4b,large,40,correlation,p20,1,[7]
+IFEval_CHUNKED,qwen8b,large,20,cosine,p95,1,[185]
+IFEval_NOCHUNK,qwen4b,large,30,cosine,p10,1,[1]
+Omni-MATH_NOCHUNK,qwen4b,large,50,euclidean,p10,1,[7]
+GPQA_NOCHUNK,qwen8b,large,10,cosine,p50,1,[27]
+Omni-MATH_NOCHUNK,nemotron,large,50,euclidean,p20,1,[10]
+IFEval_NOCHUNK,qwen4b,large,50,correlation,p80,1,[185]
+IFEval_NOCHUNK,nemotron,large,40,correlation,p20,1,[109]
+Omni-MATH,gist,small,40,correlation,p95,22,"[68, 157, 279, 346, 449, 553, 580, 789, 0, 0, 4017, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"
+Omni-MATH_NOCHUNK,qwen8b,large,40,cosine,p80,1,[281]
+IFEval_NOCHUNK,nemotron,large,10,euclidean,p10,1,[53]
+Omni-MATH_CHUNKED,qwen8b,large,20,euclidean,p95,1,[281]
+GPQA_NOCHUNK,nemotron,large,20,correlation,p10,1,[1]
+GPQA_NOCHUNK,qwen8b,large,50,euclidean,p90,1,[201]
+GPQA_NOCHUNK,nemotron,large,20,cosine,p90,2,"[257, 412]"
+Omni-MATH,gist,small,30,euclidean,p90,7,"[773, 610, 925, 583, 553, 319, 925]"
+Omni-MATH_CHUNKED,nemotron,large,30,euclidean,p90,3,"[900, 568, 553]"
+IFEval_NOCHUNK,qwen8b,large,50,cosine,p95,1,[185]
+Omni-MATH_CHUNKED,qwen8b,large,50,correlation,p50,1,[59]
+GPQA_NOCHUNK,qwen8b,large,30,correlation,p20,1,[27]
+IFEval_CHUNKED,qwen8b,large,30,cosine,p10,1,[1]
+Omni-MATH_NOCHUNK,qwen8b,large,40,euclidean,p50,1,[33]
+GPQA_NOCHUNK,nemotron,large,10,correlation,p20,1,[1]
+MMLU-Pro,nemotron,large,30,euclidean,p95,2,"[96, 739]"
+IFEval_NOCHUNK,nemotron,large,10,euclidean,p95,13,"[109, 185, 212, 312, 424, 280, 459, 517, 316, 6, 349, 462, 78]"
+Omni-MATH_NOCHUNK,qwen8b,large,50,cosine,p50,1,[59]
+GPQA_CHUNKED,qwen8b,large,30,correlation,p50,1,[27]
+IFEval_CHUNKED,qwen4b,large,10,correlation,p50,1,[19]
+GPQA_NOCHUNK,qwen8b,large,20,cosine,p50,1,[27]
+IFEval,gist,small,20,euclidean,p20,1,[245]
+GPQA,e5,small,50,euclidean,p95,20,"[106, 289, 229, 429, 424, 351, 51, 257, 295, 18, 235, 234, 145, 417, 160, 340, 65, 365, 444, 31]"
+MMLU-Pro,gist,small,10,euclidean,p20,2,"[1, 798]"
+IFEval,gist,small,40,cosine,p80,2,"[20, 359]"
+IFEval_CHUNKED,nemotron,large,30,correlation,p80,1,[245]
+MMLU-Pro,qwen4b,large,10,euclidean,p20,1,[13]
+GPQA,bge,small,10,euclidean,p95,38,"[286, 56, 443, 384, 428, 268, 95, 289, 31, 55, 153, 228, 133, 94, 298, 433, 79, 325, 329, 58, 41, 370, 37, 97, 308, 291, 427, 277, 167, 176, 194, 408, 216, 274, 417, 264, 226, 237]"
+IFEval_NOCHUNK,qwen4b,large,20,correlation,p10,1,[1]
+IFEval,e5,small,50,euclidean,p90,2,"[44, 494]"
+MMLU-Pro,qwen4b,large,30,euclidean,p90,2,"[13, 705]"
+IFEval,bge,small,20,cosine,p20,1,[109]
+IFEval_CHUNKED,nemotron,large,50,euclidean,p50,1,[15]
+IFEval,gist,small,40,cosine,p10,1,[69]
+MMLU-Pro,nemotron,large,20,correlation,p80,1,[221]
+GPQA_CHUNKED,nemotron,large,20,cosine,p80,1,[358]
+IFEval,e5,small,20,euclidean,p90,2,"[44, 494]"
+MMLU-Pro,qwen4b,large,50,cosine,p20,1,[13]
+Omni-MATH_CHUNKED,nemotron,large,20,correlation,p80,2,"[900, 854]"
+IFEval,gist,small,10,euclidean,p20,1,[245]
+MMLU-Pro,qwen4b,large,20,euclidean,p50,1,[13]
+GPQA_NOCHUNK,qwen4b,large,30,cosine,p50,2,"[201, 301]"
+MMLU-Pro,qwen8b,large,30,euclidean,p20,1,[13]
+IFEval,bge,small,50,correlation,p90,3,"[109, 359, 494]"
+Omni-MATH_NOCHUNK,nemotron,large,10,euclidean,p90,1,[906]
+MMLU-Pro,gist,small,20,cosine,p90,15,"[140, 1, 602, 709, 423, 128, 766, 563, 335, 745, 750, 0, 0, 0, 1873]"
+GPQA_NOCHUNK,qwen4b,large,40,cosine,p20,1,[122]
+GPQA_CHUNKED,nemotron,large,30,correlation,p20,1,[16]
+GPQA,e5,small,10,euclidean,p10,1,[18]
+GPQA_NOCHUNK,qwen4b,large,40,euclidean,p50,1,[201]
+IFEval_NOCHUNK,qwen4b,large,20,euclidean,p95,2,"[7, 227]"
+GPQA_NOCHUNK,nemotron,large,40,euclidean,p90,2,"[412, 257]"
+IFEval_CHUNKED,nemotron,large,30,cosine,p20,1,[9]
+GPQA,bge,small,40,cosine,p80,3,"[87, 286, 443]"
+GPQA_NOCHUNK,qwen8b,large,20,correlation,p20,1,[27]
+GPQA_NOCHUNK,nemotron,large,40,cosine,p80,2,"[1, 257]"
+IFEval_NOCHUNK,qwen8b,large,10,correlation,p10,1,[1]
+Omni-MATH_NOCHUNK,nemotron,large,10,cosine,p10,1,[10]
+IFEval_NOCHUNK,qwen8b,large,40,cosine,p10,1,[1]
+Omni-MATH_NOCHUNK,nemotron,large,40,correlation,p10,1,[10]
+Omni-MATH,bge,small,40,correlation,p10,1,[19]
+Omni-MATH,e5,small,30,cosine,p90,3,"[137, 187, 904]"
+Omni-MATH_CHUNKED,qwen4b,large,10,cosine,p95,7,"[24, 296, 648, 512, 811, 809, 276]"
+MMLU-Pro,nemotron,large,40,correlation,p90,1,[739]
+IFEval_NOCHUNK,qwen4b,large,20,euclidean,p20,1,[19]
+GPQA_CHUNKED,nemotron,large,40,cosine,p10,1,[15]
+MMLU-Pro,nemotron,large,50,euclidean,p20,1,[8]
+GPQA,e5,small,30,correlation,p50,1,[429]
+Omni-MATH,e5,small,10,cosine,p95,6,"[187, 551, 157, 904, 839, 657]"
+IFEval,bge,small,30,cosine,p50,1,[359]
+MMLU-Pro,e5,small,20,correlation,p90,3,"[5, 572, 765]"
+Omni-MATH,e5,small,30,euclidean,p10,1,[10]
+Omni-MATH_CHUNKED,nemotron,large,50,euclidean,p10,1,[19]
+IFEval_NOCHUNK,qwen8b,large,50,cosine,p90,1,[185]
+IFEval,bge,small,10,correlation,p50,1,[359]
+Omni-MATH_CHUNKED,qwen8b,large,40,cosine,p20,1,[7]
+MMLU-Pro,qwen4b,large,30,euclidean,p20,1,[13]
+IFEval,bge,small,30,cosine,p20,1,[109]
+Omni-MATH_CHUNKED,qwen4b,large,10,euclidean,p80,1,[149]
+Omni-MATH_CHUNKED,qwen8b,large,10,cosine,p90,1,[281]
+GPQA_NOCHUNK,nemotron,large,30,euclidean,p20,1,[1]
+GPQA_CHUNKED,qwen8b,large,40,euclidean,p90,1,[201]
+GPQA_CHUNKED,qwen4b,large,30,euclidean,p20,1,[45]
+IFEval,gist,small,10,correlation,p50,2,"[121, 359]"
+GPQA_NOCHUNK,qwen8b,large,20,correlation,p50,1,[27]
+GPQA,e5,small,20,correlation,p20,1,[429]
+GPQA_CHUNKED,qwen8b,large,40,correlation,p95,2,"[1, 343]"
+GPQA_NOCHUNK,qwen8b,large,20,cosine,p80,1,[27]
+MMLU-Pro,e5,small,50,cosine,p95,6,"[572, 830, 728, 0, 0, 0]"
+GPQA_NOCHUNK,qwen8b,large,30,euclidean,p90,1,[201]
+Omni-MATH_CHUNKED,qwen8b,large,10,correlation,p10,1,[7]
+Omni-MATH,e5,small,30,correlation,p50,2,"[1, 657]"
+Omni-MATH_CHUNKED,nemotron,large,30,cosine,p80,2,"[900, 854]"
+GPQA,bge,small,10,cosine,p20,1,[214]
+Omni-MATH_CHUNKED,qwen8b,large,40,euclidean,p90,1,[281]
+Omni-MATH_NOCHUNK,nemotron,large,50,correlation,p80,1,[149]
+GPQA_CHUNKED,qwen8b,large,40,cosine,p80,1,[27]
+GPQA_NOCHUNK,qwen8b,large,10,cosine,p10,1,[27]
+MMLU-Pro,bge,small,20,euclidean,p20,1,[696]
+Omni-MATH_NOCHUNK,qwen4b,large,30,euclidean,p20,1,[7]
+Omni-MATH_CHUNKED,qwen4b,large,30,euclidean,p20,1,[7]
+GPQA,gist,small,20,euclidean,p80,4,"[9, 87, 282, 0]"
+IFEval,e5,small,50,euclidean,p10,1,[37]
+MMLU-Pro,bge,small,20,euclidean,p50,2,"[4, 902]"
+Omni-MATH_CHUNKED,qwen4b,large,40,cosine,p95,7,"[24, 296, 648, 512, 811, 809, 276]"
+Omni-MATH,gist,small,50,correlation,p90,9,"[11, 19, 541, 297, 583, 136, 553, 789, 741]"
+IFEval_CHUNKED,qwen4b,large,40,correlation,p50,1,[19]
+GPQA_NOCHUNK,qwen4b,large,50,cosine,p20,1,[122]
+Omni-MATH_CHUNKED,qwen4b,large,30,euclidean,p10,1,[7]
+Omni-MATH_CHUNKED,qwen4b,large,30,correlation,p90,2,"[24, 86]"
+GPQA_CHUNKED,qwen8b,large,20,euclidean,p10,1,[4]
+GPQA_CHUNKED,nemotron,large,40,cosine,p20,1,[16]
+MMLU-Pro,qwen4b,large,50,correlation,p10,1,[9]
+IFEval,bge,small,20,cosine,p50,1,[359]
+MMLU-Pro,qwen8b,large,30,cosine,p80,2,"[2, 626]"
+IFEval,e5,small,40,euclidean,p80,2,"[151, 494]"
+IFEval_NOCHUNK,qwen4b,large,50,cosine,p80,1,[185]
+Omni-MATH_CHUNKED,qwen8b,large,20,correlation,p95,2,"[1, 281]"
+GPQA_CHUNKED,qwen8b,large,10,euclidean,p90,1,[201]
+Omni-MATH_NOCHUNK,qwen8b,large,40,correlation,p10,1,[7]
+GPQA_CHUNKED,qwen4b,large,40,cosine,p20,1,[182]
+GPQA_CHUNKED,nemotron,large,10,euclidean,p80,1,[358]
+Omni-MATH_CHUNKED,nemotron,large,40,euclidean,p80,2,"[900, 568]"
+MMLU-Pro,gist,small,50,cosine,p95,52,"[602, 140, 506, 545, 709, 996, 798, 799, 651, 1, 274, 841, 458, 745, 900, 730, 342, 334, 643, 907, 927, 874, 492, 194, 464, 702, 667, 756, 670, 893, 660, 588, 655, 216, 433, 603, 401, 109, 375, 40, 43, 279, 564, 288, 966, 486, 254, 521, 346, 211, 423, 981]"
+Omni-MATH_CHUNKED,qwen8b,large,10,cosine,p10,1,[7]
+IFEval,gist,small,30,correlation,p50,2,"[121, 359]"
+MMLU-Pro,qwen4b,large,20,correlation,p20,1,[13]
+GPQA_CHUNKED,qwen4b,large,20,correlation,p90,2,"[1, 343]"
+GPQA_CHUNKED,qwen4b,large,10,euclidean,p80,2,"[193, 201]"
+GPQA,bge,small,10,correlation,p95,37,"[286, 56, 443, 268, 95, 384, 44, 289, 244, 127, 153, 228, 55, 420, 298, 37, 216, 291, 307, 167, 370, 277, 433, 41, 329, 427, 58, 60, 122, 417, 264, 79, 99, 176, 97, 94, 408]"
+Omni-MATH_NOCHUNK,nemotron,large,10,correlation,p20,1,[10]
+Omni-MATH_CHUNKED,nemotron,large,10,correlation,p20,1,[32]
+Omni-MATH_NOCHUNK,nemotron,large,10,correlation,p80,1,[149]
+GPQA,bge,small,40,cosine,p10,1,[17]
+IFEval_CHUNKED,nemotron,large,10,correlation,p50,1,[15]
+GPQA,gist,small,30,correlation,p90,14,"[379, 426, 286, 87, 182, 53, 82, 156, 27, 204, 202, 170, 244, 280]"
+MMLU-Pro,nemotron,large,30,cosine,p10,1,[2]
+IFEval_CHUNKED,qwen4b,large,10,euclidean,p50,1,[19]
+Omni-MATH_CHUNKED,qwen8b,large,20,cosine,p50,1,[59]
+IFEval,e5,small,30,cosine,p90,2,"[10, 494]"
+Omni-MATH_NOCHUNK,qwen8b,large,40,cosine,p20,1,[7]
+IFEval,gist,small,10,euclidean,p50,1,[359]
+IFEval_NOCHUNK,nemotron,large,20,euclidean,p10,1,[53]
+IFEval_CHUNKED,qwen4b,large,50,euclidean,p95,2,"[7, 227]"
+GPQA,e5,small,40,cosine,p10,1,[31]
+Omni-MATH_NOCHUNK,qwen8b,large,30,cosine,p95,2,"[1, 281]"
+Omni-MATH,e5,small,50,cosine,p20,1,[136]
+GPQA,e5,small,20,euclidean,p80,3,"[93, 229, 429]"
+Omni-MATH,e5,small,20,euclidean,p95,6,"[157, 187, 839, 767, 498, 839]"
+Omni-MATH,e5,small,40,euclidean,p20,1,[121]
+IFEval_CHUNKED,qwen8b,large,20,euclidean,p80,1,[19]
+Omni-MATH_NOCHUNK,qwen8b,large,20,cosine,p80,1,[281]
+IFEval_CHUNKED,qwen4b,large,10,euclidean,p90,1,[185]
+MMLU-Pro,gist,small,20,correlation,p50,2,"[1, 709]"
+IFEval,e5,small,20,cosine,p20,1,[185]
+Omni-MATH_CHUNKED,nemotron,large,30,correlation,p95,16,"[900, 568, 854, 352, 729, 2, 314, 962, 964, 562, 838, 967, 381, 859, 456, 447]"
+IFEval_NOCHUNK,qwen8b,large,30,euclidean,p95,1,[19]
+GPQA,bge,small,30,cosine,p95,37,"[286, 56, 443, 268, 95, 384, 44, 289, 244, 127, 153, 228, 55, 420, 298, 37, 216, 291, 307, 167, 370, 277, 433, 41, 329, 427, 58, 60, 122, 417, 264, 79, 99, 176, 97, 94, 408]"
+Omni-MATH,bge,small,30,cosine,p10,1,[19]
+Omni-MATH_NOCHUNK,qwen4b,large,50,correlation,p90,2,"[24, 86]"
+GPQA,bge,small,50,correlation,p95,37,"[286, 56, 443, 268, 95, 384, 44, 289, 244, 127, 153, 228, 55, 420, 298, 37, 216, 291, 307, 167, 370, 277, 433, 41, 329, 427, 58, 60, 122, 417, 264, 79, 99, 176, 97, 94, 408]"
+GPQA_NOCHUNK,qwen8b,large,10,correlation,p10,1,[27]
+Omni-MATH_CHUNKED,qwen4b,large,50,cosine,p10,1,[7]
+Omni-MATH,e5,small,40,correlation,p50,2,"[1, 657]"
+GPQA_CHUNKED,nemotron,large,40,correlation,p10,1,[15]
+IFEval_NOCHUNK,qwen4b,large,40,cosine,p90,1,[185]
+Omni-MATH_CHUNKED,nemotron,large,20,cosine,p90,4,"[900, 568, 29, 314]"
+MMLU-Pro,e5,small,40,correlation,p20,1,[5]
+GPQA_CHUNKED,qwen4b,large,50,cosine,p20,1,[182]
+MMLU-Pro,e5,small,30,euclidean,p10,1,[5]
+MMLU-Pro,nemotron,large,50,correlation,p10,1,[2]
+IFEval,e5,small,20,correlation,p95,2,"[494, 359]"
+Omni-MATH_NOCHUNK,qwen8b,large,50,euclidean,p90,1,[281]
+Omni-MATH_NOCHUNK,qwen4b,large,50,correlation,p80,2,"[15, 24]"
+MMLU-Pro,qwen8b,large,50,cosine,p95,2,"[620, 626]"
+Omni-MATH,gist,small,20,euclidean,p90,7,"[610, 773, 925, 583, 553, 449, 925]"
+Omni-MATH_NOCHUNK,qwen8b,large,40,correlation,p50,1,[59]
+MMLU-Pro,bge,small,30,cosine,p95,41,"[602, 996, 140, 205, 739, 690, 366, 766, 741, 843, 722, 830, 884, 26, 648, 820, 22, 69, 575, 172, 420, 705, 323, 314, 526, 494, 963, 546, 778, 288, 241, 718, 670, 763, 279, 401, 474, 603, 104, 619, 655]"
+GPQA_NOCHUNK,nemotron,large,50,correlation,p80,2,"[1, 257]"
+MMLU-Pro,e5,small,40,correlation,p90,3,"[5, 572, 765]"
+GPQA_CHUNKED,qwen4b,large,30,cosine,p10,1,[27]
+GPQA_NOCHUNK,nemotron,large,50,cosine,p50,1,[1]
+MMLU-Pro,qwen4b,large,50,cosine,p90,2,"[34, 464]"
+IFEval,gist,small,30,cosine,p95,8,"[359, 245, 323, 140, 430, 516, 494, 464]"
+MMLU-Pro,e5,small,50,cosine,p50,2,"[5, 624]"
+MMLU-Pro,qwen4b,large,40,cosine,p10,1,[9]
+GPQA,e5,small,50,cosine,p50,1,[429]
+IFEval,bge,small,30,correlation,p50,1,[359]
+MMLU-Pro,e5,small,30,euclidean,p50,2,"[5, 765]"
+IFEval_CHUNKED,qwen4b,large,10,correlation,p95,1,[227]
+GPQA_CHUNKED,qwen8b,large,30,correlation,p20,1,[27]
+IFEval_NOCHUNK,qwen4b,large,10,correlation,p90,1,[185]
+MMLU-Pro,bge,small,40,correlation,p80,3,"[26, 739, 884]"
+IFEval_CHUNKED,nemotron,large,40,euclidean,p20,1,[9]
+Omni-MATH_NOCHUNK,qwen8b,large,50,cosine,p95,2,"[1, 281]"
+GPQA_CHUNKED,qwen4b,large,30,euclidean,p10,1,[44]
+Omni-MATH,e5,small,20,cosine,p10,1,[10]
+Omni-MATH,bge,small,50,correlation,p95,5,"[134, 306, 552, 573, 0]"
+Omni-MATH,bge,small,10,euclidean,p50,2,"[1, 772]"
+IFEval,gist,small,40,correlation,p10,1,[69]
+GPQA_CHUNKED,qwen8b,large,20,euclidean,p20,1,[20]
+IFEval_NOCHUNK,qwen8b,large,30,cosine,p20,1,[1]
+IFEval,bge,small,30,correlation,p95,6,"[359, 222, 494, 185, 313, 364]"
+Omni-MATH_CHUNKED,nemotron,large,30,euclidean,p10,1,[19]
+IFEval_CHUNKED,qwen8b,large,30,cosine,p90,1,[19]
+IFEval,bge,small,10,euclidean,p95,5,"[359, 222, 494, 185, 364]"
+IFEval_CHUNKED,nemotron,large,30,correlation,p95,24,"[245, 530, 196, 407, 367, 393, 331, 342, 23, 93, 34, 257, 36, 250, 425, 186, 455, 180, 179, 510, 470, 481, 505, 100]"
+Omni-MATH_NOCHUNK,qwen4b,large,30,correlation,p20,1,[7]
+MMLU-Pro,gist,small,40,correlation,p80,5,"[140, 709, 799, 602, 830]"
+Omni-MATH,gist,small,50,cosine,p80,4,"[19, 610, 773, 921]"
+MMLU-Pro,qwen8b,large,40,cosine,p50,1,[829]
+Omni-MATH,e5,small,10,euclidean,p90,3,"[187, 895, 904]"
+MMLU-Pro,gist,small,20,correlation,p10,2,"[1, 798]"
+IFEval_NOCHUNK,qwen8b,large,50,euclidean,p50,1,[18]
+MMLU-Pro,nemotron,large,30,cosine,p80,1,[221]
+GPQA,e5,small,40,cosine,p95,24,"[106, 289, 229, 424, 429, 351, 51, 244, 257, 31, 295, 18, 234, 340, 65, 444, 235, 365, 71, 160, 423, 145, 417, 407]"
+Omni-MATH_CHUNKED,nemotron,large,20,correlation,p50,1,[900]
+GPQA_CHUNKED,nemotron,large,30,euclidean,p20,1,[16]
+IFEval_NOCHUNK,qwen8b,large,20,correlation,p90,1,[185]
+IFEval,gist,small,20,euclidean,p50,1,[359]
+IFEval_NOCHUNK,qwen4b,large,10,euclidean,p10,1,[1]
+MMLU-Pro,nemotron,large,10,correlation,p10,1,[2]
+MMLU-Pro,qwen4b,large,30,cosine,p20,1,[13]
+Omni-MATH_NOCHUNK,qwen8b,large,10,correlation,p95,2,"[1, 281]"
+IFEval,e5,small,40,euclidean,p10,1,[37]
+Omni-MATH_NOCHUNK,qwen4b,large,40,correlation,p20,1,[7]
+IFEval,bge,small,40,euclidean,p50,1,[359]
+GPQA_NOCHUNK,nemotron,large,40,correlation,p50,1,[1]
+IFEval_NOCHUNK,nemotron,large,20,correlation,p90,6,"[459, 316, 275, 517, 109, 185]"
+GPQA,e5,small,20,correlation,p10,1,[31]
+MMLU-Pro,e5,small,30,euclidean,p20,1,[5]
+GPQA,e5,small,50,cosine,p80,2,"[51, 106]"
+IFEval,bge,small,10,correlation,p10,1,[109]
+GPQA_NOCHUNK,nemotron,large,40,cosine,p50,1,[1]
+Omni-MATH_NOCHUNK,nemotron,large,50,correlation,p95,1,[906]
+GPQA_NOCHUNK,qwen8b,large,50,cosine,p20,1,[27]
+IFEval_CHUNKED,nemotron,large,30,cosine,p80,1,[245]
+Omni-MATH,e5,small,40,correlation,p80,2,"[3, 187]"
+IFEval_NOCHUNK,qwen4b,large,50,cosine,p10,1,[1]
+GPQA_CHUNKED,nemotron,large,50,euclidean,p95,1,[358]
+IFEval_NOCHUNK,qwen4b,large,50,correlation,p50,1,[19]
+IFEval,bge,small,40,correlation,p95,6,"[359, 222, 494, 185, 313, 364]"
+Omni-MATH,e5,small,20,cosine,p50,2,"[1, 657]"
+Omni-MATH,bge,small,50,cosine,p10,1,[19]
+MMLU-Pro,nemotron,large,20,correlation,p95,2,"[96, 739]"
+GPQA,bge,small,30,euclidean,p80,3,"[88, 286, 443]"
+Omni-MATH,bge,small,50,cosine,p95,5,"[134, 306, 552, 573, 0]"
+Omni-MATH_NOCHUNK,qwen4b,large,30,cosine,p90,2,"[24, 86]"
+IFEval_CHUNKED,nemotron,large,30,correlation,p20,1,[9]
+IFEval_NOCHUNK,nemotron,large,10,cosine,p80,3,"[6, 109, 312]"
+Omni-MATH_NOCHUNK,qwen8b,large,40,cosine,p10,1,[7]
+IFEval_NOCHUNK,qwen8b,large,40,cosine,p50,1,[19]
+MMLU-Pro,bge,small,40,cosine,p50,2,"[4, 902]"
+MMLU-Pro,e5,small,50,euclidean,p10,1,[5]
+GPQA_CHUNKED,qwen8b,large,20,euclidean,p80,1,[27]
+MMLU-Pro,e5,small,30,cosine,p50,2,"[5, 624]"
+IFEval,bge,small,50,correlation,p80,2,"[109, 359]"
+Omni-MATH_NOCHUNK,nemotron,large,30,cosine,p20,1,[10]
+Omni-MATH,e5,small,40,euclidean,p95,6,"[839, 498, 187, 157, 767, 839]"
+GPQA_NOCHUNK,qwen8b,large,10,correlation,p20,1,[27]
+IFEval,e5,small,20,correlation,p80,2,"[151, 494]"
+Omni-MATH,e5,small,50,correlation,p50,2,"[1, 657]"
+Omni-MATH_NOCHUNK,nemotron,large,40,cosine,p90,1,[906]
+Omni-MATH_CHUNKED,qwen8b,large,30,cosine,p20,1,[7]
+IFEval,e5,small,50,euclidean,p20,1,[185]
+IFEval_CHUNKED,qwen8b,large,10,correlation,p50,1,[19]
+IFEval_NOCHUNK,qwen8b,large,30,euclidean,p20,1,[1]
+GPQA,e5,small,10,cosine,p10,1,[31]
+IFEval_CHUNKED,nemotron,large,20,correlation,p50,1,[15]
+MMLU-Pro,qwen4b,large,30,correlation,p90,2,"[34, 464]"
+IFEval_NOCHUNK,qwen4b,large,40,cosine,p20,1,[1]
+MMLU-Pro,bge,small,10,correlation,p95,41,"[602, 996, 140, 205, 739, 690, 366, 766, 741, 843, 722, 830, 884, 26, 648, 820, 22, 69, 575, 172, 420, 705, 323, 314, 526, 494, 963, 546, 778, 288, 241, 718, 670, 763, 279, 401, 474, 603, 104, 619, 655]"
+Omni-MATH,bge,small,20,cosine,p10,1,[19]
+GPQA_NOCHUNK,nemotron,large,40,correlation,p10,1,[1]
+IFEval_NOCHUNK,qwen4b,large,10,cosine,p10,1,[1]
+IFEval,bge,small,50,cosine,p90,3,"[222, 494, 196]"
+IFEval_NOCHUNK,qwen4b,large,20,cosine,p95,1,[227]
+GPQA,e5,small,30,cosine,p20,1,[429]
+GPQA_NOCHUNK,qwen4b,large,10,correlation,p20,1,[122]
+Omni-MATH_NOCHUNK,qwen8b,large,20,cosine,p50,1,[59]
+IFEval_NOCHUNK,qwen8b,large,50,cosine,p10,1,[1]
+IFEval_CHUNKED,qwen4b,large,30,cosine,p50,1,[19]
+Omni-MATH_CHUNKED,qwen4b,large,10,correlation,p95,7,"[24, 296, 648, 809, 276, 512, 811]"
+GPQA_NOCHUNK,nemotron,large,40,euclidean,p80,2,"[257, 404]"
+GPQA,bge,small,40,euclidean,p10,1,[17]
+MMLU-Pro,qwen4b,large,20,cosine,p10,1,[9]
+GPQA,e5,small,50,correlation,p50,1,[429]
+Omni-MATH,e5,small,50,correlation,p20,1,[136]
+IFEval_CHUNKED,nemotron,large,50,correlation,p20,1,[9]
+IFEval,bge,small,30,correlation,p20,1,[109]
+GPQA,bge,small,20,correlation,p50,2,"[1, 443]"
+Omni-MATH_CHUNKED,qwen4b,large,40,cosine,p50,1,[149]
+IFEval_CHUNKED,qwen8b,large,30,euclidean,p80,1,[19]
+IFEval_NOCHUNK,qwen4b,large,40,cosine,p80,1,[185]
+Omni-MATH_CHUNKED,qwen4b,large,30,euclidean,p95,2,"[5, 24]"
+MMLU-Pro,e5,small,50,euclidean,p80,2,"[71, 765]"
+GPQA,gist,small,50,cosine,p10,1,[44]
+GPQA_NOCHUNK,nemotron,large,10,euclidean,p10,1,[1]
+GPQA_CHUNKED,qwen4b,large,30,cosine,p20,1,[182]
+Omni-MATH_CHUNKED,qwen8b,large,20,cosine,p20,1,[7]
+GPQA_NOCHUNK,nemotron,large,10,euclidean,p90,2,"[412, 257]"
+Omni-MATH_NOCHUNK,qwen8b,large,40,euclidean,p90,1,[281]
+IFEval,bge,small,40,correlation,p10,1,[109]
+IFEval_NOCHUNK,qwen4b,large,20,euclidean,p90,1,[185]
+MMLU-Pro,nemotron,large,20,euclidean,p80,1,[221]
+MMLU-Pro,nemotron,large,10,euclidean,p20,1,[8]
+Omni-MATH_NOCHUNK,qwen4b,large,40,correlation,p90,2,"[24, 86]"
+Omni-MATH,e5,small,40,cosine,p90,3,"[137, 187, 904]"
+IFEval_CHUNKED,nemotron,large,10,euclidean,p80,1,[245]
+IFEval_NOCHUNK,nemotron,large,50,cosine,p10,1,[53]
+MMLU-Pro,bge,small,20,correlation,p95,41,"[602, 996, 140, 205, 739, 690, 366, 766, 741, 843, 722, 830, 884, 26, 648, 820, 22, 69, 575, 172, 420, 705, 323, 314, 526, 494, 963, 546, 778, 288, 241, 718, 670, 763, 279, 401, 474, 603, 104, 619, 655]"
+GPQA,bge,small,40,correlation,p90,10,"[286, 443, 289, 41, 370, 228, 56, 268, 31, 143]"
+Omni-MATH_NOCHUNK,qwen4b,large,50,euclidean,p20,1,[7]
+GPQA_NOCHUNK,qwen8b,large,40,euclidean,p20,1,[20]
+IFEval_NOCHUNK,qwen4b,large,40,cosine,p50,1,[19]
+IFEval_CHUNKED,qwen8b,large,40,correlation,p10,1,[1]
+IFEval_NOCHUNK,qwen4b,large,20,cosine,p10,1,[1]
+Omni-MATH_CHUNKED,qwen8b,large,20,cosine,p95,2,"[1, 281]"
+Omni-MATH,gist,small,40,cosine,p20,2,"[1, 460]"
+GPQA_NOCHUNK,nemotron,large,40,cosine,p95,21,"[257, 320, 196, 1, 412, 435, 425, 114, 308, 219, 290, 15, 402, 278, 324, 398, 98, 300, 251, 84, 42]"
+Omni-MATH_CHUNKED,nemotron,large,50,correlation,p90,4,"[900, 568, 29, 314]"
+IFEval_CHUNKED,nemotron,large,20,euclidean,p95,14,"[245, 530, 196, 34, 425, 331, 23, 36, 180, 250, 407, 122, 510, 470]"
+MMLU-Pro,qwen8b,large,40,cosine,p90,2,"[626, 620]"
+IFEval,gist,small,30,cosine,p80,2,"[20, 359]"
+MMLU-Pro,qwen8b,large,10,euclidean,p90,1,[460]
+MMLU-Pro,gist,small,30,euclidean,p50,2,"[602, 759]"
+IFEval_CHUNKED,nemotron,large,40,cosine,p20,1,[9]
+IFEval_CHUNKED,qwen8b,large,30,correlation,p90,1,[19]
+MMLU-Pro,nemotron,large,10,cosine,p95,2,"[96, 739]"
+MMLU-Pro,qwen4b,large,30,correlation,p10,1,[9]
+GPQA,bge,small,50,euclidean,p20,1,[214]
+MMLU-Pro,e5,small,10,cosine,p90,3,"[64, 572, 765]"
+IFEval_CHUNKED,qwen4b,large,50,euclidean,p10,1,[1]
+IFEval_NOCHUNK,nemotron,large,50,euclidean,p10,1,[53]
+GPQA_NOCHUNK,qwen4b,large,30,euclidean,p20,1,[45]
+MMLU-Pro,bge,small,40,correlation,p50,2,"[4, 902]"
+IFEval_NOCHUNK,qwen4b,large,10,euclidean,p50,1,[19]
+GPQA_CHUNKED,qwen4b,large,40,euclidean,p10,1,[44]
+IFEval_NOCHUNK,qwen4b,large,40,correlation,p10,1,[1]
+Omni-MATH,gist,small,30,euclidean,p95,20,"[68, 19, 427, 422, 319, 773, 136, 921, 583, 922, 431, 925, 0, 0, 481, 0, 66534896, 32637, 66534896, 32637]"
+GPQA_CHUNKED,nemotron,large,50,correlation,p95,1,[358]
+GPQA_CHUNKED,nemotron,large,50,cosine,p90,1,[358]
+Omni-MATH_CHUNKED,nemotron,large,10,euclidean,p10,1,[19]
+GPQA,e5,small,40,euclidean,p50,1,[429]
+Omni-MATH,gist,small,50,cosine,p50,2,"[11, 773]"
+IFEval,e5,small,30,cosine,p95,2,"[494, 359]"
+Omni-MATH,gist,small,20,correlation,p10,1,[696]
+IFEval_NOCHUNK,nemotron,large,40,cosine,p50,2,"[1, 109]"
+IFEval_CHUNKED,qwen8b,large,50,cosine,p90,1,[19]
+Omni-MATH,gist,small,30,cosine,p95,22,"[12, 68, 157, 346, 449, 553, 580, 789, 0, 0, 4017, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"
+MMLU-Pro,qwen8b,large,20,correlation,p90,2,"[626, 620]"
+MMLU-Pro,nemotron,large,50,cosine,p20,1,[8]
+IFEval,bge,small,10,correlation,p95,6,"[359, 222, 494, 185, 313, 364]"
+IFEval_NOCHUNK,qwen8b,large,50,cosine,p20,1,[1]
+MMLU-Pro,e5,small,20,cosine,p20,1,[5]
+Omni-MATH_NOCHUNK,nemotron,large,50,correlation,p50,1,[46]
+GPQA_NOCHUNK,nemotron,large,30,cosine,p50,1,[1]
+GPQA_CHUNKED,qwen4b,large,40,correlation,p20,1,[182]
+GPQA_NOCHUNK,qwen8b,large,30,euclidean,p10,1,[4]
+Omni-MATH,gist,small,20,euclidean,p50,2,"[11, 773]"
+MMLU-Pro,e5,small,10,cosine,p10,1,[5]
+IFEval_CHUNKED,qwen4b,large,20,euclidean,p95,2,"[7, 227]"
+Omni-MATH_NOCHUNK,nemotron,large,40,cosine,p50,1,[46]
+Omni-MATH,bge,small,20,cosine,p95,5,"[134, 306, 552, 573, 0]"
+IFEval_CHUNKED,qwen4b,large,40,cosine,p80,1,[185]
+Omni-MATH_NOCHUNK,qwen8b,large,30,euclidean,p50,1,[33]
+Omni-MATH,gist,small,50,correlation,p80,4,"[19, 610, 773, 921]"
+IFEval,gist,small,30,correlation,p90,3,"[245, 311, 359]"
+MMLU-Pro,qwen4b,large,20,correlation,p80,2,"[8, 829]"
+IFEval_NOCHUNK,qwen8b,large,50,correlation,p90,1,[185]
+Omni-MATH_CHUNKED,qwen4b,large,40,correlation,p80,2,"[15, 24]"
+Omni-MATH_CHUNKED,qwen4b,large,30,cosine,p50,1,[149]
+MMLU-Pro,qwen8b,large,20,correlation,p10,1,[9]
+GPQA,gist,small,40,euclidean,p10,1,[44]
+Omni-MATH,bge,small,50,cosine,p80,2,"[12, 772]"
+GPQA_CHUNKED,nemotron,large,10,euclidean,p10,1,[15]
+IFEval_CHUNKED,qwen8b,large,40,euclidean,p95,1,[19]
+MMLU-Pro,qwen4b,large,30,euclidean,p80,2,"[705, 842]"
+IFEval_NOCHUNK,qwen8b,large,20,euclidean,p10,1,[1]
+IFEval,e5,small,40,euclidean,p20,1,[185]
+Omni-MATH,e5,small,30,cosine,p50,2,"[1, 657]"
+Omni-MATH_NOCHUNK,qwen8b,large,30,cosine,p90,1,[281]
+GPQA_NOCHUNK,qwen8b,large,20,cosine,p20,1,[27]
+MMLU-Pro,bge,small,30,euclidean,p20,1,[696]
+MMLU-Pro,qwen8b,large,40,correlation,p95,2,"[620, 626]"
+MMLU-Pro,e5,small,30,correlation,p90,3,"[5, 572, 765]"
+Omni-MATH_CHUNKED,qwen4b,large,40,euclidean,p10,1,[7]
+Omni-MATH_NOCHUNK,qwen8b,large,10,cosine,p10,1,[7]
+Omni-MATH,gist,small,40,cosine,p10,1,[696]
+IFEval,bge,small,40,cosine,p80,2,"[109, 359]"
+GPQA_NOCHUNK,qwen8b,large,10,correlation,p50,1,[27]
+IFEval_CHUNKED,qwen4b,large,20,cosine,p20,1,[1]
+MMLU-Pro,gist,small,10,cosine,p90,15,"[140, 335, 766, 423, 709, 745, 602, 563, 128, 963, 750, 0, 0, 0, 1873]"
+MMLU-Pro,qwen4b,large,10,euclidean,p90,2,"[13, 705]"
+IFEval,gist,small,40,cosine,p50,2,"[121, 359]"
+IFEval_NOCHUNK,nemotron,large,50,cosine,p80,3,"[6, 109, 312]"
+Omni-MATH,bge,small,20,euclidean,p90,2,"[12, 772]"
+Omni-MATH_CHUNKED,qwen4b,large,10,euclidean,p50,1,[71]
+GPQA_NOCHUNK,qwen8b,large,40,cosine,p95,1,[343]
+Omni-MATH_NOCHUNK,nemotron,large,20,cosine,p80,1,[149]
+GPQA,e5,small,50,correlation,p20,1,[429]
+IFEval_CHUNKED,qwen8b,large,20,cosine,p50,1,[19]
+Omni-MATH,e5,small,40,correlation,p10,1,[10]
+IFEval_CHUNKED,qwen8b,large,10,correlation,p95,1,[185]
+MMLU-Pro,e5,small,50,correlation,p80,2,"[71, 765]"
+Omni-MATH_CHUNKED,nemotron,large,30,cosine,p10,1,[19]
+GPQA_NOCHUNK,qwen8b,large,30,cosine,p80,1,[27]
+MMLU-Pro,qwen4b,large,10,correlation,p20,1,[13]
+GPQA,e5,small,10,cosine,p20,1,[429]
+GPQA,e5,small,50,cosine,p10,1,[31]
+IFEval_CHUNKED,qwen8b,large,40,cosine,p20,1,[1]
+Omni-MATH,gist,small,30,euclidean,p80,3,"[295, 583, 773]"
+MMLU-Pro,bge,small,50,euclidean,p80,3,"[26, 739, 884]"
+GPQA_CHUNKED,qwen8b,large,30,cosine,p80,1,[27]
+GPQA_CHUNKED,qwen8b,large,20,correlation,p10,1,[27]
+IFEval_NOCHUNK,qwen8b,large,50,cosine,p80,1,[19]
+GPQA_CHUNKED,nemotron,large,50,cosine,p80,1,[358]
+Omni-MATH_CHUNKED,qwen4b,large,20,cosine,p95,7,"[24, 296, 648, 512, 811, 809, 276]"
+Omni-MATH_NOCHUNK,qwen4b,large,30,correlation,p90,2,"[24, 86]"
+MMLU-Pro,qwen4b,large,50,euclidean,p90,2,"[13, 705]"
+IFEval_NOCHUNK,qwen4b,large,30,correlation,p50,1,[19]
+GPQA_CHUNKED,qwen4b,large,50,correlation,p80,2,"[1, 343]"
+IFEval,e5,small,10,correlation,p10,1,[37]
+GPQA_CHUNKED,qwen8b,large,10,correlation,p80,1,[27]
+GPQA_CHUNKED,qwen8b,large,40,cosine,p95,2,"[1, 343]"
+GPQA,bge,small,20,correlation,p80,3,"[87, 286, 443]"
+MMLU-Pro,qwen8b,large,30,cosine,p90,2,"[626, 620]"
+MMLU-Pro,nemotron,large,40,cosine,p10,1,[2]
+GPQA_NOCHUNK,nemotron,large,20,correlation,p20,1,[1]
+GPQA_CHUNKED,qwen8b,large,20,cosine,p90,1,[343]
+Omni-MATH,bge,small,40,euclidean,p10,1,[19]
+IFEval_NOCHUNK,qwen8b,large,20,cosine,p10,1,[1]
+MMLU-Pro,bge,small,40,cosine,p20,1,[696]
+MMLU-Pro,gist,small,40,cosine,p90,15,"[140, 602, 709, 766, 563, 777, 1, 423, 128, 335, 750, 0, 0, 0, 1873]"
+MMLU-Pro,bge,small,20,cosine,p20,1,[696]
+MMLU-Pro,gist,small,50,correlation,p95,52,"[602, 140, 506, 545, 709, 996, 798, 799, 651, 1, 274, 841, 458, 745, 900, 730, 342, 334, 643, 907, 927, 874, 492, 194, 464, 702, 667, 756, 670, 893, 660, 588, 655, 216, 433, 603, 401, 109, 375, 40, 43, 279, 564, 288, 966, 486, 254, 521, 346, 211, 423, 981]"
+GPQA_NOCHUNK,qwen4b,large,40,cosine,p50,2,"[201, 301]"
+Omni-MATH_CHUNKED,qwen4b,large,40,correlation,p10,1,[7]
+GPQA_NOCHUNK,nemotron,large,10,correlation,p80,2,"[1, 257]"
+Omni-MATH,e5,small,50,euclidean,p80,2,"[3, 187]"
+Omni-MATH,e5,small,30,euclidean,p80,2,"[3, 187]"
+Omni-MATH_NOCHUNK,qwen4b,large,40,correlation,p80,2,"[15, 24]"
+GPQA_NOCHUNK,nemotron,large,40,correlation,p90,2,"[257, 412]"
+GPQA_CHUNKED,qwen8b,large,40,correlation,p50,1,[27]
+Omni-MATH_CHUNKED,nemotron,large,40,euclidean,p95,7,"[900, 961, 568, 29, 381, 962, 314]"
+GPQA_CHUNKED,qwen4b,large,30,cosine,p80,2,"[1, 343]"
+Omni-MATH_NOCHUNK,qwen4b,large,30,euclidean,p95,2,"[5, 24]"
+Omni-MATH_CHUNKED,qwen4b,large,10,correlation,p90,2,"[24, 86]"
+IFEval_NOCHUNK,qwen8b,large,30,euclidean,p50,1,[18]
+IFEval_NOCHUNK,nemotron,large,40,euclidean,p20,1,[109]
+IFEval_CHUNKED,nemotron,large,30,cosine,p50,1,[15]
+MMLU-Pro,qwen8b,large,10,cosine,p10,1,[9]
+GPQA_NOCHUNK,qwen8b,large,50,correlation,p10,1,[27]
+GPQA,gist,small,20,cosine,p90,14,"[379, 426, 286, 87, 182, 53, 82, 156, 27, 204, 202, 170, 244, 280]"
+GPQA_CHUNKED,qwen4b,large,40,correlation,p10,1,[27]
+IFEval_NOCHUNK,qwen4b,large,30,cosine,p50,1,[19]
+Omni-MATH,e5,small,30,correlation,p80,2,"[3, 187]"
+GPQA_NOCHUNK,qwen4b,large,50,correlation,p10,1,[27]
+MMLU-Pro,gist,small,10,correlation,p90,15,"[140, 335, 766, 423, 709, 745, 602, 563, 128, 963, 750, 0, 0, 0, 1873]"
+GPQA_CHUNKED,qwen4b,large,50,correlation,p20,1,[182]
+IFEval_CHUNKED,qwen8b,large,10,euclidean,p10,1,[1]
+MMLU-Pro,gist,small,50,cosine,p20,2,"[1, 798]"
+GPQA,gist,small,20,euclidean,p10,1,[44]
+MMLU-Pro,bge,small,50,correlation,p90,7,"[884, 602, 366, 575, 648, 884, 49]"
+IFEval,gist,small,40,euclidean,p95,6,"[17, 140, 245, 323, 0, 0]"
+IFEval_NOCHUNK,qwen4b,large,20,correlation,p95,1,[227]
+IFEval_CHUNKED,nemotron,large,30,cosine,p10,1,[5]
+Omni-MATH_NOCHUNK,qwen8b,large,10,correlation,p50,1,[59]
+GPQA_NOCHUNK,nemotron,large,10,correlation,p95,21,"[257, 320, 196, 1, 412, 435, 425, 114, 308, 219, 290, 15, 402, 278, 324, 398, 98, 300, 251, 84, 42]"
+MMLU-Pro,bge,small,30,correlation,p50,2,"[4, 902]"
+GPQA_NOCHUNK,qwen8b,large,30,euclidean,p80,1,[27]
+Omni-MATH_CHUNKED,qwen8b,large,50,correlation,p10,1,[7]
+GPQA_NOCHUNK,qwen8b,large,50,euclidean,p10,1,[4]
+MMLU-Pro,nemotron,large,20,correlation,p90,1,[739]
+IFEval,e5,small,30,euclidean,p20,1,[185]
+IFEval,bge,small,30,correlation,p90,3,"[109, 359, 494]"
+IFEval_NOCHUNK,qwen8b,large,40,correlation,p10,1,[1]
+GPQA_NOCHUNK,qwen8b,large,20,correlation,p90,1,[27]
+MMLU-Pro,e5,small,10,cosine,p95,6,"[572, 830, 728, 0, 0, 0]"
+GPQA_CHUNKED,qwen8b,large,50,correlation,p90,1,[343]
+Omni-MATH_NOCHUNK,qwen4b,large,40,cosine,p10,1,[7]
+Omni-MATH_CHUNKED,nemotron,large,30,euclidean,p80,2,"[900, 568]"
+IFEval,bge,small,10,correlation,p20,1,[109]
+GPQA,gist,small,40,euclidean,p80,4,"[9, 87, 282, 0]"
+Omni-MATH_NOCHUNK,qwen4b,large,20,euclidean,p50,1,[71]
+GPQA_CHUNKED,nemotron,large,40,cosine,p90,1,[358]
+GPQA_NOCHUNK,qwen8b,large,50,correlation,p50,1,[27]
+GPQA,gist,small,10,euclidean,p90,10,"[9, 31, 53, 87, 113, 379, 2033, 0, 1380008192, 32694]"
+Omni-MATH_CHUNKED,qwen4b,large,30,cosine,p20,1,[7]
+MMLU-Pro,e5,small,30,cosine,p90,3,"[64, 572, 765]"
+GPQA,bge,small,50,correlation,p20,1,[214]
+Omni-MATH_CHUNKED,qwen8b,large,40,cosine,p95,2,"[1, 281]"
+IFEval_CHUNKED,nemotron,large,10,euclidean,p20,1,[9]
+GPQA,e5,small,40,correlation,p90,6,"[18, 51, 56, 351, 424, 0]"
+GPQA_NOCHUNK,qwen8b,large,40,correlation,p50,1,[27]
+MMLU-Pro,qwen4b,large,10,cosine,p95,38,"[464, 93, 709, 620, 536, 313, 481, 257, 197, 426, 487, 489, 541, 177, 692, 889, 179, 378, 17, 497, 760, 725, 66, 628, 152, 75, 41, 808, 614, 223, 779, 452, 875, 923, 732, 98, 920, 919]"
+Omni-MATH_NOCHUNK,qwen8b,large,50,correlation,p20,1,[7]
+GPQA_CHUNKED,nemotron,large,30,euclidean,p95,1,[358]
+IFEval_CHUNKED,nemotron,large,10,cosine,p80,1,[245]
+IFEval_CHUNKED,qwen8b,large,30,euclidean,p90,1,[19]
+Omni-MATH_CHUNKED,qwen8b,large,20,euclidean,p80,1,[281]
+IFEval_NOCHUNK,qwen4b,large,10,cosine,p95,1,[227]
+GPQA_NOCHUNK,nemotron,large,50,correlation,p95,21,"[257, 320, 196, 1, 412, 435, 425, 114, 308, 219, 290, 15, 402, 278, 324, 398, 98, 300, 251, 84, 42]"
+Omni-MATH_NOCHUNK,nemotron,large,40,cosine,p80,1,[149]
+Omni-MATH_CHUNKED,qwen4b,large,10,cosine,p90,2,"[24, 86]"
+Omni-MATH_CHUNKED,nemotron,large,50,cosine,p80,2,"[900, 854]"
+MMLU-Pro,gist,small,20,euclidean,p95,47,"[140, 602, 924, 709, 545, 799, 486, 689, 342, 274, 408, 841, 745, 643, 46, 927, 635, 42, 447, 65, 260, 744, 109, 40, 603, 359, 588, 34, 92, 433, 375, 86, 451, 660, 756, 464, 279, 798, 867, 506, 367, 651, 33, 249, 282, 492, 335]"
+MMLU-Pro,gist,small,20,euclidean,p10,2,"[1, 798]"
+IFEval,bge,small,40,correlation,p50,1,[359]
+Omni-MATH,e5,small,50,cosine,p95,6,"[187, 551, 157, 904, 839, 657]"
+IFEval_CHUNKED,qwen8b,large,20,euclidean,p90,1,[19]
+GPQA,e5,small,10,cosine,p95,24,"[106, 289, 229, 424, 429, 351, 51, 244, 257, 31, 295, 18, 234, 340, 65, 444, 235, 365, 71, 160, 423, 145, 417, 407]"
+Omni-MATH_NOCHUNK,qwen8b,large,40,euclidean,p80,1,[281]
+IFEval_CHUNKED,qwen8b,large,40,euclidean,p20,1,[1]
+GPQA,e5,small,30,cosine,p90,6,"[18, 51, 56, 351, 424, 0]"
+Omni-MATH_NOCHUNK,nemotron,large,10,cosine,p80,1,[149]
+IFEval,bge,small,10,euclidean,p20,1,[109]
+GPQA_NOCHUNK,qwen4b,large,10,euclidean,p90,2,"[4, 201]"
+GPQA_NOCHUNK,qwen8b,large,10,euclidean,p50,1,[27]
+MMLU-Pro,e5,small,20,euclidean,p95,5,"[23, 765, 905, 996, 38482480]"
+Omni-MATH_NOCHUNK,nemotron,large,10,cosine,p95,1,[906]
+Omni-MATH_CHUNKED,qwen8b,large,50,cosine,p95,2,"[1, 281]"
+GPQA_NOCHUNK,qwen8b,large,10,euclidean,p80,1,[27]
+IFEval_NOCHUNK,qwen4b,large,40,euclidean,p50,1,[19]
+GPQA,bge,small,30,euclidean,p90,7,"[215, 228, 268, 0, 0, 0, 33]"
+IFEval,gist,small,50,correlation,p50,2,"[121, 359]"
+Omni-MATH,e5,small,40,cosine,p50,2,"[1, 657]"
+GPQA_CHUNKED,nemotron,large,40,cosine,p80,1,[358]
+GPQA,bge,small,30,correlation,p20,1,[214]
+Omni-MATH,gist,small,40,correlation,p50,2,"[11, 773]"
+Omni-MATH_NOCHUNK,nemotron,large,10,correlation,p10,1,[10]
+GPQA_CHUNKED,nemotron,large,50,cosine,p95,1,[358]
+Omni-MATH_CHUNKED,qwen8b,large,10,cosine,p20,1,[7]
+IFEval_CHUNKED,qwen8b,large,10,euclidean,p90,1,[19]
+MMLU-Pro,qwen4b,large,50,euclidean,p10,1,[4]
+Omni-MATH_NOCHUNK,qwen4b,large,20,correlation,p90,2,"[24, 86]"
+GPQA,gist,small,20,cosine,p10,1,[44]
+IFEval_CHUNKED,qwen8b,large,50,cosine,p50,1,[19]
+GPQA_NOCHUNK,nemotron,large,10,euclidean,p20,1,[1]
+GPQA,gist,small,20,correlation,p80,4,"[34, 87, 282, 0]"
+Omni-MATH_NOCHUNK,qwen4b,large,10,cosine,p90,2,"[24, 86]"
+MMLU-Pro,e5,small,10,correlation,p10,1,[5]
+MMLU-Pro,bge,small,20,cosine,p95,41,"[602, 996, 140, 205, 739, 690, 366, 766, 741, 843, 722, 830, 884, 26, 648, 820, 22, 69, 575, 172, 420, 705, 323, 314, 526, 494, 963, 546, 778, 288, 241, 718, 670, 763, 279, 401, 474, 603, 104, 619, 655]"
+GPQA_NOCHUNK,nemotron,large,10,correlation,p50,1,[1]
+MMLU-Pro,e5,small,50,correlation,p90,3,"[5, 572, 765]"
+Omni-MATH_CHUNKED,qwen4b,large,30,cosine,p90,2,"[24, 86]"
+IFEval,e5,small,10,euclidean,p20,1,[185]
+GPQA_CHUNKED,nemotron,large,10,cosine,p10,1,[15]
+IFEval_CHUNKED,qwen8b,large,20,cosine,p90,1,[19]
+IFEval_NOCHUNK,qwen8b,large,30,cosine,p80,1,[19]
+IFEval_NOCHUNK,qwen4b,large,10,euclidean,p95,2,"[7, 227]"
+GPQA,gist,small,30,correlation,p10,1,[44]
+MMLU-Pro,gist,small,20,cosine,p50,2,"[1, 709]"
+MMLU-Pro,nemotron,large,40,correlation,p95,2,"[96, 739]"
+IFEval_CHUNKED,qwen8b,large,10,cosine,p95,1,[185]
+GPQA,e5,small,10,euclidean,p20,1,[424]
+GPQA,gist,small,40,euclidean,p50,2,"[102, 286]"
+IFEval_CHUNKED,qwen4b,large,30,euclidean,p20,1,[19]
+IFEval_NOCHUNK,qwen4b,large,10,cosine,p20,1,[1]
+MMLU-Pro,bge,small,40,euclidean,p10,1,[22]
+MMLU-Pro,nemotron,large,10,euclidean,p80,1,[221]
+GPQA,e5,small,40,cosine,p80,2,"[51, 106]"
+IFEval,e5,small,30,correlation,p20,1,[185]
+MMLU-Pro,qwen4b,large,40,cosine,p80,2,"[8, 829]"
+Omni-MATH_CHUNKED,qwen4b,large,50,correlation,p50,1,[149]
+IFEval,bge,small,30,euclidean,p80,2,"[109, 359]"
+GPQA_CHUNKED,nemotron,large,10,cosine,p20,1,[16]
+GPQA_NOCHUNK,qwen8b,large,10,correlation,p95,1,[343]
+GPQA,e5,small,40,cosine,p20,1,[429]
+IFEval,gist,small,40,cosine,p90,3,"[245, 311, 359]"
+GPQA,gist,small,30,euclidean,p50,2,"[102, 286]"
+IFEval_NOCHUNK,qwen8b,large,50,euclidean,p10,1,[1]
+Omni-MATH_CHUNKED,qwen8b,large,20,euclidean,p50,1,[33]
+IFEval,bge,small,30,correlation,p10,1,[109]
+IFEval_CHUNKED,qwen4b,large,20,euclidean,p80,1,[19]
+MMLU-Pro,bge,small,40,euclidean,p50,2,"[4, 902]"
+GPQA_CHUNKED,qwen4b,large,40,cosine,p90,2,"[1, 343]"
+Omni-MATH,gist,small,10,euclidean,p50,2,"[11, 773]"
+IFEval,gist,small,50,euclidean,p20,1,[245]
+Omni-MATH,e5,small,40,correlation,p90,3,"[137, 187, 904]"
+IFEval,e5,small,10,correlation,p20,1,[185]
+GPQA_NOCHUNK,qwen4b,large,40,euclidean,p95,2,"[4, 27]"
+IFEval,e5,small,30,cosine,p20,1,[185]
+MMLU-Pro,qwen8b,large,30,cosine,p20,1,[276]
+Omni-MATH_NOCHUNK,qwen4b,large,30,cosine,p80,2,"[15, 24]"
+Omni-MATH,bge,small,20,correlation,p90,3,"[134, 306, 772]"
+MMLU-Pro,qwen4b,large,30,cosine,p50,2,"[46, 829]"
+IFEval_NOCHUNK,nemotron,large,20,correlation,p80,3,"[6, 109, 312]"
+IFEval,bge,small,20,cosine,p95,6,"[359, 222, 494, 185, 313, 364]"
+IFEval_CHUNKED,qwen8b,large,30,correlation,p50,1,[19]
+Omni-MATH_CHUNKED,nemotron,large,50,cosine,p10,1,[19]
+MMLU-Pro,qwen8b,large,50,cosine,p20,1,[276]
+GPQA_CHUNKED,qwen4b,large,30,euclidean,p90,2,"[4, 201]"
+GPQA,bge,small,30,cosine,p10,1,[17]
+IFEval_CHUNKED,qwen8b,large,10,cosine,p10,1,[1]
+Omni-MATH_NOCHUNK,nemotron,large,50,cosine,p95,1,[906]
+MMLU-Pro,nemotron,large,20,correlation,p20,1,[8]
+IFEval_CHUNKED,qwen8b,large,50,euclidean,p10,1,[1]
+MMLU-Pro,gist,small,50,euclidean,p50,2,"[602, 759]"
+Omni-MATH,e5,small,10,euclidean,p80,2,"[3, 187]"
+GPQA_NOCHUNK,qwen4b,large,10,cosine,p20,1,[122]
+GPQA,gist,small,40,correlation,p20,2,"[2, 31]"
+GPQA_CHUNKED,qwen8b,large,40,cosine,p10,1,[27]
+GPQA_NOCHUNK,nemotron,large,50,euclidean,p50,1,[1]
+Omni-MATH_NOCHUNK,nemotron,large,10,correlation,p95,1,[906]
+MMLU-Pro,qwen8b,large,40,euclidean,p80,1,[185]
+MMLU-Pro,e5,small,50,correlation,p10,1,[5]
+IFEval_CHUNKED,qwen8b,large,40,correlation,p50,1,[19]
+GPQA_NOCHUNK,qwen4b,large,50,euclidean,p50,1,[201]
+Omni-MATH_NOCHUNK,nemotron,large,10,euclidean,p95,1,[906]
+IFEval_NOCHUNK,qwen4b,large,50,cosine,p90,1,[185]
+IFEval_CHUNKED,qwen4b,large,20,cosine,p95,1,[227]
+Omni-MATH_NOCHUNK,nemotron,large,20,euclidean,p10,1,[10]
+MMLU-Pro,qwen8b,large,30,euclidean,p95,2,"[460, 626]"
+MMLU-Pro,nemotron,large,10,correlation,p90,1,[739]
+MMLU-Pro,qwen4b,large,50,cosine,p50,2,"[46, 829]"
+IFEval_NOCHUNK,qwen4b,large,30,euclidean,p80,1,[19]
+MMLU-Pro,qwen4b,large,10,correlation,p95,40,"[464, 93, 709, 620, 487, 197, 452, 489, 481, 152, 497, 541, 536, 378, 313, 875, 66, 808, 41, 75, 889, 893, 779, 78, 760, 179, 177, 223, 732, 725, 919, 920, 923, 98, 692, 257, 17, 628, 426, 614]"
+IFEval_CHUNKED,qwen4b,large,10,correlation,p10,1,[1]
+GPQA_NOCHUNK,qwen4b,large,30,cosine,p10,1,[27]
+GPQA,gist,small,10,euclidean,p80,4,"[9, 87, 282, 0]"
+MMLU-Pro,gist,small,30,correlation,p20,2,"[1, 798]"
+IFEval_CHUNKED,qwen4b,large,20,correlation,p80,1,[185]
+Omni-MATH_NOCHUNK,qwen4b,large,40,euclidean,p90,2,"[5, 24]"
+MMLU-Pro,bge,small,10,euclidean,p95,30,"[602, 996, 739, 205, 843, 366, 722, 797, 26, 478, 884, 830, 820, 37, 373, 538, 39, 131, 582, 963, 763, 401, 104, 655, 670, 241, 109, 526, 546, 902]"
+MMLU-Pro,bge,small,50,euclidean,p50,2,"[4, 902]"
+IFEval_CHUNKED,qwen4b,large,10,euclidean,p95,2,"[7, 227]"
+MMLU-Pro,gist,small,20,correlation,p80,5,"[140, 799, 506, 602, 58]"
+GPQA_CHUNKED,qwen4b,large,30,correlation,p90,2,"[1, 343]"
+Omni-MATH_CHUNKED,qwen4b,large,50,correlation,p10,1,[7]
+MMLU-Pro,e5,small,30,euclidean,p90,2,"[572, 765]"
+MMLU-Pro,qwen4b,large,40,correlation,p20,1,[13]
+GPQA_CHUNKED,nemotron,large,30,correlation,p95,1,[358]
+IFEval_CHUNKED,nemotron,large,20,cosine,p95,24,"[245, 530, 196, 407, 367, 393, 331, 342, 23, 93, 34, 257, 36, 250, 425, 186, 455, 180, 179, 510, 470, 481, 505, 100]"
+IFEval,e5,small,40,cosine,p20,1,[185]
+MMLU-Pro,e5,small,40,euclidean,p90,2,"[572, 765]"
+IFEval_NOCHUNK,qwen4b,large,20,correlation,p20,1,[1]
+MMLU-Pro,nemotron,large,50,correlation,p90,1,[739]
+GPQA_CHUNKED,qwen4b,large,50,cosine,p50,2,"[201, 301]"
+IFEval,e5,small,10,correlation,p90,2,"[10, 494]"
+Omni-MATH_NOCHUNK,qwen8b,large,40,correlation,p80,1,[281]
+IFEval_NOCHUNK,qwen8b,large,10,euclidean,p20,1,[1]
+MMLU-Pro,e5,small,40,cosine,p50,2,"[5, 624]"
+GPQA,e5,small,10,correlation,p50,1,[429]
+MMLU-Pro,qwen4b,large,20,euclidean,p90,2,"[13, 705]"
+MMLU-Pro,bge,small,30,cosine,p80,3,"[26, 739, 884]"
+IFEval_CHUNKED,nemotron,large,40,correlation,p10,1,[5]
+MMLU-Pro,nemotron,large,50,cosine,p80,1,[221]
+GPQA_NOCHUNK,nemotron,large,50,correlation,p90,2,"[257, 412]"
+MMLU-Pro,bge,small,40,euclidean,p90,7,"[602, 884, 722, 766, 575, 884, 49]"
+Omni-MATH,gist,small,20,correlation,p20,2,"[1, 460]"
+IFEval_NOCHUNK,qwen4b,large,30,euclidean,p50,1,[19]
+GPQA,bge,small,20,cosine,p90,10,"[286, 443, 289, 41, 370, 228, 56, 268, 31, 143]"
+IFEval,e5,small,10,cosine,p10,1,[37]
+Omni-MATH_CHUNKED,qwen4b,large,30,cosine,p80,2,"[15, 24]"
+IFEval,e5,small,50,cosine,p10,1,[37]
+MMLU-Pro,e5,small,50,correlation,p20,1,[5]
+GPQA_CHUNKED,qwen4b,large,40,euclidean,p90,2,"[4, 201]"
+IFEval_NOCHUNK,qwen4b,large,50,correlation,p95,1,[227]
+IFEval,bge,small,50,correlation,p20,1,[109]
+GPQA_NOCHUNK,nemotron,large,30,euclidean,p80,2,"[257, 404]"
+MMLU-Pro,gist,small,50,cosine,p90,15,"[140, 423, 1, 128, 602, 766, 709, 563, 335, 588, 750, 0, 0, 0, 1873]"
+GPQA_NOCHUNK,nemotron,large,40,cosine,p10,1,[1]
+GPQA,gist,small,30,euclidean,p95,31,"[379, 286, 299, 170, 426, 282, 87, 196, 362, 9, 228, 296, 153, 300, 383, 53, 374, 156, 174, 122, 442, 115, 138, 375, 250, 370, 202, 27, 99, 329, 204]"
+GPQA_CHUNKED,qwen8b,large,50,euclidean,p50,1,[27]
+GPQA_CHUNKED,qwen8b,large,50,correlation,p95,2,"[1, 343]"
+IFEval_NOCHUNK,qwen8b,large,10,correlation,p95,1,[185]
+IFEval,gist,small,50,euclidean,p90,3,"[245, 282, 359]"
+GPQA_CHUNKED,qwen4b,large,30,cosine,p90,2,"[1, 343]"
+IFEval_NOCHUNK,qwen4b,large,10,correlation,p20,1,[1]
+IFEval,bge,small,30,euclidean,p50,1,[359]
+MMLU-Pro,gist,small,10,correlation,p80,5,"[140, 799, 506, 602, 58]"
+GPQA_CHUNKED,qwen4b,large,40,euclidean,p50,1,[85]
+GPQA,e5,small,10,euclidean,p95,20,"[106, 289, 229, 429, 424, 351, 51, 257, 295, 18, 235, 234, 145, 417, 160, 340, 65, 365, 444, 31]"
+IFEval_NOCHUNK,qwen8b,large,50,correlation,p50,1,[19]
+GPQA_NOCHUNK,qwen4b,large,50,cosine,p90,2,"[1, 27]"
+MMLU-Pro,gist,small,40,euclidean,p80,5,"[140, 423, 545, 799, 0]"
+GPQA,bge,small,10,euclidean,p10,1,[17]
+MMLU-Pro,gist,small,30,euclidean,p20,2,"[1, 798]"
+Omni-MATH,bge,small,10,correlation,p10,1,[19]
+GPQA,e5,small,30,correlation,p10,1,[31]
+GPQA_NOCHUNK,nemotron,large,20,euclidean,p20,1,[1]
+Omni-MATH_NOCHUNK,nemotron,large,30,correlation,p80,1,[149]
+IFEval,e5,small,40,euclidean,p90,2,"[44, 494]"
+Omni-MATH,gist,small,10,correlation,p50,2,"[11, 773]"
+Omni-MATH_NOCHUNK,qwen8b,large,40,correlation,p90,1,[281]
+MMLU-Pro,bge,small,30,euclidean,p80,3,"[26, 739, 884]"
+IFEval_CHUNKED,nemotron,large,30,euclidean,p95,14,"[245, 530, 196, 34, 425, 331, 23, 36, 180, 250, 407, 122, 510, 470]"
+Omni-MATH_CHUNKED,nemotron,large,30,euclidean,p95,7,"[900, 961, 568, 29, 381, 962, 314]"
+Omni-MATH_CHUNKED,nemotron,large,40,correlation,p10,1,[19]
+GPQA,gist,small,30,euclidean,p20,2,"[2, 31]"
+Omni-MATH_CHUNKED,nemotron,large,40,cosine,p20,1,[32]
+Omni-MATH,bge,small,30,correlation,p80,2,"[12, 772]"
+IFEval_CHUNKED,qwen4b,large,10,cosine,p95,1,[227]
+GPQA_CHUNKED,nemotron,large,20,euclidean,p90,1,[358]
+IFEval_CHUNKED,qwen4b,large,40,euclidean,p10,1,[1]
+GPQA_NOCHUNK,qwen8b,large,30,correlation,p95,1,[343]
+IFEval,e5,small,10,correlation,p95,2,"[494, 359]"
+MMLU-Pro,e5,small,20,cosine,p50,2,"[5, 624]"
+MMLU-Pro,gist,small,40,correlation,p50,2,"[651, 996]"
+Omni-MATH_NOCHUNK,nemotron,large,10,euclidean,p20,1,[10]
+Omni-MATH,bge,small,50,correlation,p80,2,"[12, 772]"
+IFEval_NOCHUNK,qwen4b,large,40,correlation,p90,1,[185]
+Omni-MATH_CHUNKED,qwen8b,large,40,correlation,p50,1,[59]
+Omni-MATH,e5,small,50,correlation,p10,1,[10]
+IFEval,gist,small,10,correlation,p10,1,[69]
+MMLU-Pro,gist,small,40,cosine,p10,2,"[1, 798]"
+IFEval,bge,small,50,cosine,p95,6,"[359, 222, 494, 185, 313, 364]"
+Omni-MATH,bge,small,30,correlation,p90,3,"[134, 306, 772]"
+IFEval_NOCHUNK,nemotron,large,10,correlation,p80,3,"[6, 109, 312]"
+GPQA,e5,small,20,euclidean,p20,1,[424]
+Omni-MATH,gist,small,40,euclidean,p80,3,"[295, 583, 773]"
+Omni-MATH,bge,small,20,euclidean,p10,1,[19]
+MMLU-Pro,qwen8b,large,10,cosine,p80,2,"[2, 626]"
+IFEval_CHUNKED,qwen4b,large,40,euclidean,p80,1,[19]
+MMLU-Pro,bge,small,50,cosine,p90,7,"[884, 602, 366, 575, 648, 884, 49]"
+GPQA_NOCHUNK,qwen4b,large,10,cosine,p90,2,"[1, 27]"
+GPQA_NOCHUNK,qwen4b,large,40,cosine,p90,2,"[1, 27]"
+MMLU-Pro,qwen8b,large,10,euclidean,p95,2,"[460, 626]"
+Omni-MATH_CHUNKED,qwen8b,large,50,correlation,p20,1,[7]
+IFEval_NOCHUNK,qwen8b,large,40,euclidean,p10,1,[1]
+Omni-MATH,e5,small,20,correlation,p20,1,[136]
+GPQA_CHUNKED,nemotron,large,40,euclidean,p80,1,[358]
+GPQA,gist,small,40,euclidean,p95,31,"[379, 286, 299, 170, 426, 282, 87, 196, 362, 9, 228, 296, 153, 300, 383, 53, 374, 156, 174, 122, 442, 115, 138, 375, 250, 370, 202, 27, 99, 329, 204]"
+Omni-MATH_NOCHUNK,qwen4b,large,20,euclidean,p20,1,[7]
+Omni-MATH_CHUNKED,nemotron,large,10,cosine,p10,1,[19]
+MMLU-Pro,e5,small,20,correlation,p80,2,"[71, 765]"
+IFEval_CHUNKED,qwen4b,large,50,cosine,p20,1,[1]
+IFEval,bge,small,10,euclidean,p80,2,"[109, 359]"
+Omni-MATH,bge,small,20,correlation,p20,1,[19]
+GPQA_CHUNKED,nemotron,large,20,euclidean,p80,1,[358]
+Omni-MATH,e5,small,40,cosine,p95,6,"[187, 551, 157, 904, 839, 657]"
+IFEval_NOCHUNK,qwen4b,large,30,cosine,p95,1,[227]
+MMLU-Pro,qwen8b,large,30,correlation,p10,1,[9]
+GPQA_CHUNKED,qwen4b,large,50,correlation,p90,2,"[1, 343]"
+Omni-MATH_CHUNKED,qwen4b,large,10,euclidean,p10,1,[7]
+MMLU-Pro,qwen4b,large,20,euclidean,p95,2,"[13, 705]"
+Omni-MATH,e5,small,40,euclidean,p50,2,"[64, 498]"
+IFEval_CHUNKED,qwen4b,large,50,cosine,p50,1,[19]
+Omni-MATH_NOCHUNK,qwen8b,large,30,cosine,p80,1,[281]
+IFEval_NOCHUNK,qwen8b,large,10,euclidean,p10,1,[1]
+IFEval_NOCHUNK,nemotron,large,40,euclidean,p10,1,[53]
+Omni-MATH_NOCHUNK,nemotron,large,40,euclidean,p20,1,[10]
+MMLU-Pro,gist,small,10,euclidean,p10,2,"[1, 798]"
+GPQA_NOCHUNK,nemotron,large,40,correlation,p95,21,"[257, 320, 196, 1, 412, 435, 425, 114, 308, 219, 290, 15, 402, 278, 324, 398, 98, 300, 251, 84, 42]"
+Omni-MATH,e5,small,30,cosine,p20,1,[136]
+IFEval_CHUNKED,qwen4b,large,30,correlation,p50,1,[19]
+MMLU-Pro,gist,small,10,euclidean,p50,2,"[602, 759]"
+IFEval_CHUNKED,qwen4b,large,50,correlation,p90,1,[227]
+GPQA,e5,small,20,correlation,p50,1,[429]
+IFEval_NOCHUNK,nemotron,large,40,correlation,p95,14,"[109, 185, 312, 212, 424, 280, 459, 517, 316, 362, 349, 403, 78, 462]"
+IFEval,e5,small,50,correlation,p50,1,[359]
+GPQA_NOCHUNK,qwen4b,large,50,euclidean,p20,1,[45]
+MMLU-Pro,nemotron,large,50,correlation,p50,1,[8]
+GPQA_CHUNKED,qwen4b,large,50,cosine,p90,2,"[1, 343]"
+IFEval,e5,small,30,euclidean,p95,2,"[494, 359]"
+IFEval_NOCHUNK,nemotron,large,30,correlation,p50,2,"[1, 109]"
+IFEval,bge,small,10,euclidean,p50,1,[359]
+IFEval,gist,small,30,correlation,p20,1,[245]
+GPQA,gist,small,50,correlation,p90,14,"[379, 426, 286, 87, 182, 53, 82, 156, 27, 204, 202, 170, 244, 280]"
+MMLU-Pro,qwen4b,large,10,cosine,p50,2,"[46, 829]"
+GPQA_CHUNKED,qwen4b,large,10,cosine,p10,1,[27]
+GPQA_NOCHUNK,nemotron,large,20,cosine,p10,1,[1]
+MMLU-Pro,gist,small,50,cosine,p10,2,"[1, 798]"
+GPQA_NOCHUNK,nemotron,large,30,cosine,p95,21,"[257, 320, 196, 1, 412, 435, 425, 114, 308, 219, 290, 15, 402, 278, 324, 398, 98, 300, 251, 84, 42]"
+IFEval_NOCHUNK,qwen4b,large,20,cosine,p90,1,[185]
+Omni-MATH,gist,small,40,euclidean,p10,1,[121]
+GPQA_NOCHUNK,qwen8b,large,40,cosine,p90,1,[27]
+MMLU-Pro,qwen8b,large,30,euclidean,p80,1,[185]
+Omni-MATH_NOCHUNK,qwen8b,large,30,euclidean,p20,1,[7]
+IFEval,bge,small,10,cosine,p10,1,[109]
+GPQA_CHUNKED,qwen4b,large,20,correlation,p50,2,"[201, 301]"
+Omni-MATH_CHUNKED,qwen8b,large,20,correlation,p80,1,[281]
+MMLU-Pro,gist,small,10,correlation,p50,2,"[651, 996]"
+MMLU-Pro,gist,small,50,correlation,p90,15,"[140, 423, 1, 128, 602, 766, 709, 563, 335, 588, 750, 0, 0, 0, 1873]"
+IFEval_CHUNKED,nemotron,large,40,cosine,p90,2,"[2, 245]"
+IFEval,e5,small,40,cosine,p95,2,"[494, 359]"
+MMLU-Pro,e5,small,50,euclidean,p50,2,"[5, 765]"
+GPQA_NOCHUNK,nemotron,large,30,correlation,p50,1,[1]
+GPQA,gist,small,30,cosine,p20,2,"[2, 31]"
+GPQA,e5,small,10,cosine,p50,1,[429]
+MMLU-Pro,nemotron,large,10,cosine,p90,1,[739]
+MMLU-Pro,nemotron,large,30,euclidean,p10,1,[2]
+Omni-MATH_NOCHUNK,nemotron,large,20,correlation,p20,1,[10]
+MMLU-Pro,bge,small,10,correlation,p10,1,[22]
+IFEval_NOCHUNK,qwen4b,large,30,euclidean,p20,1,[19]
+MMLU-Pro,qwen8b,large,10,euclidean,p80,1,[185]
+IFEval_CHUNKED,qwen8b,large,30,cosine,p20,1,[1]
+IFEval_CHUNKED,qwen4b,large,50,cosine,p10,1,[1]
+GPQA,e5,small,20,cosine,p90,6,"[18, 51, 56, 351, 424, 0]"
+IFEval,bge,small,10,cosine,p95,6,"[359, 222, 494, 185, 313, 364]"
+GPQA,bge,small,50,correlation,p90,10,"[286, 443, 289, 41, 370, 228, 56, 268, 31, 143]"
+Omni-MATH,e5,small,40,correlation,p20,1,[136]
+Omni-MATH,e5,small,50,cosine,p90,3,"[137, 187, 904]"
+MMLU-Pro,e5,small,40,cosine,p80,2,"[71, 765]"
+MMLU-Pro,bge,small,30,correlation,p80,3,"[26, 739, 884]"
+GPQA,e5,small,20,correlation,p80,2,"[51, 106]"
+MMLU-Pro,nemotron,large,40,euclidean,p10,1,[2]
+GPQA_CHUNKED,nemotron,large,30,cosine,p20,1,[16]
+IFEval,gist,small,50,cosine,p50,2,"[121, 359]"
+GPQA_NOCHUNK,nemotron,large,30,euclidean,p90,2,"[412, 257]"
+MMLU-Pro,qwen8b,large,40,correlation,p50,1,[829]
+IFEval_CHUNKED,qwen8b,large,40,cosine,p10,1,[1]
+MMLU-Pro,bge,small,40,cosine,p80,3,"[26, 739, 884]"
+IFEval_CHUNKED,qwen8b,large,40,correlation,p80,1,[19]
+GPQA_NOCHUNK,qwen8b,large,20,euclidean,p20,1,[20]
+MMLU-Pro,qwen8b,large,10,cosine,p20,1,[276]
+IFEval_NOCHUNK,nemotron,large,20,correlation,p50,2,"[1, 109]"
+GPQA_NOCHUNK,qwen4b,large,20,cosine,p95,2,"[1, 343]"
+IFEval,gist,small,30,correlation,p10,1,[69]
+MMLU-Pro,qwen4b,large,30,cosine,p10,1,[9]
+GPQA_CHUNKED,qwen4b,large,10,euclidean,p95,2,"[4, 343]"
+IFEval_NOCHUNK,qwen8b,large,30,cosine,p90,1,[185]
+GPQA_CHUNKED,nemotron,large,50,cosine,p20,1,[16]
+IFEval_NOCHUNK,nemotron,large,20,euclidean,p95,13,"[109, 185, 212, 312, 424, 280, 459, 517, 316, 6, 349, 462, 78]"
+Omni-MATH_CHUNKED,nemotron,large,30,correlation,p90,4,"[900, 568, 29, 314]"
+MMLU-Pro,qwen4b,large,50,correlation,p80,2,"[8, 829]"
+MMLU-Pro,qwen4b,large,20,euclidean,p10,1,[4]
+MMLU-Pro,bge,small,30,cosine,p90,7,"[766, 884, 602, 575, 213, 884, 49]"
+MMLU-Pro,nemotron,large,30,cosine,p50,1,[8]
+MMLU-Pro,bge,small,50,cosine,p95,41,"[602, 996, 140, 205, 739, 690, 366, 766, 741, 843, 722, 830, 884, 26, 648, 820, 22, 69, 575, 172, 420, 705, 323, 314, 526, 494, 963, 546, 778, 288, 241, 718, 670, 763, 279, 401, 474, 603, 104, 619, 655]"
+IFEval_NOCHUNK,qwen4b,large,20,correlation,p50,1,[19]
+MMLU-Pro,qwen4b,large,20,cosine,p20,1,[13]
+IFEval,e5,small,20,cosine,p10,1,[37]
+IFEval_NOCHUNK,qwen4b,large,10,cosine,p90,1,[185]
+IFEval_CHUNKED,nemotron,large,40,correlation,p95,24,"[245, 530, 196, 407, 367, 393, 331, 342, 23, 93, 34, 257, 36, 250, 425, 186, 455, 180, 179, 510, 470, 481, 505, 100]"
+IFEval_NOCHUNK,nemotron,large,20,cosine,p80,3,"[6, 109, 312]"
+GPQA,bge,small,30,euclidean,p95,38,"[286, 56, 443, 384, 428, 268, 95, 289, 31, 55, 153, 228, 133, 94, 298, 433, 79, 325, 329, 58, 41, 370, 37, 97, 308, 291, 427, 277, 167, 176, 194, 408, 216, 274, 417, 264, 226, 237]"
+Omni-MATH_NOCHUNK,qwen4b,large,50,cosine,p95,2,"[296, 648]"
+MMLU-Pro,bge,small,40,correlation,p90,7,"[884, 602, 366, 575, 648, 884, 49]"
+IFEval_CHUNKED,nemotron,large,20,cosine,p20,1,[9]
+GPQA_NOCHUNK,qwen4b,large,20,correlation,p20,1,[122]
+GPQA,gist,small,50,correlation,p10,1,[44]
+IFEval_CHUNKED,qwen4b,large,40,correlation,p10,1,[1]
+MMLU-Pro,nemotron,large,20,cosine,p95,2,"[96, 739]"
+GPQA_NOCHUNK,qwen8b,large,20,euclidean,p95,2,"[1, 27]"
+IFEval,bge,small,40,cosine,p20,1,[109]
+MMLU-Pro,qwen4b,large,40,euclidean,p80,2,"[705, 842]"
+Omni-MATH_CHUNKED,nemotron,large,40,euclidean,p10,1,[19]
+IFEval,gist,small,10,euclidean,p90,3,"[245, 282, 359]"
+MMLU-Pro,qwen8b,large,50,cosine,p10,1,[9]
+GPQA_CHUNKED,qwen4b,large,50,euclidean,p95,2,"[4, 343]"
+Omni-MATH_CHUNKED,qwen4b,large,10,euclidean,p20,1,[7]
+GPQA_CHUNKED,nemotron,large,40,correlation,p20,1,[16]
+GPQA,bge,small,30,euclidean,p50,2,"[1, 443]"
+Omni-MATH_CHUNKED,qwen4b,large,30,cosine,p10,1,[7]
+GPQA_NOCHUNK,nemotron,large,50,euclidean,p90,2,"[412, 257]"
+IFEval_CHUNKED,qwen8b,large,10,cosine,p50,1,[19]
+GPQA,bge,small,40,euclidean,p90,7,"[215, 228, 268, 0, 0, 0, 33]"
+MMLU-Pro,qwen8b,large,30,cosine,p50,1,[829]
+IFEval,e5,small,30,correlation,p90,2,"[10, 494]"
+GPQA,e5,small,30,cosine,p50,1,[429]
+GPQA_CHUNKED,qwen4b,large,50,euclidean,p50,1,[85]
+GPQA,gist,small,20,correlation,p50,2,"[11, 362]"
+MMLU-Pro,qwen4b,large,50,correlation,p20,1,[13]
+GPQA_CHUNKED,qwen4b,large,40,cosine,p80,2,"[1, 343]"
+IFEval_CHUNKED,qwen8b,large,20,correlation,p90,1,[19]
+GPQA,gist,small,20,cosine,p50,2,"[11, 362]"
+Omni-MATH,bge,small,20,cosine,p90,3,"[134, 306, 772]"
+MMLU-Pro,e5,small,10,correlation,p20,1,[5]
+IFEval_NOCHUNK,nemotron,large,20,cosine,p20,1,[109]
+Omni-MATH_CHUNKED,qwen8b,large,10,cosine,p50,1,[59]
+IFEval,gist,small,20,cosine,p50,2,"[121, 359]"
+Omni-MATH_NOCHUNK,qwen4b,large,10,cosine,p80,2,"[15, 24]"
+IFEval_NOCHUNK,qwen8b,large,10,correlation,p50,1,[19]
+Omni-MATH,gist,small,20,euclidean,p95,20,"[422, 19, 68, 921, 136, 427, 319, 583, 773, 922, 431, 925, 0, 0, 481, 0, 362947088, 32668, 362947088, 32668]"
+GPQA_NOCHUNK,qwen8b,large,20,euclidean,p80,1,[27]
+GPQA_CHUNKED,qwen4b,large,40,correlation,p80,2,"[1, 343]"
+IFEval_CHUNKED,nemotron,large,40,euclidean,p10,1,[5]
+GPQA_CHUNKED,qwen8b,large,10,cosine,p95,2,"[1, 343]"
+IFEval_CHUNKED,nemotron,large,50,cosine,p90,2,"[2, 245]"
+Omni-MATH_NOCHUNK,nemotron,large,40,cosine,p20,1,[10]
+Omni-MATH_NOCHUNK,qwen8b,large,40,correlation,p20,1,[7]
+GPQA_CHUNKED,qwen4b,large,20,cosine,p10,1,[27]
+IFEval_CHUNKED,qwen8b,large,40,cosine,p80,1,[19]
+Omni-MATH_CHUNKED,qwen8b,large,30,correlation,p90,1,[281]
+IFEval_NOCHUNK,qwen4b,large,30,correlation,p90,1,[185]
+GPQA,gist,small,50,euclidean,p20,2,"[2, 31]"
+Omni-MATH,gist,small,20,cosine,p90,9,"[427, 19, 295, 297, 860, 583, 157, 790, 652]"
+IFEval_CHUNKED,qwen4b,large,40,correlation,p80,1,[185]
+IFEval,bge,small,20,correlation,p10,1,[109]
+Omni-MATH_CHUNKED,qwen4b,large,40,euclidean,p80,1,[149]
+GPQA,gist,small,30,correlation,p20,2,"[2, 31]"
+GPQA,gist,small,20,cosine,p80,4,"[34, 87, 282, 0]"
+IFEval_NOCHUNK,qwen8b,large,40,correlation,p95,1,[185]
+IFEval_CHUNKED,qwen4b,large,20,euclidean,p90,1,[185]
+GPQA_CHUNKED,qwen8b,large,30,cosine,p95,2,"[1, 343]"
+Omni-MATH,bge,small,40,cosine,p95,5,"[134, 306, 552, 573, 0]"
+GPQA,e5,small,30,correlation,p95,24,"[106, 289, 229, 424, 429, 351, 51, 244, 257, 31, 295, 18, 234, 340, 65, 444, 235, 365, 71, 160, 423, 145, 417, 407]"
+GPQA_NOCHUNK,qwen4b,large,20,cosine,p90,2,"[1, 27]"
+IFEval,bge,small,50,euclidean,p20,1,[109]
+Omni-MATH_NOCHUNK,qwen8b,large,10,euclidean,p95,1,[281]
+GPQA_NOCHUNK,qwen4b,large,10,euclidean,p50,1,[201]
+IFEval,bge,small,30,correlation,p80,2,"[109, 359]"
+GPQA_NOCHUNK,qwen4b,large,20,euclidean,p95,2,"[4, 27]"
+IFEval_NOCHUNK,qwen8b,large,30,cosine,p95,1,[185]
+MMLU-Pro,nemotron,large,50,euclidean,p10,1,[2]
+IFEval,gist,small,30,euclidean,p95,6,"[17, 140, 245, 323, 0, 0]"
+Omni-MATH_CHUNKED,nemotron,large,20,correlation,p10,1,[19]
+IFEval_NOCHUNK,qwen8b,large,30,euclidean,p80,1,[19]
+Omni-MATH_NOCHUNK,qwen8b,large,50,correlation,p80,1,[281]
+Omni-MATH_CHUNKED,qwen4b,large,40,cosine,p20,1,[7]
+GPQA,gist,small,50,cosine,p95,38,"[426, 379, 87, 286, 351, 296, 280, 282, 299, 9, 31, 443, 61, 170, 228, 53, 196, 303, 384, 214, 156, 421, 442, 174, 216, 7, 15, 435, 99, 202, 374, 370, 122, 27, 234, 204, 329, 230]"
+GPQA,bge,small,20,correlation,p10,1,[17]
+Omni-MATH,bge,small,50,cosine,p90,3,"[134, 306, 772]"
+IFEval,e5,small,40,correlation,p20,1,[185]
+Omni-MATH,gist,small,50,euclidean,p80,3,"[295, 583, 773]"
+MMLU-Pro,qwen8b,large,20,euclidean,p10,1,[4]
+GPQA,bge,small,50,euclidean,p80,3,"[88, 286, 443]"
+Omni-MATH_NOCHUNK,qwen8b,large,50,euclidean,p50,1,[33]
+Omni-MATH,bge,small,50,euclidean,p10,1,[19]
+IFEval_CHUNKED,qwen4b,large,50,correlation,p95,1,[227]
+MMLU-Pro,gist,small,50,euclidean,p20,2,"[1, 798]"
+GPQA_CHUNKED,nemotron,large,40,euclidean,p50,1,[56]
+IFEval,bge,small,30,cosine,p10,1,[109]
+Omni-MATH_CHUNKED,qwen8b,large,30,euclidean,p80,1,[281]
+GPQA_NOCHUNK,qwen8b,large,20,cosine,p90,1,[27]
+Omni-MATH,gist,small,10,correlation,p10,1,[696]
+Omni-MATH,e5,small,10,euclidean,p10,1,[10]
+IFEval_CHUNKED,qwen4b,large,40,correlation,p95,1,[227]
+GPQA_NOCHUNK,qwen4b,large,40,correlation,p95,2,"[1, 343]"
+Omni-MATH,bge,small,10,euclidean,p10,1,[19]
+GPQA_CHUNKED,qwen8b,large,20,euclidean,p50,1,[27]
+Omni-MATH_NOCHUNK,qwen4b,large,50,correlation,p10,1,[7]
+IFEval_NOCHUNK,qwen4b,large,20,correlation,p80,1,[185]
+IFEval_CHUNKED,qwen4b,large,20,euclidean,p20,1,[19]
+GPQA_NOCHUNK,qwen4b,large,40,correlation,p10,1,[27]
+GPQA_CHUNKED,nemotron,large,40,correlation,p90,1,[358]
+GPQA_NOCHUNK,qwen8b,large,40,correlation,p20,1,[27]
+GPQA_CHUNKED,qwen8b,large,50,euclidean,p90,1,[201]
+GPQA_CHUNKED,qwen8b,large,10,euclidean,p95,2,"[4, 201]"
+GPQA_CHUNKED,nemotron,large,50,correlation,p80,1,[358]
+IFEval,gist,small,30,euclidean,p20,1,[245]
+Omni-MATH_CHUNKED,qwen8b,large,10,correlation,p20,1,[7]
+Omni-MATH,e5,small,50,euclidean,p10,1,[10]
+Omni-MATH_CHUNKED,qwen8b,large,40,cosine,p80,1,[281]
+IFEval_CHUNKED,qwen8b,large,50,euclidean,p50,1,[18]
+MMLU-Pro,e5,small,20,correlation,p95,6,"[572, 830, 728, 0, 0, 0]"
+GPQA_CHUNKED,qwen8b,large,10,correlation,p90,1,[343]
+GPQA_CHUNKED,qwen4b,large,20,correlation,p10,1,[27]
+Omni-MATH_CHUNKED,qwen8b,large,30,correlation,p50,1,[59]
+MMLU-Pro,nemotron,large,40,correlation,p80,1,[221]
+MMLU-Pro,e5,small,10,cosine,p50,2,"[5, 624]"
+MMLU-Pro,e5,small,30,euclidean,p95,5,"[23, 765, 905, 996, 36344368]"
+Omni-MATH_NOCHUNK,qwen4b,large,20,correlation,p10,1,[7]
+GPQA_CHUNKED,nemotron,large,50,correlation,p50,1,[244]
+Omni-MATH_CHUNKED,qwen8b,large,30,euclidean,p20,1,[7]
+MMLU-Pro,gist,small,30,correlation,p80,5,"[140, 799, 506, 602, 58]"
+Omni-MATH_NOCHUNK,qwen8b,large,50,euclidean,p20,1,[7]
+GPQA_NOCHUNK,qwen4b,large,20,correlation,p80,2,"[27, 343]"
+GPQA_CHUNKED,qwen8b,large,20,euclidean,p95,2,"[4, 201]"
+GPQA,bge,small,10,euclidean,p80,3,"[88, 286, 443]"
+Omni-MATH,e5,small,20,euclidean,p10,1,[10]
+Omni-MATH_CHUNKED,qwen4b,large,40,euclidean,p50,1,[71]
+IFEval_CHUNKED,nemotron,large,10,cosine,p90,2,"[2, 245]"
+IFEval_NOCHUNK,nemotron,large,20,euclidean,p50,2,"[1, 109]"
+MMLU-Pro,e5,small,50,correlation,p95,6,"[572, 830, 728, 0, 0, 0]"
+MMLU-Pro,qwen8b,large,40,cosine,p95,2,"[620, 626]"
+Omni-MATH,gist,small,30,euclidean,p20,2,"[1, 460]"
+Omni-MATH_NOCHUNK,qwen8b,large,30,correlation,p80,1,[281]
+IFEval_CHUNKED,qwen4b,large,30,cosine,p20,1,[1]
+IFEval,e5,small,40,cosine,p90,2,"[10, 494]"
+IFEval_CHUNKED,nemotron,large,40,cosine,p95,24,"[245, 530, 196, 407, 367, 393, 331, 342, 23, 93, 34, 257, 36, 250, 425, 186, 455, 180, 179, 510, 470, 481, 505, 100]"
+Omni-MATH,bge,small,10,correlation,p80,2,"[12, 772]"
+Omni-MATH_NOCHUNK,qwen8b,large,20,correlation,p10,1,[7]
+IFEval_CHUNKED,qwen4b,large,40,euclidean,p50,1,[19]
+GPQA,gist,small,50,cosine,p20,2,"[2, 31]"
+MMLU-Pro,qwen4b,large,20,euclidean,p80,2,"[705, 842]"
+IFEval_NOCHUNK,nemotron,large,20,euclidean,p90,5,"[459, 109, 517, 185, 312]"
+Omni-MATH_CHUNKED,qwen8b,large,10,correlation,p80,1,[281]
+GPQA_CHUNKED,nemotron,large,10,correlation,p20,1,[16]
+IFEval_NOCHUNK,nemotron,large,40,cosine,p95,14,"[109, 185, 312, 212, 424, 280, 459, 517, 316, 362, 349, 403, 462, 78]"
+Omni-MATH_CHUNKED,qwen4b,large,50,cosine,p80,2,"[15, 24]"
+IFEval_CHUNKED,qwen8b,large,40,euclidean,p10,1,[1]
+Omni-MATH_NOCHUNK,qwen8b,large,40,correlation,p95,2,"[1, 281]"
+MMLU-Pro,gist,small,10,correlation,p10,2,"[1, 798]"
+GPQA_NOCHUNK,nemotron,large,20,cosine,p20,1,[1]
+Omni-MATH_NOCHUNK,nemotron,large,30,correlation,p95,1,[906]
+GPQA_NOCHUNK,qwen4b,large,40,correlation,p20,1,[122]
+Omni-MATH,bge,small,50,euclidean,p90,2,"[12, 772]"
+GPQA_CHUNKED,qwen4b,large,50,cosine,p80,2,"[1, 343]"
+Omni-MATH,e5,small,50,euclidean,p95,6,"[157, 839, 187, 498, 767, 839]"
+Omni-MATH_CHUNKED,qwen4b,large,20,correlation,p10,1,[7]
+Omni-MATH,gist,small,30,cosine,p80,4,"[19, 610, 773, 921]"
+MMLU-Pro,qwen4b,large,20,correlation,p50,2,"[46, 829]"
+Omni-MATH_CHUNKED,qwen4b,large,10,correlation,p80,2,"[15, 24]"
+MMLU-Pro,qwen4b,large,30,correlation,p95,40,"[464, 93, 709, 620, 487, 197, 452, 489, 481, 152, 497, 541, 536, 378, 313, 875, 66, 808, 41, 75, 889, 893, 779, 78, 760, 179, 177, 223, 732, 725, 919, 920, 923, 98, 692, 257, 17, 628, 426, 614]"
+Omni-MATH_NOCHUNK,nemotron,large,50,cosine,p50,1,[46]
+GPQA_NOCHUNK,qwen4b,large,30,cosine,p20,1,[122]
+GPQA_CHUNKED,nemotron,large,30,cosine,p50,1,[244]
+IFEval_CHUNKED,qwen4b,large,50,cosine,p95,1,[227]
+MMLU-Pro,qwen4b,large,50,correlation,p90,2,"[34, 464]"
+GPQA_CHUNKED,nemotron,large,30,correlation,p10,1,[15]
+MMLU-Pro,qwen4b,large,20,cosine,p50,2,"[46, 829]"
+Omni-MATH,bge,small,30,cosine,p20,1,[19]
+Omni-MATH_CHUNKED,qwen4b,large,50,cosine,p95,7,"[24, 296, 648, 512, 811, 809, 276]"
+MMLU-Pro,qwen8b,large,10,euclidean,p20,1,[13]
+Omni-MATH,gist,small,40,correlation,p10,1,[696]
+MMLU-Pro,e5,small,40,correlation,p95,6,"[572, 830, 728, 0, 0, 0]"
+MMLU-Pro,qwen4b,large,40,correlation,p10,1,[9]
+Omni-MATH_CHUNKED,nemotron,large,30,cosine,p50,1,[900]
+GPQA_CHUNKED,qwen8b,large,20,cosine,p80,1,[27]
+Omni-MATH,gist,small,40,euclidean,p95,20,"[422, 19, 319, 790, 427, 431, 921, 583, 773, 68, 922, 925, 0, 0, 481, 0, 1890243088, 32601, 1890243088, 32601]"
+IFEval_NOCHUNK,qwen8b,large,40,euclidean,p95,1,[19]
+GPQA_NOCHUNK,qwen4b,large,10,euclidean,p95,2,"[4, 27]"
+MMLU-Pro,qwen8b,large,30,euclidean,p10,1,[4]
+MMLU-Pro,e5,small,20,cosine,p10,1,[5]
+IFEval_CHUNKED,qwen8b,large,40,cosine,p95,1,[185]
+MMLU-Pro,e5,small,40,cosine,p20,1,[5]
+Omni-MATH_NOCHUNK,qwen8b,large,10,cosine,p50,1,[59]
+IFEval,e5,small,40,correlation,p10,1,[37]
+Omni-MATH,gist,small,50,euclidean,p10,1,[121]
+GPQA_CHUNKED,qwen8b,large,30,cosine,p90,1,[343]
+IFEval,gist,small,50,correlation,p20,1,[245]
+GPQA_NOCHUNK,qwen8b,large,50,correlation,p20,1,[27]
+IFEval_NOCHUNK,nemotron,large,10,euclidean,p80,2,"[6, 109]"
+IFEval_NOCHUNK,qwen8b,large,20,cosine,p95,1,[185]
+Omni-MATH_NOCHUNK,qwen4b,large,30,cosine,p50,1,[149]
+GPQA_NOCHUNK,qwen4b,large,20,cosine,p50,2,"[201, 301]"
+MMLU-Pro,e5,small,30,cosine,p10,1,[5]
+MMLU-Pro,qwen4b,large,40,cosine,p95,38,"[464, 93, 709, 620, 536, 313, 481, 257, 197, 426, 487, 489, 541, 177, 692, 889, 179, 378, 17, 497, 760, 725, 66, 628, 152, 75, 41, 808, 614, 223, 779, 452, 875, 923, 732, 98, 920, 919]"
+IFEval_CHUNKED,nemotron,large,30,euclidean,p80,1,[245]
+IFEval_NOCHUNK,qwen8b,large,50,correlation,p20,1,[1]
+GPQA,e5,small,20,euclidean,p95,20,"[106, 289, 229, 429, 424, 351, 51, 257, 295, 18, 235, 234, 145, 417, 160, 340, 65, 365, 444, 31]"
+Omni-MATH_NOCHUNK,qwen8b,large,50,euclidean,p80,1,[281]
+IFEval_CHUNKED,qwen4b,large,40,correlation,p90,1,[227]
+Omni-MATH,gist,small,10,correlation,p80,4,"[19, 610, 773, 921]"
+GPQA,bge,small,50,cosine,p95,37,"[286, 56, 443, 268, 95, 384, 44, 289, 244, 127, 153, 228, 55, 420, 298, 37, 216, 291, 307, 167, 370, 277, 433, 41, 329, 427, 58, 60, 122, 417, 264, 79, 99, 176, 97, 94, 408]"
+IFEval_CHUNKED,qwen4b,large,10,cosine,p10,1,[1]
+GPQA,bge,small,10,euclidean,p20,1,[214]
+IFEval_CHUNKED,nemotron,large,10,correlation,p90,2,"[2, 245]"
+IFEval_NOCHUNK,nemotron,large,30,cosine,p20,1,[109]
+GPQA,gist,small,50,correlation,p50,2,"[11, 362]"
+MMLU-Pro,qwen8b,large,50,euclidean,p20,1,[13]
+Omni-MATH_NOCHUNK,nemotron,large,50,euclidean,p10,1,[10]
+Omni-MATH_NOCHUNK,qwen8b,large,20,correlation,p95,2,"[1, 281]"
+MMLU-Pro,gist,small,30,correlation,p90,15,"[140, 563, 766, 1, 423, 602, 128, 709, 335, 745, 750, 0, 0, 0, 1873]"
+MMLU-Pro,nemotron,large,30,cosine,p20,1,[8]
+IFEval,bge,small,50,correlation,p95,6,"[359, 222, 494, 185, 313, 364]"
+IFEval,bge,small,20,euclidean,p95,5,"[359, 222, 494, 185, 364]"
+IFEval,e5,small,10,correlation,p80,2,"[151, 494]"
+MMLU-Pro,qwen8b,large,10,cosine,p90,2,"[626, 620]"
+GPQA,gist,small,40,cosine,p50,2,"[11, 362]"
+IFEval_NOCHUNK,qwen8b,large,10,cosine,p95,1,[185]
+GPQA,bge,small,30,correlation,p10,1,[17]
+Omni-MATH_NOCHUNK,qwen4b,large,10,euclidean,p20,1,[7]
+GPQA_CHUNKED,qwen4b,large,20,euclidean,p95,2,"[4, 343]"
+GPQA,bge,small,30,correlation,p90,10,"[286, 443, 289, 41, 370, 228, 56, 268, 31, 143]"
+IFEval_NOCHUNK,qwen8b,large,10,euclidean,p80,1,[19]
+GPQA_CHUNKED,qwen8b,large,30,cosine,p50,1,[27]
+Omni-MATH_NOCHUNK,qwen4b,large,20,cosine,p95,2,"[296, 648]"
+Omni-MATH,e5,small,20,correlation,p10,1,[10]
+GPQA_CHUNKED,qwen8b,large,10,correlation,p20,1,[27]
+IFEval_CHUNKED,nemotron,large,20,euclidean,p50,1,[15]
+Omni-MATH_NOCHUNK,nemotron,large,50,cosine,p20,1,[10]
+IFEval_CHUNKED,qwen8b,large,20,euclidean,p50,1,[18]
+Omni-MATH_CHUNKED,nemotron,large,20,euclidean,p80,2,"[900, 568]"
+IFEval_NOCHUNK,nemotron,large,10,cosine,p20,1,[109]
+GPQA_NOCHUNK,qwen4b,large,10,correlation,p90,2,"[1, 27]"
+MMLU-Pro,nemotron,large,30,correlation,p80,1,[221]
+IFEval_CHUNKED,nemotron,large,20,correlation,p10,1,[5]
+Omni-MATH_CHUNKED,qwen8b,large,50,correlation,p90,1,[281]
+GPQA_CHUNKED,nemotron,large,20,correlation,p20,1,[16]
+MMLU-Pro,nemotron,large,50,cosine,p95,2,"[96, 739]"
+Omni-MATH_NOCHUNK,nemotron,large,40,euclidean,p50,1,[46]
+Omni-MATH,bge,small,40,euclidean,p95,4,"[277, 306, 582, 0]"
+IFEval_NOCHUNK,qwen8b,large,40,cosine,p80,1,[19]
+GPQA_CHUNKED,nemotron,large,50,cosine,p10,1,[15]
+IFEval_CHUNKED,nemotron,large,10,euclidean,p10,1,[5]
+MMLU-Pro,gist,small,20,correlation,p20,2,"[1, 798]"
+GPQA_CHUNKED,qwen8b,large,30,correlation,p90,1,[343]
+MMLU-Pro,bge,small,10,correlation,p50,2,"[4, 902]"
+MMLU-Pro,gist,small,40,euclidean,p10,2,"[1, 798]"
+IFEval_CHUNKED,nemotron,large,30,euclidean,p50,1,[15]
+IFEval_NOCHUNK,qwen8b,large,40,correlation,p90,1,[185]
+GPQA_NOCHUNK,nemotron,large,10,correlation,p90,2,"[257, 412]"
+Omni-MATH_NOCHUNK,qwen8b,large,50,correlation,p90,1,[281]
+MMLU-Pro,bge,small,10,correlation,p80,3,"[26, 739, 884]"
+GPQA_CHUNKED,qwen4b,large,10,euclidean,p10,1,[44]
+IFEval_CHUNKED,qwen4b,large,30,correlation,p10,1,[1]
+GPQA_NOCHUNK,nemotron,large,10,cosine,p95,21,"[257, 320, 196, 1, 412, 435, 425, 114, 308, 219, 290, 15, 402, 278, 324, 398, 98, 300, 251, 84, 42]"
+Omni-MATH_CHUNKED,qwen4b,large,30,correlation,p95,7,"[24, 296, 648, 809, 276, 512, 811]"
+IFEval_NOCHUNK,nemotron,large,20,euclidean,p80,2,"[6, 109]"
+GPQA_CHUNKED,qwen4b,large,50,euclidean,p90,2,"[4, 201]"
+GPQA_NOCHUNK,nemotron,large,30,cosine,p90,2,"[257, 412]"
+GPQA_CHUNKED,qwen4b,large,20,euclidean,p50,1,[85]
+GPQA_NOCHUNK,qwen4b,large,30,correlation,p90,2,"[1, 27]"
+Omni-MATH,bge,small,20,cosine,p80,2,"[12, 772]"
+Omni-MATH,e5,small,10,correlation,p95,6,"[187, 551, 157, 904, 839, 657]"
+GPQA_NOCHUNK,qwen8b,large,10,euclidean,p10,1,[4]
+IFEval_NOCHUNK,qwen4b,large,40,euclidean,p20,1,[19]
+IFEval_CHUNKED,qwen4b,large,20,correlation,p95,1,[227]
+IFEval_NOCHUNK,qwen4b,large,20,euclidean,p80,1,[19]
+IFEval_NOCHUNK,qwen4b,large,40,euclidean,p10,1,[1]
+MMLU-Pro,bge,small,20,correlation,p50,2,"[4, 902]"
+GPQA_CHUNKED,qwen8b,large,30,correlation,p10,1,[27]
+MMLU-Pro,e5,small,20,cosine,p95,6,"[572, 830, 728, 0, 0, 0]"
+Omni-MATH,gist,small,30,correlation,p80,4,"[19, 610, 773, 921]"
+Omni-MATH_CHUNKED,qwen4b,large,30,correlation,p50,1,[149]
+GPQA_CHUNKED,qwen8b,large,10,cosine,p50,1,[27]
+Omni-MATH_NOCHUNK,qwen4b,large,40,cosine,p20,1,[7]
+GPQA,bge,small,30,euclidean,p20,1,[214]
+Omni-MATH,bge,small,30,euclidean,p90,2,"[12, 772]"
+Omni-MATH_NOCHUNK,nemotron,large,30,correlation,p10,1,[10]
+GPQA,bge,small,20,euclidean,p10,1,[17]
+MMLU-Pro,qwen4b,large,10,cosine,p80,2,"[8, 829]"
+MMLU-Pro,nemotron,large,50,euclidean,p80,1,[221]
+MMLU-Pro,qwen8b,large,10,euclidean,p10,1,[4]
+GPQA_NOCHUNK,nemotron,large,50,cosine,p10,1,[1]
+IFEval,gist,small,30,correlation,p80,2,"[20, 359]"
+Omni-MATH_NOCHUNK,qwen4b,large,50,cosine,p80,2,"[15, 24]"
+Omni-MATH_NOCHUNK,qwen4b,large,50,correlation,p50,1,[149]
+IFEval_CHUNKED,nemotron,large,50,euclidean,p90,2,"[2, 215]"
+MMLU-Pro,nemotron,large,10,euclidean,p95,2,"[96, 739]"
+Omni-MATH,e5,small,40,euclidean,p90,3,"[187, 895, 904]"
+IFEval,bge,small,50,euclidean,p90,3,"[109, 359, 494]"
+Omni-MATH_NOCHUNK,qwen8b,large,10,euclidean,p10,1,[7]
+Omni-MATH_CHUNKED,qwen4b,large,20,cosine,p10,1,[7]
+IFEval_CHUNKED,nemotron,large,10,correlation,p10,1,[5]
+IFEval_CHUNKED,qwen8b,large,40,euclidean,p80,1,[19]
+MMLU-Pro,qwen4b,large,10,correlation,p50,2,"[46, 829]"
+MMLU-Pro,qwen8b,large,10,correlation,p95,2,"[620, 626]"
+Omni-MATH,gist,small,30,cosine,p10,1,[696]
+GPQA_CHUNKED,qwen4b,large,20,cosine,p80,2,"[1, 343]"
+MMLU-Pro,nemotron,large,10,correlation,p20,1,[8]
+GPQA_CHUNKED,qwen4b,large,40,cosine,p10,1,[27]
+IFEval,e5,small,30,correlation,p80,2,"[151, 494]"
+GPQA_CHUNKED,qwen4b,large,10,cosine,p90,2,"[1, 343]"
+GPQA_CHUNKED,qwen8b,large,30,euclidean,p95,2,"[4, 201]"
+Omni-MATH,bge,small,30,euclidean,p10,1,[19]
+IFEval_NOCHUNK,nemotron,large,30,correlation,p10,1,[53]
+IFEval_NOCHUNK,nemotron,large,50,euclidean,p20,1,[109]
+Omni-MATH_CHUNKED,qwen8b,large,10,correlation,p95,2,"[1, 281]"
+MMLU-Pro,qwen8b,large,50,cosine,p90,2,"[626, 620]"
+MMLU-Pro,qwen4b,large,20,correlation,p10,1,[9]
+Omni-MATH_CHUNKED,qwen8b,large,20,cosine,p90,1,[281]
+MMLU-Pro,nemotron,large,50,correlation,p80,1,[221]
+MMLU-Pro,nemotron,large,40,cosine,p20,1,[8]
+MMLU-Pro,bge,small,30,euclidean,p90,7,"[602, 766, 884, 722, 575, 884, 49]"
+IFEval_NOCHUNK,qwen8b,large,20,correlation,p95,1,[185]
+Omni-MATH_NOCHUNK,qwen4b,large,10,euclidean,p95,2,"[5, 24]"
+Omni-MATH_NOCHUNK,nemotron,large,40,correlation,p80,1,[149]
+IFEval_CHUNKED,nemotron,large,20,correlation,p20,1,[9]
+Omni-MATH,e5,small,50,euclidean,p50,2,"[64, 498]"
+GPQA,bge,small,50,cosine,p20,1,[214]
+GPQA_NOCHUNK,nemotron,large,30,correlation,p10,1,[1]
+IFEval_CHUNKED,nemotron,large,40,correlation,p20,1,[9]
+GPQA,gist,small,40,euclidean,p20,2,"[2, 31]"
+GPQA_NOCHUNK,qwen8b,large,30,euclidean,p20,1,[20]
+Omni-MATH_CHUNKED,qwen4b,large,20,euclidean,p50,1,[71]
+MMLU-Pro,nemotron,large,40,correlation,p50,1,[8]
+GPQA_CHUNKED,qwen4b,large,30,cosine,p95,2,"[27, 177]"
+GPQA_NOCHUNK,qwen8b,large,40,euclidean,p95,2,"[1, 27]"
+GPQA_CHUNKED,nemotron,large,50,euclidean,p50,1,[56]
+GPQA,bge,small,50,euclidean,p50,2,"[1, 443]"
+Omni-MATH,bge,small,40,correlation,p95,5,"[134, 306, 552, 573, 0]"
+GPQA_NOCHUNK,qwen4b,large,20,correlation,p95,2,"[1, 343]"
+IFEval_NOCHUNK,nemotron,large,20,cosine,p90,6,"[459, 316, 462, 517, 109, 185]"
+GPQA,bge,small,50,euclidean,p90,7,"[215, 228, 268, 0, 0, 0, 33]"
+IFEval_CHUNKED,qwen4b,large,40,cosine,p20,1,[1]
+GPQA_CHUNKED,nemotron,large,20,cosine,p95,1,[358]
+Omni-MATH_CHUNKED,nemotron,large,20,cosine,p20,1,[32]
+IFEval_CHUNKED,qwen4b,large,20,cosine,p50,1,[19]
+Omni-MATH_NOCHUNK,nemotron,large,40,correlation,p95,1,[906]
+Omni-MATH_CHUNKED,qwen8b,large,50,correlation,p95,2,"[1, 281]"
+GPQA_CHUNKED,qwen4b,large,20,euclidean,p80,2,"[193, 201]"
+IFEval_NOCHUNK,qwen4b,large,50,euclidean,p90,1,[185]
+MMLU-Pro,bge,small,10,euclidean,p80,3,"[26, 739, 884]"
+Omni-MATH_CHUNKED,qwen8b,large,50,cosine,p10,1,[7]
+Omni-MATH,gist,small,20,euclidean,p20,2,"[1, 460]"
+Omni-MATH_NOCHUNK,qwen4b,large,20,euclidean,p90,2,"[5, 24]"
+GPQA,bge,small,40,cosine,p20,1,[214]
+Omni-MATH,e5,small,20,cosine,p90,3,"[137, 187, 904]"
+IFEval_NOCHUNK,qwen4b,large,50,cosine,p95,1,[227]
+GPQA_NOCHUNK,qwen4b,large,10,cosine,p10,1,[27]
+Omni-MATH_NOCHUNK,qwen4b,large,50,euclidean,p95,2,"[5, 24]"
+Omni-MATH_CHUNKED,qwen8b,large,50,euclidean,p90,1,[281]
+Omni-MATH_NOCHUNK,qwen8b,large,10,euclidean,p80,1,[281]
+Omni-MATH_NOCHUNK,nemotron,large,50,correlation,p20,1,[10]
+Omni-MATH,gist,small,40,cosine,p50,2,"[11, 773]"
+GPQA,gist,small,50,euclidean,p80,4,"[9, 87, 282, 0]"
+Omni-MATH_CHUNKED,nemotron,large,10,cosine,p20,1,[32]
+Omni-MATH_NOCHUNK,nemotron,large,30,cosine,p95,1,[906]
+Omni-MATH_CHUNKED,nemotron,large,40,cosine,p50,1,[900]
+Omni-MATH_CHUNKED,nemotron,large,20,euclidean,p10,1,[19]
+GPQA_NOCHUNK,qwen4b,large,40,euclidean,p20,1,[45]
+IFEval,e5,small,20,cosine,p80,2,"[151, 494]"
+Omni-MATH_CHUNKED,qwen8b,large,50,cosine,p50,1,[59]
+IFEval,e5,small,10,correlation,p50,1,[359]
+Omni-MATH_NOCHUNK,qwen8b,large,30,correlation,p90,1,[281]
+GPQA_CHUNKED,qwen4b,large,40,euclidean,p95,2,"[4, 343]"
+IFEval_NOCHUNK,qwen8b,large,40,euclidean,p90,1,[19]
+GPQA,bge,small,10,euclidean,p90,7,"[215, 228, 268, 0, 0, 0, 33]"
+GPQA_NOCHUNK,qwen8b,large,50,cosine,p95,1,[343]
+GPQA_CHUNKED,qwen8b,large,20,euclidean,p90,1,[201]
+IFEval_CHUNKED,nemotron,large,50,cosine,p95,24,"[245, 530, 196, 407, 367, 393, 331, 342, 23, 93, 34, 257, 36, 250, 425, 186, 455, 180, 179, 510, 470, 481, 505, 100]"
+IFEval_CHUNKED,qwen4b,large,50,correlation,p80,1,[185]
+MMLU-Pro,qwen8b,large,30,cosine,p95,2,"[620, 626]"
+Omni-MATH_CHUNKED,qwen8b,large,30,cosine,p50,1,[59]
+GPQA,bge,small,20,euclidean,p20,1,[214]
+GPQA_CHUNKED,qwen8b,large,40,euclidean,p95,2,"[4, 201]"
+IFEval,bge,small,50,euclidean,p95,5,"[359, 222, 494, 185, 364]"
+Omni-MATH_NOCHUNK,nemotron,large,10,correlation,p50,1,[46]
+MMLU-Pro,e5,small,20,euclidean,p20,1,[5]
+Omni-MATH_CHUNKED,qwen4b,large,10,correlation,p20,1,[7]
+Omni-MATH_CHUNKED,qwen8b,large,10,euclidean,p95,1,[281]
+MMLU-Pro,e5,small,20,euclidean,p90,2,"[572, 765]"
+Omni-MATH_CHUNKED,qwen8b,large,10,correlation,p90,1,[281]
+GPQA_CHUNKED,nemotron,large,50,cosine,p50,1,[244]
+GPQA,gist,small,50,correlation,p95,38,"[426, 379, 87, 286, 351, 296, 280, 282, 299, 9, 31, 443, 61, 170, 228, 53, 196, 303, 384, 214, 156, 421, 442, 174, 216, 7, 15, 435, 99, 202, 374, 370, 122, 27, 234, 204, 329, 230]"
+IFEval_CHUNKED,qwen8b,large,50,cosine,p80,1,[19]
+MMLU-Pro,e5,small,10,correlation,p90,3,"[5, 572, 765]"
+Omni-MATH_NOCHUNK,qwen4b,large,20,cosine,p80,2,"[15, 24]"
+IFEval,bge,small,30,euclidean,p90,3,"[109, 359, 494]"
+Omni-MATH,e5,small,50,cosine,p50,2,"[1, 657]"
+GPQA_CHUNKED,qwen4b,large,10,euclidean,p20,1,[45]
+IFEval_NOCHUNK,qwen8b,large,40,cosine,p90,1,[185]
+MMLU-Pro,qwen8b,large,50,cosine,p80,2,"[2, 626]"
+GPQA_CHUNKED,qwen8b,large,30,euclidean,p80,1,[27]
+IFEval_NOCHUNK,nemotron,large,40,cosine,p90,6,"[459, 316, 462, 517, 109, 185]"
+MMLU-Pro,qwen8b,large,20,cosine,p90,2,"[626, 620]"
+Omni-MATH,gist,small,50,correlation,p10,1,[696]
+IFEval_CHUNKED,qwen4b,large,10,correlation,p80,1,[185]
+Omni-MATH_NOCHUNK,qwen4b,large,30,correlation,p10,1,[7]
+IFEval,e5,small,40,euclidean,p95,2,"[494, 359]"
+GPQA,e5,small,30,euclidean,p80,3,"[93, 229, 429]"
+MMLU-Pro,bge,small,10,cosine,p95,41,"[602, 996, 140, 205, 739, 690, 366, 766, 741, 843, 722, 830, 884, 26, 648, 820, 22, 69, 575, 172, 420, 705, 323, 314, 526, 494, 963, 546, 778, 288, 241, 718, 670, 763, 279, 401, 474, 603, 104, 619, 655]"
+MMLU-Pro,e5,small,30,correlation,p20,1,[5]
+MMLU-Pro,bge,small,50,cosine,p20,1,[696]
+GPQA,e5,small,40,correlation,p50,1,[429]
+GPQA_NOCHUNK,qwen8b,large,40,euclidean,p10,1,[4]
+Omni-MATH,gist,small,50,euclidean,p95,20,"[319, 19, 422, 68, 921, 431, 427, 583, 773, 790, 922, 925, 0, 0, 481, 0, 679505392, 32656, 679505392, 32656]"
+Omni-MATH,gist,small,10,euclidean,p80,3,"[295, 583, 773]"
+GPQA,gist,small,40,correlation,p90,14,"[379, 426, 286, 87, 182, 53, 82, 156, 27, 204, 202, 170, 244, 280]"
+IFEval,gist,small,30,correlation,p95,8,"[359, 245, 323, 140, 430, 516, 494, 464]"
+Omni-MATH_CHUNKED,nemotron,large,50,euclidean,p95,7,"[900, 961, 568, 29, 381, 962, 314]"
+GPQA_CHUNKED,qwen4b,large,40,correlation,p95,2,"[27, 177]"
+IFEval_CHUNKED,qwen4b,large,50,cosine,p80,1,[185]
+Omni-MATH_CHUNKED,qwen4b,large,40,euclidean,p90,2,"[5, 24]"
+GPQA,e5,small,20,correlation,p95,24,"[106, 289, 229, 424, 429, 351, 51, 244, 257, 31, 295, 18, 234, 340, 65, 444, 235, 365, 71, 160, 423, 145, 417, 407]"
+GPQA_NOCHUNK,nemotron,large,20,cosine,p95,21,"[257, 320, 196, 1, 412, 435, 425, 114, 308, 219, 290, 15, 402, 278, 324, 398, 98, 300, 251, 84, 42]"
+Omni-MATH,e5,small,50,correlation,p95,6,"[187, 551, 157, 904, 839, 657]"
+Omni-MATH,gist,small,40,euclidean,p20,2,"[1, 460]"
+Omni-MATH_NOCHUNK,qwen8b,large,50,cosine,p20,1,[7]
+IFEval_CHUNKED,nemotron,large,30,correlation,p10,1,[5]
+MMLU-Pro,bge,small,30,correlation,p20,1,[696]
+MMLU-Pro,gist,small,30,euclidean,p90,17,"[602, 140, 321, 260, 213, 506, 486, 799, 874, 646, 867, 867, 335, 352, 1425, 0, 1886441360]"
+Omni-MATH,bge,small,10,cosine,p95,5,"[134, 306, 552, 573, 0]"
+Omni-MATH,e5,small,30,euclidean,p50,2,"[64, 498]"
+GPQA,bge,small,20,euclidean,p90,7,"[215, 228, 268, 0, 0, 0, 33]"
+GPQA_NOCHUNK,nemotron,large,50,correlation,p50,1,[1]
+GPQA,e5,small,10,cosine,p90,6,"[18, 51, 56, 351, 424, 0]"
+Omni-MATH_NOCHUNK,nemotron,large,30,euclidean,p80,1,[149]
+Omni-MATH_NOCHUNK,nemotron,large,40,cosine,p95,1,[906]
+GPQA_NOCHUNK,qwen4b,large,20,euclidean,p20,1,[45]
+GPQA_CHUNKED,qwen8b,large,40,cosine,p90,1,[343]
+GPQA_NOCHUNK,nemotron,large,20,euclidean,p80,2,"[257, 404]"
+IFEval_CHUNKED,nemotron,large,50,cosine,p80,1,[245]
+Omni-MATH_CHUNKED,qwen8b,large,40,cosine,p50,1,[59]
+GPQA,gist,small,10,cosine,p90,14,"[379, 426, 286, 87, 182, 53, 82, 156, 27, 204, 202, 170, 244, 280]"
+IFEval,gist,small,10,correlation,p95,8,"[359, 245, 323, 140, 430, 516, 494, 464]"
+GPQA_NOCHUNK,qwen8b,large,20,euclidean,p10,1,[4]
+Omni-MATH_CHUNKED,qwen4b,large,20,euclidean,p95,2,"[5, 24]"
+Omni-MATH_NOCHUNK,qwen8b,large,50,cosine,p80,1,[281]
+GPQA,e5,small,20,cosine,p20,1,[429]
+IFEval_CHUNKED,nemotron,large,40,euclidean,p90,2,"[2, 215]"
+IFEval,e5,small,20,euclidean,p10,1,[37]
+IFEval,bge,small,10,cosine,p80,2,"[109, 359]"
+Omni-MATH_CHUNKED,qwen4b,large,10,cosine,p10,1,[7]
+Omni-MATH_NOCHUNK,qwen8b,large,30,euclidean,p95,1,[281]
+GPQA,bge,small,50,euclidean,p95,38,"[286, 56, 443, 384, 428, 268, 95, 289, 31, 55, 153, 228, 133, 94, 298, 433, 79, 325, 329, 58, 41, 370, 37, 97, 308, 291, 427, 277, 167, 176, 194, 408, 216, 274, 417, 264, 226, 237]"
+MMLU-Pro,gist,small,10,cosine,p50,2,"[651, 996]"
+GPQA_CHUNKED,nemotron,large,10,euclidean,p20,1,[16]
+GPQA,bge,small,20,cosine,p80,3,"[87, 286, 443]"
+IFEval,gist,small,40,euclidean,p80,2,"[20, 359]"
+Omni-MATH,bge,small,10,correlation,p50,2,"[1, 772]"
+GPQA,bge,small,50,cosine,p80,3,"[87, 286, 443]"
+MMLU-Pro,gist,small,40,cosine,p80,5,"[140, 709, 799, 602, 830]"
+GPQA_CHUNKED,nemotron,large,30,correlation,p50,1,[244]
+GPQA_NOCHUNK,qwen4b,large,30,euclidean,p50,1,[201]
+Omni-MATH_CHUNKED,qwen4b,large,20,correlation,p20,1,[7]
+Omni-MATH_NOCHUNK,nemotron,large,50,correlation,p10,1,[10]
+IFEval,gist,small,50,euclidean,p80,2,"[20, 359]"
+IFEval,e5,small,20,euclidean,p80,2,"[151, 494]"
+Omni-MATH_CHUNKED,qwen4b,large,50,cosine,p50,1,[149]
+MMLU-Pro,bge,small,40,euclidean,p20,1,[696]
+GPQA,e5,small,40,cosine,p90,6,"[18, 51, 56, 351, 424, 0]"
+Omni-MATH,e5,small,20,euclidean,p20,1,[121]
+IFEval_CHUNKED,qwen8b,large,40,euclidean,p90,1,[19]
+GPQA,e5,small,40,euclidean,p10,1,[18]
+GPQA_NOCHUNK,nemotron,large,40,correlation,p80,2,"[1, 257]"
+GPQA,bge,small,10,correlation,p90,10,"[286, 443, 289, 41, 370, 228, 56, 268, 31, 143]"
+Omni-MATH_CHUNKED,nemotron,large,50,correlation,p50,1,[900]
+MMLU-Pro,gist,small,40,correlation,p95,52,"[602, 140, 506, 545, 709, 996, 798, 799, 651, 1, 274, 841, 458, 745, 900, 730, 342, 334, 643, 907, 927, 874, 492, 194, 464, 702, 667, 756, 670, 893, 660, 588, 655, 216, 433, 603, 401, 109, 375, 40, 43, 279, 564, 288, 966, 486, 254, 521, 346, 211, 423, 981]"
+GPQA_NOCHUNK,nemotron,large,20,euclidean,p50,1,[1]
+IFEval_CHUNKED,qwen8b,large,10,euclidean,p50,1,[18]
+GPQA_CHUNKED,nemotron,large,30,correlation,p90,1,[358]
+GPQA_NOCHUNK,nemotron,large,30,cosine,p80,2,"[1, 257]"
+IFEval,gist,small,50,correlation,p10,1,[69]
+GPQA_NOCHUNK,nemotron,large,20,correlation,p95,21,"[257, 320, 196, 1, 412, 435, 425, 114, 308, 219, 290, 15, 402, 278, 324, 398, 98, 300, 251, 84, 42]"
+GPQA_CHUNKED,qwen8b,large,10,correlation,p95,2,"[1, 343]"
+MMLU-Pro,e5,small,40,correlation,p10,1,[5]
+Omni-MATH,e5,small,40,euclidean,p10,1,[10]
+IFEval_NOCHUNK,nemotron,large,30,correlation,p95,14,"[109, 185, 312, 212, 424, 280, 459, 517, 316, 362, 349, 403, 78, 462]"
+GPQA_CHUNKED,qwen8b,large,50,cosine,p10,1,[27]
+Omni-MATH,gist,small,40,correlation,p80,4,"[19, 610, 773, 921]"
+IFEval_NOCHUNK,nemotron,large,50,correlation,p20,1,[109]
+MMLU-Pro,qwen4b,large,10,euclidean,p50,1,[13]
+GPQA,e5,small,40,correlation,p10,1,[31]
+GPQA_NOCHUNK,nemotron,large,10,correlation,p10,1,[1]
+Omni-MATH,e5,small,50,cosine,p80,2,"[3, 187]"
+IFEval_CHUNKED,qwen4b,large,20,cosine,p80,1,[185]
+IFEval,bge,small,40,correlation,p20,1,[109]
+GPQA,e5,small,30,euclidean,p90,6,"[51, 351, 429, 229, 18, 429]"
+IFEval,gist,small,10,euclidean,p80,2,"[20, 359]"
+GPQA_NOCHUNK,qwen4b,large,10,euclidean,p20,1,[45]
+GPQA_CHUNKED,qwen8b,large,40,cosine,p50,1,[27]
+MMLU-Pro,bge,small,50,cosine,p80,3,"[26, 739, 884]"
+GPQA_CHUNKED,qwen4b,large,50,correlation,p50,2,"[201, 301]"
+MMLU-Pro,qwen8b,large,20,euclidean,p95,2,"[460, 626]"
+IFEval_NOCHUNK,qwen4b,large,50,correlation,p10,1,[1]
+IFEval,bge,small,40,cosine,p50,1,[359]
+GPQA_CHUNKED,qwen8b,large,40,cosine,p20,1,[27]
+MMLU-Pro,nemotron,large,10,cosine,p10,1,[2]
+IFEval,gist,small,40,correlation,p95,8,"[359, 245, 323, 140, 430, 516, 494, 464]"
+GPQA_NOCHUNK,nemotron,large,50,cosine,p95,21,"[257, 320, 196, 1, 412, 435, 425, 114, 308, 219, 290, 15, 402, 278, 324, 398, 98, 300, 251, 84, 42]"
+IFEval,gist,small,10,cosine,p20,1,[245]
+GPQA_NOCHUNK,nemotron,large,10,cosine,p80,2,"[1, 257]"
+Omni-MATH_CHUNKED,qwen4b,large,50,euclidean,p10,1,[7]
+IFEval_CHUNKED,qwen8b,large,50,correlation,p80,1,[19]
+GPQA_CHUNKED,qwen8b,large,30,euclidean,p90,1,[201]
+MMLU-Pro,qwen4b,large,20,correlation,p90,2,"[34, 464]"
+IFEval_NOCHUNK,qwen4b,large,30,cosine,p20,1,[1]
+Omni-MATH_NOCHUNK,qwen8b,large,20,euclidean,p80,1,[281]
+Omni-MATH,gist,small,40,cosine,p95,22,"[12, 68, 157, 346, 449, 553, 580, 789, 0, 0, 4017, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"
+IFEval_CHUNKED,qwen4b,large,30,euclidean,p80,1,[19]
+Omni-MATH_NOCHUNK,qwen4b,large,20,cosine,p50,1,[149]
+Omni-MATH_CHUNKED,qwen4b,large,50,cosine,p20,1,[7]
+GPQA_CHUNKED,nemotron,large,40,euclidean,p95,1,[358]
+IFEval_CHUNKED,nemotron,large,10,cosine,p10,1,[5]
+GPQA,bge,small,30,cosine,p50,2,"[1, 443]"
+GPQA,gist,small,10,cosine,p20,2,"[2, 31]"
+IFEval,bge,small,10,correlation,p80,2,"[109, 359]"
+Omni-MATH_NOCHUNK,nemotron,large,40,correlation,p50,1,[46]
+GPQA,e5,small,50,cosine,p20,1,[429]
+IFEval,gist,small,20,euclidean,p10,1,[69]
+IFEval,bge,small,20,euclidean,p10,1,[109]
+Omni-MATH_CHUNKED,nemotron,large,20,euclidean,p20,1,[32]
+IFEval,gist,small,40,correlation,p50,2,"[121, 359]"
+MMLU-Pro,nemotron,large,20,cosine,p90,1,[739]
+IFEval,gist,small,10,euclidean,p95,6,"[17, 140, 245, 323, 0, 0]"
+GPQA_CHUNKED,qwen8b,large,50,correlation,p10,1,[27]
+MMLU-Pro,nemotron,large,50,correlation,p20,1,[8]
+MMLU-Pro,qwen4b,large,50,euclidean,p20,1,[13]
+IFEval_NOCHUNK,nemotron,large,10,euclidean,p90,5,"[459, 109, 517, 185, 312]"
+Omni-MATH_CHUNKED,qwen8b,large,50,cosine,p20,1,[7]
+GPQA_NOCHUNK,qwen4b,large,10,euclidean,p10,1,[44]
+Omni-MATH_CHUNKED,nemotron,large,10,cosine,p50,1,[900]
+MMLU-Pro,gist,small,20,cosine,p80,5,"[140, 799, 506, 602, 58]"
+GPQA_CHUNKED,qwen4b,large,40,correlation,p50,2,"[201, 301]"
+GPQA_NOCHUNK,nemotron,large,50,euclidean,p80,2,"[257, 404]"
+Omni-MATH_NOCHUNK,nemotron,large,20,correlation,p50,1,[46]
+Omni-MATH_NOCHUNK,qwen8b,large,20,correlation,p50,1,[59]
+GPQA_NOCHUNK,qwen8b,large,20,cosine,p95,1,[343]
+MMLU-Pro,qwen4b,large,20,euclidean,p20,1,[13]
+Omni-MATH_NOCHUNK,nemotron,large,10,euclidean,p10,1,[10]
+Omni-MATH,gist,small,40,euclidean,p50,2,"[11, 773]"
+GPQA,e5,small,10,correlation,p95,24,"[106, 289, 229, 424, 429, 351, 51, 244, 257, 31, 295, 18, 234, 340, 65, 444, 235, 365, 71, 160, 423, 145, 417, 407]"
+GPQA_CHUNKED,qwen8b,large,30,correlation,p95,2,"[1, 343]"
+IFEval_CHUNKED,qwen8b,large,30,correlation,p20,1,[1]
+IFEval,gist,small,50,correlation,p95,8,"[359, 245, 323, 140, 430, 516, 494, 464]"
+IFEval_NOCHUNK,qwen4b,large,50,euclidean,p20,1,[19]
+Omni-MATH_NOCHUNK,nemotron,large,40,euclidean,p95,1,[906]
+MMLU-Pro,gist,small,20,cosine,p95,52,"[602, 140, 506, 545, 709, 996, 798, 799, 651, 1, 274, 841, 458, 745, 900, 730, 342, 334, 643, 907, 927, 874, 492, 194, 464, 702, 667, 756, 670, 893, 660, 588, 655, 216, 433, 603, 401, 109, 375, 40, 43, 279, 564, 288, 966, 486, 254, 521, 346, 211, 423, 981]"
+MMLU-Pro,qwen8b,large,30,correlation,p95,2,"[620, 626]"
+IFEval_NOCHUNK,qwen8b,large,10,euclidean,p50,1,[18]
+Omni-MATH,e5,small,10,correlation,p80,2,"[3, 187]"
+MMLU-Pro,qwen4b,large,40,correlation,p95,40,"[464, 93, 709, 620, 487, 197, 452, 489, 481, 152, 497, 541, 536, 378, 313, 875, 66, 808, 41, 75, 889, 893, 779, 78, 760, 179, 177, 223, 732, 725, 919, 920, 923, 98, 692, 257, 17, 628, 426, 614]"
+IFEval_NOCHUNK,qwen8b,large,10,cosine,p20,1,[1]
+IFEval_CHUNKED,nemotron,large,20,cosine,p10,1,[5]
+Omni-MATH_CHUNKED,qwen8b,large,50,euclidean,p20,1,[7]
+Omni-MATH_NOCHUNK,qwen8b,large,10,cosine,p80,1,[281]
+MMLU-Pro,nemotron,large,40,euclidean,p20,1,[8]
+IFEval,gist,small,50,euclidean,p95,6,"[17, 140, 245, 323, 0, 0]"
+MMLU-Pro,qwen8b,large,40,euclidean,p90,1,[460]
+Omni-MATH_CHUNKED,qwen8b,large,40,correlation,p20,1,[7]
+MMLU-Pro,bge,small,20,euclidean,p95,30,"[602, 996, 739, 205, 843, 366, 722, 797, 26, 478, 884, 830, 820, 37, 373, 538, 39, 131, 582, 963, 763, 401, 104, 655, 670, 241, 109, 526, 546, 902]"
+IFEval_NOCHUNK,qwen4b,large,30,euclidean,p95,2,"[7, 227]"
+Omni-MATH_CHUNKED,qwen8b,large,40,euclidean,p95,1,[281]
+Omni-MATH_NOCHUNK,qwen8b,large,30,correlation,p10,1,[7]
+IFEval_CHUNKED,nemotron,large,30,correlation,p90,2,"[2, 245]"
+MMLU-Pro,qwen8b,large,50,correlation,p20,1,[276]
+IFEval,gist,small,10,correlation,p20,1,[245]
+GPQA_CHUNKED,qwen8b,large,20,cosine,p95,2,"[1, 343]"
+GPQA_NOCHUNK,qwen8b,large,50,euclidean,p95,2,"[1, 27]"
+IFEval,e5,small,40,euclidean,p50,1,[359]
+GPQA,gist,small,20,correlation,p95,38,"[426, 379, 87, 286, 351, 296, 280, 282, 299, 9, 31, 443, 61, 170, 228, 53, 196, 303, 384, 214, 156, 421, 442, 174, 216, 7, 15, 435, 99, 202, 374, 370, 122, 27, 234, 204, 329, 230]"
+Omni-MATH,bge,small,30,cosine,p50,2,"[1, 772]"
+Omni-MATH,bge,small,50,cosine,p50,2,"[1, 772]"
+Omni-MATH_NOCHUNK,qwen4b,large,10,correlation,p20,1,[7]
+IFEval_NOCHUNK,nemotron,large,50,euclidean,p50,2,"[1, 109]"
+Omni-MATH_NOCHUNK,qwen4b,large,30,correlation,p80,2,"[15, 24]"
+GPQA,e5,small,50,cosine,p95,24,"[106, 289, 229, 424, 429, 351, 51, 244, 257, 31, 295, 18, 234, 340, 65, 444, 235, 365, 71, 160, 423, 145, 417, 407]"
+Omni-MATH,gist,small,40,correlation,p20,2,"[1, 460]"
+MMLU-Pro,qwen4b,large,50,cosine,p80,2,"[8, 829]"
+GPQA_CHUNKED,nemotron,large,50,correlation,p90,1,[358]
+GPQA_NOCHUNK,qwen8b,large,50,correlation,p90,1,[27]
+MMLU-Pro,qwen4b,large,20,cosine,p80,2,"[8, 829]"
+GPQA,bge,small,10,correlation,p80,3,"[87, 286, 443]"
+IFEval_CHUNKED,qwen8b,large,30,euclidean,p20,1,[1]
+GPQA,bge,small,30,correlation,p50,2,"[1, 443]"
+IFEval_NOCHUNK,qwen4b,large,10,correlation,p50,1,[19]
+GPQA,e5,small,50,euclidean,p20,1,[424]
+IFEval,gist,small,20,correlation,p90,3,"[245, 311, 359]"
+Omni-MATH_NOCHUNK,nemotron,large,30,cosine,p90,1,[906]
+MMLU-Pro,qwen8b,large,30,euclidean,p50,1,[56]
+IFEval_CHUNKED,nemotron,large,40,correlation,p80,1,[245]
+Omni-MATH_CHUNKED,qwen4b,large,20,euclidean,p10,1,[7]
+MMLU-Pro,nemotron,large,50,cosine,p90,1,[739]
+IFEval,gist,small,20,euclidean,p80,2,"[20, 359]"
+GPQA_CHUNKED,qwen4b,large,20,cosine,p20,1,[182]
+MMLU-Pro,bge,small,30,euclidean,p50,2,"[4, 902]"
+Omni-MATH_CHUNKED,qwen4b,large,50,euclidean,p50,1,[71]
+IFEval_NOCHUNK,qwen4b,large,40,cosine,p10,1,[1]
+Omni-MATH_NOCHUNK,qwen8b,large,10,correlation,p20,1,[7]
+IFEval_CHUNKED,qwen8b,large,10,cosine,p80,1,[19]
+GPQA,e5,small,40,euclidean,p90,6,"[51, 201, 351, 229, 18, 429]"
+IFEval_CHUNKED,qwen4b,large,40,euclidean,p20,1,[19]
+IFEval_CHUNKED,nemotron,large,40,euclidean,p95,14,"[245, 530, 196, 34, 425, 331, 23, 36, 180, 250, 407, 122, 510, 470]"
+Omni-MATH_CHUNKED,qwen4b,large,40,cosine,p90,2,"[24, 86]"
+GPQA_CHUNKED,qwen8b,large,30,cosine,p20,1,[27]
+MMLU-Pro,e5,small,20,correlation,p10,1,[5]
+IFEval_CHUNKED,qwen8b,large,50,correlation,p95,1,[185]
+Omni-MATH,gist,small,10,euclidean,p90,7,"[925, 773, 610, 583, 553, 319, 925]"
+GPQA_NOCHUNK,qwen8b,large,40,correlation,p80,1,[27]
+MMLU-Pro,gist,small,10,cosine,p10,2,"[1, 798]"
+IFEval_CHUNKED,nemotron,large,30,cosine,p95,24,"[245, 530, 196, 407, 367, 393, 331, 342, 23, 93, 34, 257, 36, 250, 425, 186, 455, 180, 179, 510, 470, 481, 505, 100]"
+MMLU-Pro,qwen8b,large,20,correlation,p95,2,"[620, 626]"
+IFEval_CHUNKED,qwen8b,large,20,correlation,p80,1,[19]
+IFEval_NOCHUNK,qwen8b,large,50,cosine,p50,1,[19]
+IFEval_NOCHUNK,qwen4b,large,40,euclidean,p90,1,[185]
+Omni-MATH_NOCHUNK,qwen4b,large,10,correlation,p90,2,"[24, 86]"
+IFEval_CHUNKED,nemotron,large,40,euclidean,p50,1,[15]
+Omni-MATH,bge,small,40,cosine,p20,1,[19]
+GPQA_CHUNKED,qwen4b,large,10,cosine,p80,2,"[1, 343]"
+IFEval_NOCHUNK,qwen8b,large,40,correlation,p80,1,[19]
+IFEval_CHUNKED,qwen4b,large,20,euclidean,p10,1,[1]
+IFEval,gist,small,50,correlation,p80,2,"[20, 359]"
+GPQA_NOCHUNK,qwen8b,large,30,cosine,p90,1,[27]
+GPQA_CHUNKED,qwen8b,large,50,euclidean,p10,1,[4]
+IFEval,bge,small,10,cosine,p90,3,"[222, 494, 196]"
+IFEval_NOCHUNK,nemotron,large,50,cosine,p95,14,"[109, 185, 312, 212, 424, 280, 459, 517, 316, 362, 349, 403, 462, 78]"
+GPQA,bge,small,40,cosine,p90,10,"[286, 443, 289, 41, 370, 228, 56, 268, 31, 143]"
+GPQA_CHUNKED,nemotron,large,10,euclidean,p50,1,[56]
+GPQA,gist,small,10,cosine,p95,38,"[426, 379, 87, 286, 351, 296, 280, 282, 299, 9, 31, 443, 61, 170, 228, 53, 196, 303, 384, 214, 156, 421, 442, 174, 216, 7, 15, 435, 99, 202, 374, 370, 122, 27, 234, 204, 329, 230]"
+IFEval_NOCHUNK,qwen8b,large,30,cosine,p10,1,[1]
+IFEval_CHUNKED,qwen4b,large,20,cosine,p90,1,[185]
+GPQA,e5,small,20,correlation,p90,6,"[18, 51, 56, 351, 424, 0]"
+GPQA_CHUNKED,qwen4b,large,20,correlation,p95,2,"[27, 177]"
+IFEval_CHUNKED,qwen8b,large,30,euclidean,p50,1,[18]
+GPQA_NOCHUNK,qwen8b,large,40,cosine,p20,1,[27]
+IFEval_CHUNKED,qwen4b,large,50,euclidean,p90,1,[185]
+Omni-MATH,e5,small,30,euclidean,p95,6,"[157, 187, 839, 767, 498, 839]"
+GPQA,gist,small,10,euclidean,p50,2,"[102, 286]"
+IFEval_NOCHUNK,qwen8b,large,50,correlation,p95,1,[185]
+GPQA,e5,small,20,cosine,p10,1,[31]
+GPQA,bge,small,20,cosine,p20,1,[214]
+GPQA_CHUNKED,nemotron,large,10,euclidean,p90,1,[358]
+IFEval_NOCHUNK,qwen4b,large,20,cosine,p50,1,[19]
+MMLU-Pro,bge,small,10,euclidean,p50,2,"[4, 902]"
+Omni-MATH_CHUNKED,qwen8b,large,20,euclidean,p90,1,[281]
+MMLU-Pro,qwen8b,large,20,correlation,p80,2,"[2, 626]"
+MMLU-Pro,qwen4b,large,10,euclidean,p95,2,"[13, 705]"
+IFEval_NOCHUNK,nemotron,large,30,euclidean,p90,5,"[459, 109, 517, 185, 312]"
+GPQA_CHUNKED,nemotron,large,50,euclidean,p80,1,[358]
+MMLU-Pro,qwen8b,large,30,cosine,p10,1,[9]
+GPQA_NOCHUNK,qwen8b,large,30,correlation,p10,1,[27]
+GPQA,e5,small,30,cosine,p80,2,"[51, 106]"
+GPQA,gist,small,40,cosine,p80,4,"[34, 87, 282, 0]"
+MMLU-Pro,qwen8b,large,50,correlation,p95,2,"[620, 626]"
+GPQA_NOCHUNK,nemotron,large,40,euclidean,p10,1,[1]
+MMLU-Pro,bge,small,50,correlation,p80,3,"[26, 739, 884]"
+IFEval,bge,small,40,euclidean,p80,2,"[109, 359]"
+IFEval_NOCHUNK,qwen8b,large,30,correlation,p20,1,[1]
+Omni-MATH_CHUNKED,qwen4b,large,40,correlation,p95,7,"[24, 296, 648, 809, 276, 512, 811]"
+GPQA,gist,small,10,cosine,p10,1,[44]
+GPQA,e5,small,10,correlation,p20,1,[429]
+IFEval_NOCHUNK,qwen8b,large,30,correlation,p95,1,[185]
+Omni-MATH,e5,small,20,correlation,p50,2,"[1, 657]"
+GPQA_NOCHUNK,nemotron,large,30,euclidean,p95,20,"[257, 343, 1, 412, 333, 435, 425, 98, 402, 324, 42, 114, 15, 163, 308, 398, 251, 278, 290, 196]"
+IFEval_NOCHUNK,qwen4b,large,10,euclidean,p90,1,[185]
+Omni-MATH,gist,small,50,correlation,p20,2,"[1, 460]"
+MMLU-Pro,qwen8b,large,30,correlation,p50,1,[829]
+IFEval,bge,small,50,correlation,p10,1,[109]
+Omni-MATH,e5,small,40,euclidean,p80,2,"[3, 187]"
+IFEval_CHUNKED,nemotron,large,20,euclidean,p10,1,[5]
+Omni-MATH,e5,small,20,euclidean,p50,2,"[64, 498]"
+Omni-MATH_CHUNKED,nemotron,large,50,cosine,p50,1,[900]
+IFEval,e5,small,50,cosine,p90,2,"[10, 494]"
+Omni-MATH,gist,small,10,correlation,p90,9,"[111, 19, 925, 157, 583, 789, 553, 59, 741]"
+Omni-MATH,bge,small,20,euclidean,p80,2,"[3, 772]"
+GPQA_NOCHUNK,qwen8b,large,20,cosine,p10,1,[27]
+MMLU-Pro,e5,small,50,euclidean,p90,2,"[572, 765]"
+GPQA_CHUNKED,qwen4b,large,20,euclidean,p20,1,[45]
+MMLU-Pro,nemotron,large,40,cosine,p95,2,"[96, 739]"
+Omni-MATH_CHUNKED,qwen8b,large,10,euclidean,p20,1,[7]
+MMLU-Pro,qwen4b,large,30,euclidean,p10,1,[4]
+MMLU-Pro,gist,small,40,cosine,p95,52,"[602, 140, 506, 545, 709, 996, 798, 799, 651, 1, 274, 841, 458, 745, 900, 730, 342, 334, 643, 907, 927, 874, 492, 194, 464, 702, 667, 756, 670, 893, 660, 588, 655, 216, 433, 603, 401, 109, 375, 40, 43, 279, 564, 288, 966, 486, 254, 521, 346, 211, 423, 981]"
+IFEval_NOCHUNK,nemotron,large,40,euclidean,p50,2,"[1, 109]"
+IFEval_CHUNKED,qwen8b,large,20,correlation,p20,1,[1]
+GPQA_NOCHUNK,qwen4b,large,40,euclidean,p90,2,"[4, 201]"
+IFEval,bge,small,40,cosine,p95,6,"[359, 222, 494, 185, 313, 364]"
+Omni-MATH,e5,small,20,euclidean,p90,3,"[187, 895, 904]"
+GPQA_CHUNKED,qwen8b,large,50,correlation,p20,1,[27]
+IFEval_CHUNKED,qwen8b,large,40,correlation,p95,1,[185]
+GPQA_NOCHUNK,qwen8b,large,20,euclidean,p50,1,[27]
+GPQA_CHUNKED,nemotron,large,10,correlation,p95,1,[358]
+MMLU-Pro,bge,small,50,correlation,p50,2,"[4, 902]"
+GPQA_NOCHUNK,qwen4b,large,50,euclidean,p80,2,"[193, 201]"
+IFEval_NOCHUNK,qwen4b,large,50,cosine,p20,1,[1]
+IFEval_NOCHUNK,nemotron,large,40,euclidean,p80,2,"[6, 109]"
+GPQA_CHUNKED,nemotron,large,30,euclidean,p90,1,[358]
+Omni-MATH,e5,small,30,correlation,p95,6,"[187, 551, 157, 904, 839, 657]"
+MMLU-Pro,qwen4b,large,30,euclidean,p50,1,[13]
+GPQA_CHUNKED,nemotron,large,30,euclidean,p50,1,[56]
+Omni-MATH_CHUNKED,qwen4b,large,10,cosine,p80,2,"[15, 24]"
+MMLU-Pro,e5,small,20,euclidean,p50,2,"[5, 765]"
+MMLU-Pro,e5,small,30,cosine,p80,2,"[71, 765]"
+Omni-MATH,bge,small,50,euclidean,p50,2,"[1, 772]"
+MMLU-Pro,e5,small,30,euclidean,p80,2,"[71, 765]"
+MMLU-Pro,gist,small,30,euclidean,p95,47,"[140, 602, 924, 709, 545, 799, 486, 689, 342, 274, 408, 841, 745, 643, 46, 927, 635, 42, 447, 65, 260, 744, 109, 40, 603, 359, 588, 34, 92, 433, 375, 86, 451, 660, 756, 464, 279, 798, 867, 506, 367, 651, 33, 249, 282, 492, 335]"
+IFEval_CHUNKED,qwen4b,large,20,correlation,p90,1,[227]
+Omni-MATH,e5,small,20,cosine,p20,1,[136]
+Omni-MATH,e5,small,10,euclidean,p95,6,"[157, 767, 187, 839, 498, 839]"
+Omni-MATH_CHUNKED,nemotron,large,20,correlation,p20,1,[32]
+IFEval,gist,small,10,cosine,p50,2,"[121, 359]"
+Omni-MATH_CHUNKED,nemotron,large,10,correlation,p95,16,"[900, 568, 854, 352, 729, 2, 314, 962, 964, 562, 838, 967, 381, 859, 456, 447]"
+Omni-MATH_CHUNKED,qwen4b,large,50,euclidean,p20,1,[7]
+Omni-MATH_NOCHUNK,qwen8b,large,20,cosine,p90,1,[281]
+MMLU-Pro,bge,small,10,euclidean,p20,1,[696]
+GPQA_NOCHUNK,qwen4b,large,20,cosine,p80,2,"[27, 343]"
+MMLU-Pro,e5,small,40,correlation,p50,2,"[5, 624]"
+IFEval_NOCHUNK,nemotron,large,10,correlation,p95,14,"[109, 185, 312, 212, 424, 280, 459, 517, 316, 362, 349, 403, 78, 462]"
+Omni-MATH,bge,small,20,euclidean,p95,4,"[277, 306, 582, 0]"
+MMLU-Pro,nemotron,large,30,correlation,p90,1,[739]
+Omni-MATH_NOCHUNK,nemotron,large,20,euclidean,p20,1,[10]
+MMLU-Pro,nemotron,large,30,euclidean,p90,1,[739]
+Omni-MATH,gist,small,20,cosine,p80,4,"[19, 610, 773, 921]"
+IFEval_CHUNKED,nemotron,large,50,euclidean,p95,14,"[245, 530, 196, 34, 425, 331, 23, 36, 180, 250, 407, 122, 510, 470]"
+Omni-MATH_CHUNKED,qwen4b,large,10,euclidean,p90,2,"[5, 24]"
+GPQA_NOCHUNK,qwen4b,large,30,correlation,p95,2,"[1, 343]"
+IFEval_CHUNKED,qwen8b,large,50,correlation,p10,1,[1]
+IFEval,bge,small,50,euclidean,p50,1,[359]
+Omni-MATH,e5,small,10,correlation,p50,2,"[1, 657]"
+Omni-MATH,bge,small,10,euclidean,p95,4,"[277, 306, 582, 0]"
+GPQA_CHUNKED,nemotron,large,50,euclidean,p90,1,[358]
+GPQA,bge,small,40,correlation,p50,2,"[1, 443]"
+Omni-MATH_CHUNKED,qwen8b,large,30,correlation,p10,1,[7]
+IFEval_NOCHUNK,qwen8b,large,20,euclidean,p80,1,[19]
+IFEval_CHUNKED,qwen8b,large,50,correlation,p50,1,[19]
+IFEval_CHUNKED,nemotron,large,30,correlation,p50,1,[15]
+Omni-MATH_NOCHUNK,nemotron,large,30,correlation,p90,1,[906]
+MMLU-Pro,qwen4b,large,30,correlation,p20,1,[13]
+Omni-MATH_NOCHUNK,qwen4b,large,40,euclidean,p20,1,[7]
+MMLU-Pro,qwen4b,large,10,correlation,p90,2,"[34, 464]"
+GPQA_CHUNKED,nemotron,large,30,cosine,p80,1,[358]
+Omni-MATH,gist,small,50,cosine,p10,1,[696]
+MMLU-Pro,e5,small,30,correlation,p10,1,[5]
+GPQA_CHUNKED,qwen8b,large,30,cosine,p10,1,[27]
+GPQA_CHUNKED,nemotron,large,30,euclidean,p10,1,[15]
+IFEval_NOCHUNK,qwen4b,large,40,cosine,p95,1,[227]
+MMLU-Pro,qwen4b,large,40,euclidean,p50,1,[13]
+MMLU-Pro,nemotron,large,40,euclidean,p50,1,[8]
+MMLU-Pro,qwen4b,large,40,correlation,p90,2,"[34, 464]"
+IFEval_NOCHUNK,qwen8b,large,20,correlation,p10,1,[1]
+IFEval_CHUNKED,nemotron,large,10,correlation,p80,1,[245]
+MMLU-Pro,gist,small,30,correlation,p95,52,"[602, 140, 506, 545, 709, 996, 798, 799, 651, 1, 274, 841, 458, 745, 900, 730, 342, 334, 643, 907, 927, 874, 492, 194, 464, 702, 667, 756, 670, 893, 660, 588, 655, 216, 433, 603, 401, 109, 375, 40, 43, 279, 564, 288, 966, 486, 254, 521, 346, 211, 423, 981]"
+IFEval,e5,small,30,correlation,p95,2,"[494, 359]"
+Omni-MATH_CHUNKED,qwen8b,large,30,cosine,p95,2,"[1, 281]"
+IFEval_NOCHUNK,qwen4b,large,50,correlation,p20,1,[1]
+Omni-MATH_CHUNKED,qwen8b,large,20,euclidean,p10,1,[7]
+Omni-MATH_NOCHUNK,nemotron,large,20,correlation,p95,1,[906]
+GPQA_NOCHUNK,qwen4b,large,50,euclidean,p10,1,[44]
+Omni-MATH_CHUNKED,qwen4b,large,20,correlation,p90,2,"[24, 86]"
+Omni-MATH_CHUNKED,qwen4b,large,20,correlation,p95,7,"[24, 296, 648, 809, 276, 512, 811]"
+IFEval_NOCHUNK,qwen4b,large,40,euclidean,p80,1,[19]
+GPQA,gist,small,20,correlation,p20,2,"[2, 31]"
+Omni-MATH,gist,small,30,correlation,p95,22,"[68, 157, 279, 346, 449, 553, 580, 789, 0, 0, 4017, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"
+GPQA,gist,small,10,correlation,p95,38,"[426, 379, 87, 286, 351, 296, 280, 282, 299, 9, 31, 443, 61, 170, 228, 53, 196, 303, 384, 214, 156, 421, 442, 174, 216, 7, 15, 435, 99, 202, 374, 370, 122, 27, 234, 204, 329, 230]"
+IFEval_CHUNKED,qwen8b,large,50,correlation,p20,1,[1]
+IFEval_CHUNKED,qwen4b,large,20,correlation,p10,1,[1]
+MMLU-Pro,bge,small,10,correlation,p90,7,"[884, 602, 366, 575, 648, 884, 49]"
+IFEval,gist,small,40,euclidean,p20,1,[245]
+IFEval_NOCHUNK,nemotron,large,40,cosine,p80,3,"[6, 109, 312]"
+Omni-MATH_NOCHUNK,qwen8b,large,10,euclidean,p50,1,[33]
+GPQA_CHUNKED,nemotron,large,50,euclidean,p10,1,[15]
+Omni-MATH_NOCHUNK,qwen8b,large,30,cosine,p50,1,[59]
+IFEval_NOCHUNK,nemotron,large,10,cosine,p10,1,[53]
+IFEval,gist,small,10,cosine,p95,8,"[359, 245, 323, 140, 430, 516, 494, 464]"
+GPQA_NOCHUNK,nemotron,large,40,euclidean,p50,1,[1]
+Omni-MATH,bge,small,20,euclidean,p50,2,"[1, 772]"
+GPQA_CHUNKED,qwen8b,large,10,cosine,p90,1,[343]
+GPQA_CHUNKED,qwen8b,large,10,cosine,p20,1,[27]
+GPQA,e5,small,30,euclidean,p50,1,[429]
+MMLU-Pro,qwen8b,large,40,correlation,p10,1,[9]
+MMLU-Pro,e5,small,10,euclidean,p95,5,"[23, 765, 905, 996, 34812464]"
+Omni-MATH_NOCHUNK,qwen8b,large,10,correlation,p90,1,[281]
+MMLU-Pro,nemotron,large,30,correlation,p95,2,"[96, 739]"
+MMLU-Pro,e5,small,40,euclidean,p10,1,[5]
+Omni-MATH,gist,small,30,euclidean,p50,2,"[11, 773]"
+Omni-MATH_CHUNKED,qwen8b,large,10,euclidean,p90,1,[281]
+MMLU-Pro,bge,small,40,euclidean,p95,30,"[602, 996, 739, 205, 843, 366, 722, 797, 26, 478, 884, 830, 820, 37, 373, 538, 39, 131, 582, 963, 763, 401, 104, 655, 670, 241, 109, 526, 546, 902]"
+Omni-MATH,e5,small,10,correlation,p10,1,[10]
+IFEval,bge,small,30,cosine,p80,2,"[109, 359]"
+GPQA,gist,small,30,cosine,p95,38,"[426, 379, 87, 286, 351, 296, 280, 282, 299, 9, 31, 443, 61, 170, 228, 53, 196, 303, 384, 214, 156, 421, 442, 174, 216, 7, 15, 435, 99, 202, 374, 370, 122, 27, 234, 204, 329, 230]"
+GPQA,bge,small,30,cosine,p20,1,[214]
+MMLU-Pro,e5,small,40,euclidean,p20,1,[5]
+MMLU-Pro,qwen8b,large,30,correlation,p90,2,"[626, 620]"
+IFEval_NOCHUNK,nemotron,large,40,correlation,p50,2,"[1, 109]"
+IFEval_CHUNKED,qwen8b,large,40,cosine,p50,1,[19]
+Omni-MATH_CHUNKED,qwen8b,large,40,euclidean,p80,1,[281]
+IFEval,bge,small,30,euclidean,p20,1,[109]
+IFEval_NOCHUNK,qwen8b,large,40,correlation,p50,1,[19]
+GPQA,gist,small,20,correlation,p10,1,[44]
+IFEval_CHUNKED,nemotron,large,50,euclidean,p80,1,[245]
+IFEval_CHUNKED,qwen8b,large,30,euclidean,p95,1,[19]
+IFEval,e5,small,50,cosine,p20,1,[185]
+GPQA_CHUNKED,nemotron,large,40,euclidean,p20,1,[16]
+IFEval_NOCHUNK,qwen4b,large,10,correlation,p10,1,[1]
+GPQA_NOCHUNK,qwen4b,large,30,euclidean,p90,2,"[4, 201]"
+MMLU-Pro,e5,small,20,correlation,p50,2,"[5, 624]"
+IFEval_NOCHUNK,qwen8b,large,40,euclidean,p50,1,[18]
+GPQA,e5,small,50,correlation,p90,6,"[18, 51, 56, 351, 424, 0]"
+GPQA_NOCHUNK,qwen4b,large,20,correlation,p50,2,"[201, 301]"
+IFEval,gist,small,10,euclidean,p10,1,[69]
+GPQA_NOCHUNK,qwen8b,large,10,cosine,p80,1,[27]
+GPQA,bge,small,10,euclidean,p50,2,"[1, 443]"
+MMLU-Pro,qwen4b,large,30,cosine,p95,38,"[464, 93, 709, 620, 536, 313, 481, 257, 197, 426, 487, 489, 541, 177, 692, 889, 179, 378, 17, 497, 760, 725, 66, 628, 152, 75, 41, 808, 614, 223, 779, 452, 875, 923, 732, 98, 920, 919]"
+IFEval,e5,small,40,cosine,p80,2,"[151, 494]"
+GPQA,gist,small,30,correlation,p80,4,"[34, 87, 282, 0]"
+IFEval_CHUNKED,qwen4b,large,10,cosine,p80,1,[185]
+MMLU-Pro,e5,small,10,euclidean,p90,2,"[572, 765]"
+Omni-MATH_CHUNKED,qwen8b,large,40,euclidean,p20,1,[7]
+MMLU-Pro,qwen8b,large,20,cosine,p10,1,[9]
+Omni-MATH_NOCHUNK,nemotron,large,20,cosine,p10,1,[10]
+GPQA,bge,small,40,correlation,p80,3,"[87, 286, 443]"
+Omni-MATH_NOCHUNK,qwen4b,large,10,cosine,p50,1,[149]
+Omni-MATH,bge,small,10,cosine,p20,1,[19]
+IFEval,gist,small,50,cosine,p95,8,"[359, 245, 323, 140, 430, 516, 494, 464]"
+MMLU-Pro,e5,small,50,cosine,p10,1,[5]
+MMLU-Pro,gist,small,50,euclidean,p95,47,"[140, 602, 924, 709, 545, 799, 486, 689, 342, 274, 408, 841, 745, 643, 46, 927, 635, 42, 447, 65, 260, 744, 109, 40, 603, 359, 588, 34, 92, 433, 375, 86, 451, 660, 756, 464, 279, 798, 867, 506, 367, 651, 33, 249, 282, 492, 335]"
+MMLU-Pro,e5,small,10,euclidean,p80,2,"[71, 765]"
+MMLU-Pro,gist,small,40,euclidean,p20,2,"[1, 798]"
+Omni-MATH_NOCHUNK,qwen8b,large,40,euclidean,p20,1,[7]
+GPQA_NOCHUNK,nemotron,large,20,cosine,p50,1,[1]
+IFEval_NOCHUNK,nemotron,large,40,correlation,p80,3,"[6, 109, 312]"
+IFEval_CHUNKED,qwen8b,large,10,euclidean,p80,1,[19]
+GPQA_NOCHUNK,qwen4b,large,40,cosine,p95,2,"[1, 343]"
+Omni-MATH_CHUNKED,nemotron,large,50,correlation,p80,2,"[900, 854]"
+Omni-MATH_CHUNKED,nemotron,large,50,cosine,p20,1,[32]
+Omni-MATH,gist,small,50,euclidean,p90,7,"[773, 610, 925, 583, 553, 449, 925]"
+MMLU-Pro,bge,small,50,correlation,p20,1,[696]
+IFEval_NOCHUNK,nemotron,large,30,cosine,p50,2,"[1, 109]"
+MMLU-Pro,qwen8b,large,20,euclidean,p90,1,[460]
+IFEval_NOCHUNK,nemotron,large,40,correlation,p10,1,[53]
+Omni-MATH,gist,small,40,cosine,p80,4,"[19, 610, 773, 921]"
+IFEval_CHUNKED,qwen8b,large,10,euclidean,p95,1,[19]
+Omni-MATH,gist,small,50,cosine,p90,9,"[790, 19, 295, 297, 583, 427, 157, 860, 652]"
+Omni-MATH_NOCHUNK,qwen8b,large,20,correlation,p80,1,[281]
+IFEval,gist,small,20,correlation,p95,8,"[359, 245, 323, 140, 430, 516, 494, 464]"
+Omni-MATH_NOCHUNK,qwen8b,large,30,euclidean,p10,1,[7]
+MMLU-Pro,qwen4b,large,40,cosine,p90,2,"[34, 464]"
+Omni-MATH,gist,small,20,euclidean,p10,1,[121]
+MMLU-Pro,e5,small,50,euclidean,p95,5,"[23, 765, 905, 996, 10105392]"
+Omni-MATH_CHUNKED,qwen8b,large,20,cosine,p80,1,[281]
+Omni-MATH_CHUNKED,qwen8b,large,30,cosine,p80,1,[281]
+GPQA_NOCHUNK,nemotron,large,20,euclidean,p90,2,"[412, 257]"
+IFEval_CHUNKED,qwen8b,large,30,correlation,p80,1,[19]
+MMLU-Pro,bge,small,20,correlation,p90,7,"[602, 884, 366, 575, 648, 884, 49]"
+GPQA,e5,small,30,cosine,p10,1,[31]
+Omni-MATH_NOCHUNK,qwen4b,large,10,correlation,p10,1,[7]
+MMLU-Pro,gist,small,20,cosine,p20,2,"[1, 798]"
+IFEval_NOCHUNK,qwen4b,large,30,correlation,p80,1,[185]
+GPQA_NOCHUNK,qwen4b,large,40,cosine,p10,1,[27]
+Omni-MATH_CHUNKED,qwen4b,large,20,cosine,p80,2,"[15, 24]"
+Omni-MATH,gist,small,30,cosine,p20,2,"[1, 460]"
+IFEval_CHUNKED,qwen8b,large,50,correlation,p90,1,[19]
+IFEval_CHUNKED,qwen8b,large,20,cosine,p80,1,[19]
+Omni-MATH_NOCHUNK,qwen4b,large,40,correlation,p95,2,"[296, 648]"
+Omni-MATH_CHUNKED,qwen8b,large,10,euclidean,p50,1,[33]
+GPQA,gist,small,40,euclidean,p90,10,"[9, 31, 53, 87, 113, 379, 2033, 0, 1228005120, 32572]"
+Omni-MATH_CHUNKED,nemotron,large,30,correlation,p50,1,[900]
+Omni-MATH_CHUNKED,nemotron,large,30,euclidean,p50,1,[32]
+IFEval,bge,small,50,cosine,p80,2,"[109, 359]"
+IFEval,gist,small,30,euclidean,p50,1,[359]
+Omni-MATH,bge,small,20,correlation,p10,1,[19]
+IFEval,gist,small,20,cosine,p10,1,[69]
+GPQA_CHUNKED,qwen4b,large,50,correlation,p10,1,[27]
+GPQA,bge,small,20,cosine,p95,37,"[286, 56, 443, 268, 95, 384, 44, 289, 244, 127, 153, 228, 55, 420, 298, 37, 216, 291, 307, 167, 370, 277, 433, 41, 329, 427, 58, 60, 122, 417, 264, 79, 99, 176, 97, 94, 408]"
+IFEval_CHUNKED,qwen8b,large,10,cosine,p90,1,[19]
+Omni-MATH_NOCHUNK,qwen4b,large,20,correlation,p50,1,[149]
+Omni-MATH_NOCHUNK,nemotron,large,20,cosine,p90,1,[906]
+MMLU-Pro,nemotron,large,10,cosine,p20,1,[8]
+MMLU-Pro,bge,small,40,euclidean,p80,3,"[26, 739, 884]"
+IFEval_CHUNKED,qwen8b,large,40,cosine,p90,1,[19]
+MMLU-Pro,qwen8b,large,10,correlation,p80,2,"[2, 626]"
+IFEval_CHUNKED,nemotron,large,50,cosine,p10,1,[5]
+GPQA_CHUNKED,nemotron,large,50,correlation,p10,1,[15]
+GPQA,bge,small,40,correlation,p95,37,"[286, 56, 443, 268, 95, 384, 44, 289, 244, 127, 153, 228, 55, 420, 298, 37, 216, 291, 307, 167, 370, 277, 433, 41, 329, 427, 58, 60, 122, 417, 264, 79, 99, 176, 97, 94, 408]"
+IFEval_NOCHUNK,qwen8b,large,10,correlation,p80,1,[19]
+GPQA_CHUNKED,qwen8b,large,40,correlation,p10,1,[27]
+IFEval_NOCHUNK,nemotron,large,20,correlation,p10,1,[53]
+GPQA_NOCHUNK,qwen4b,large,30,correlation,p10,1,[27]
+Omni-MATH_NOCHUNK,qwen4b,large,10,correlation,p95,2,"[296, 648]"
+GPQA_NOCHUNK,qwen8b,large,40,euclidean,p80,1,[27]
+IFEval,bge,small,50,euclidean,p10,1,[109]
+Omni-MATH_NOCHUNK,qwen4b,large,20,euclidean,p95,2,"[5, 24]"
+Omni-MATH,bge,small,20,cosine,p50,2,"[1, 772]"
+Omni-MATH_CHUNKED,qwen8b,large,30,correlation,p20,1,[7]
+MMLU-Pro,nemotron,large,30,correlation,p20,1,[8]
+Omni-MATH_NOCHUNK,nemotron,large,10,euclidean,p80,1,[149]
+Omni-MATH_NOCHUNK,qwen8b,large,30,correlation,p95,2,"[1, 281]"
+GPQA,gist,small,40,correlation,p80,4,"[34, 87, 282, 0]"
+GPQA_CHUNKED,qwen4b,large,50,euclidean,p20,1,[45]
+IFEval_NOCHUNK,qwen4b,large,50,euclidean,p10,1,[1]
+GPQA_NOCHUNK,qwen8b,large,10,euclidean,p90,1,[201]
+GPQA_NOCHUNK,qwen4b,large,10,correlation,p80,2,"[27, 343]"
+MMLU-Pro,gist,small,20,correlation,p95,52,"[602, 140, 506, 545, 709, 996, 798, 799, 651, 1, 274, 841, 458, 745, 900, 730, 342, 334, 643, 907, 927, 874, 492, 194, 464, 702, 667, 756, 670, 893, 660, 588, 655, 216, 433, 603, 401, 109, 375, 40, 43, 279, 564, 288, 966, 486, 254, 521, 346, 211, 423, 981]"
+Omni-MATH,gist,small,50,euclidean,p50,2,"[11, 773]"
+IFEval_CHUNKED,qwen8b,large,50,euclidean,p80,1,[19]
+Omni-MATH_CHUNKED,qwen8b,large,40,cosine,p90,1,[281]
+MMLU-Pro,e5,small,50,cosine,p90,3,"[64, 572, 765]"
+IFEval_NOCHUNK,nemotron,large,30,cosine,p80,3,"[6, 109, 312]"
+GPQA_NOCHUNK,qwen4b,large,50,correlation,p80,2,"[27, 343]"
+GPQA_CHUNKED,qwen8b,large,40,correlation,p90,1,[343]
+Omni-MATH_NOCHUNK,qwen4b,large,20,cosine,p90,2,"[24, 86]"
+IFEval_NOCHUNK,qwen8b,large,50,euclidean,p80,1,[19]
+Omni-MATH_CHUNKED,qwen8b,large,20,cosine,p10,1,[7]
+Omni-MATH,gist,small,20,correlation,p90,9,"[553, 19, 583, 297, 541, 789, 136, 11, 741]"
+Omni-MATH_CHUNKED,nemotron,large,40,cosine,p80,2,"[900, 854]"
+MMLU-Pro,gist,small,30,cosine,p20,2,"[1, 798]"
+MMLU-Pro,nemotron,large,40,euclidean,p90,1,[739]
+Omni-MATH,bge,small,50,cosine,p20,1,[19]
+MMLU-Pro,e5,small,30,correlation,p50,2,"[5, 624]"
+IFEval_NOCHUNK,nemotron,large,50,euclidean,p90,5,"[459, 109, 517, 185, 312]"
+GPQA_CHUNKED,qwen4b,large,10,correlation,p50,2,"[201, 301]"
+IFEval_CHUNKED,qwen8b,large,30,cosine,p95,1,[185]
+MMLU-Pro,qwen8b,large,40,euclidean,p20,1,[13]
+GPQA,gist,small,20,euclidean,p90,10,"[9, 31, 53, 87, 113, 379, 2033, 0, 1473728256, 32525]"
+MMLU-Pro,nemotron,large,30,euclidean,p50,1,[8]
+GPQA,bge,small,40,correlation,p20,1,[214]
+Omni-MATH_NOCHUNK,qwen4b,large,40,euclidean,p10,1,[7]
+IFEval_NOCHUNK,qwen4b,large,10,correlation,p80,1,[185]
+GPQA_CHUNKED,qwen8b,large,50,correlation,p80,1,[27]
+GPQA,bge,small,20,correlation,p95,37,"[286, 56, 443, 268, 95, 384, 44, 289, 244, 127, 153, 228, 55, 420, 298, 37, 216, 291, 307, 167, 370, 277, 433, 41, 329, 427, 58, 60, 122, 417, 264, 79, 99, 176, 97, 94, 408]"
+GPQA_CHUNKED,qwen4b,large,30,correlation,p80,2,"[1, 343]"
+Omni-MATH_NOCHUNK,nemotron,large,50,euclidean,p80,1,[149]
+GPQA_NOCHUNK,qwen4b,large,50,euclidean,p90,2,"[4, 201]"
+GPQA_CHUNKED,nemotron,large,10,cosine,p50,1,[244]
+GPQA_NOCHUNK,qwen4b,large,10,cosine,p95,2,"[1, 343]"
+IFEval_CHUNKED,qwen8b,large,30,correlation,p10,1,[1]
+Omni-MATH_NOCHUNK,qwen8b,large,20,cosine,p10,1,[7]
+GPQA_CHUNKED,qwen4b,large,20,euclidean,p90,2,"[4, 201]"
+Omni-MATH_NOCHUNK,qwen4b,large,20,correlation,p20,1,[7]
+MMLU-Pro,qwen4b,large,10,cosine,p10,1,[9]
+Omni-MATH_CHUNKED,qwen4b,large,10,correlation,p50,1,[149]
+GPQA_NOCHUNK,nemotron,large,50,correlation,p10,1,[1]
+MMLU-Pro,qwen8b,large,50,euclidean,p95,2,"[460, 626]"
+GPQA_NOCHUNK,qwen8b,large,30,cosine,p20,1,[27]
+IFEval,gist,small,20,correlation,p10,1,[69]
+IFEval_CHUNKED,nemotron,large,20,euclidean,p80,1,[245]
+MMLU-Pro,gist,small,20,cosine,p10,2,"[1, 798]"
+GPQA_NOCHUNK,qwen8b,large,10,correlation,p80,1,[27]
+GPQA_CHUNKED,qwen8b,large,50,correlation,p50,1,[27]
+GPQA,e5,small,20,cosine,p80,2,"[51, 106]"
+MMLU-Pro,qwen4b,large,40,euclidean,p20,1,[13]
+GPQA,gist,small,30,correlation,p95,38,"[426, 379, 87, 286, 351, 296, 280, 282, 299, 9, 31, 443, 61, 170, 228, 53, 196, 303, 384, 214, 156, 421, 442, 174, 216, 7, 15, 435, 99, 202, 374, 370, 122, 27, 234, 204, 329, 230]"
+GPQA,gist,small,10,euclidean,p20,2,"[2, 31]"
+Omni-MATH,bge,small,30,euclidean,p20,1,[19]
+Omni-MATH,e5,small,10,euclidean,p20,1,[121]
+GPQA_CHUNKED,qwen8b,large,50,cosine,p50,1,[27]
+MMLU-Pro,qwen8b,large,10,correlation,p90,2,"[626, 620]"
+Omni-MATH,bge,small,10,euclidean,p20,1,[19]
+IFEval_CHUNKED,qwen8b,large,40,euclidean,p50,1,[18]
+Omni-MATH_NOCHUNK,qwen4b,large,30,euclidean,p50,1,[71]
+Omni-MATH_NOCHUNK,nemotron,large,20,cosine,p95,1,[906]
+IFEval_NOCHUNK,qwen8b,large,40,cosine,p20,1,[1]
+MMLU-Pro,e5,small,10,euclidean,p20,1,[5]
+IFEval,bge,small,20,correlation,p95,6,"[359, 222, 494, 185, 313, 364]"
+IFEval_CHUNKED,qwen4b,large,10,correlation,p90,1,[227]
+Omni-MATH_NOCHUNK,nemotron,large,50,cosine,p80,1,[149]
+IFEval_CHUNKED,nemotron,large,20,cosine,p50,1,[15]
+IFEval_CHUNKED,nemotron,large,10,cosine,p50,1,[15]
+Omni-MATH_NOCHUNK,nemotron,large,40,euclidean,p80,1,[149]
+GPQA,e5,small,50,correlation,p95,24,"[106, 289, 229, 424, 429, 351, 51, 244, 257, 31, 295, 18, 234, 340, 65, 444, 235, 365, 71, 160, 423, 145, 417, 407]"
+IFEval,gist,small,50,correlation,p90,3,"[245, 311, 359]"
+Omni-MATH_CHUNKED,qwen8b,large,30,cosine,p10,1,[7]
+IFEval,gist,small,40,cosine,p95,8,"[359, 245, 323, 140, 430, 516, 494, 464]"
+IFEval_NOCHUNK,qwen8b,large,10,euclidean,p90,1,[19]
+Omni-MATH,gist,small,30,correlation,p10,1,[696]
+GPQA_CHUNKED,qwen8b,large,20,cosine,p10,1,[27]
+IFEval,e5,small,50,euclidean,p95,2,"[494, 359]"
+Omni-MATH,bge,small,30,correlation,p95,5,"[134, 306, 552, 573, 0]"
+GPQA_CHUNKED,qwen8b,large,30,euclidean,p10,1,[4]
+IFEval,bge,small,20,euclidean,p90,3,"[109, 359, 494]"
+Omni-MATH_CHUNKED,qwen8b,large,30,euclidean,p90,1,[281]
+Omni-MATH,gist,small,20,cosine,p50,2,"[11, 773]"
+Omni-MATH_CHUNKED,qwen8b,large,30,euclidean,p10,1,[7]
+Omni-MATH_NOCHUNK,qwen8b,large,40,cosine,p50,1,[59]
+Omni-MATH,e5,small,50,correlation,p80,2,"[3, 187]"
+MMLU-Pro,qwen4b,large,10,cosine,p20,1,[13]
+GPQA_NOCHUNK,qwen4b,large,10,euclidean,p80,2,"[193, 201]"
+MMLU-Pro,qwen8b,large,20,euclidean,p20,1,[13]
+Omni-MATH_NOCHUNK,qwen4b,large,30,cosine,p10,1,[7]
+Omni-MATH,bge,small,30,cosine,p95,5,"[134, 306, 552, 573, 0]"
+MMLU-Pro,qwen4b,large,40,euclidean,p10,1,[4]
+GPQA_CHUNKED,qwen4b,large,20,euclidean,p10,1,[44]
+IFEval_CHUNKED,qwen4b,large,20,euclidean,p50,1,[19]
+Omni-MATH_NOCHUNK,qwen8b,large,30,correlation,p20,1,[7]
+GPQA,bge,small,50,correlation,p50,2,"[1, 443]"
+Omni-MATH_NOCHUNK,qwen8b,large,10,cosine,p95,2,"[1, 281]"
+Omni-MATH_CHUNKED,qwen8b,large,20,correlation,p50,1,[59]
+GPQA_CHUNKED,qwen4b,large,10,correlation,p80,2,"[1, 343]"
+Omni-MATH_NOCHUNK,qwen8b,large,20,cosine,p95,2,"[1, 281]"
+IFEval,gist,small,30,cosine,p20,1,[245]
+MMLU-Pro,bge,small,30,cosine,p20,1,[696]
+MMLU-Pro,bge,small,40,cosine,p95,41,"[602, 996, 140, 205, 739, 690, 366, 766, 741, 843, 722, 830, 884, 26, 648, 820, 22, 69, 575, 172, 420, 705, 323, 314, 526, 494, 963, 546, 778, 288, 241, 718, 670, 763, 279, 401, 474, 603, 104, 619, 655]"
+IFEval_NOCHUNK,nemotron,large,50,correlation,p90,6,"[459, 316, 275, 517, 109, 185]"
+MMLU-Pro,qwen8b,large,50,correlation,p50,1,[829]
+MMLU-Pro,qwen8b,large,20,cosine,p95,2,"[620, 626]"
+GPQA_CHUNKED,qwen4b,large,30,correlation,p95,2,"[27, 177]"
+IFEval_CHUNKED,qwen4b,large,10,correlation,p20,1,[1]
+MMLU-Pro,bge,small,30,correlation,p10,1,[22]
+GPQA_CHUNKED,qwen8b,large,10,correlation,p50,1,[27]
+Omni-MATH_CHUNKED,qwen8b,large,40,correlation,p90,1,[281]
+Omni-MATH,e5,small,30,correlation,p10,1,[10]
+MMLU-Pro,nemotron,large,20,correlation,p50,1,[8]
+Omni-MATH,e5,small,30,cosine,p95,6,"[187, 551, 157, 904, 839, 657]"
+GPQA,e5,small,50,euclidean,p90,6,"[51, 201, 351, 229, 18, 429]"
+Omni-MATH_NOCHUNK,nemotron,large,10,cosine,p50,1,[46]
+IFEval_NOCHUNK,qwen8b,large,20,euclidean,p50,1,[18]
+GPQA_CHUNKED,qwen4b,large,30,correlation,p10,1,[27]
+IFEval,bge,small,20,correlation,p50,1,[359]
+IFEval,e5,small,20,cosine,p90,2,"[10, 494]"
+IFEval,e5,small,10,euclidean,p80,2,"[151, 494]"
+Omni-MATH_NOCHUNK,qwen8b,large,20,correlation,p90,1,[281]
+GPQA,gist,small,20,euclidean,p95,31,"[379, 286, 299, 170, 426, 282, 87, 196, 362, 9, 228, 296, 153, 300, 383, 53, 374, 156, 174, 122, 442, 115, 138, 375, 250, 370, 202, 27, 99, 329, 204]"
+Omni-MATH,e5,small,20,correlation,p90,3,"[137, 187, 904]"
+Omni-MATH_CHUNKED,qwen4b,large,10,correlation,p10,1,[7]
+GPQA,gist,small,20,cosine,p20,2,"[2, 31]"
+GPQA_NOCHUNK,nemotron,large,50,euclidean,p10,1,[1]
+GPQA,e5,small,10,correlation,p90,6,"[18, 51, 56, 351, 424, 0]"
+GPQA,bge,small,40,euclidean,p20,1,[214]
+MMLU-Pro,bge,small,50,cosine,p50,2,"[4, 902]"
+Omni-MATH,gist,small,40,euclidean,p90,7,"[773, 610, 925, 583, 553, 319, 925]"
+Omni-MATH,bge,small,50,euclidean,p95,4,"[277, 306, 582, 0]"
+Omni-MATH_CHUNKED,nemotron,large,10,euclidean,p20,1,[32]
+GPQA,bge,small,10,correlation,p50,2,"[1, 443]"
+GPQA_NOCHUNK,nemotron,large,40,cosine,p20,1,[1]
+IFEval,e5,small,10,cosine,p95,2,"[494, 359]"
+IFEval_CHUNKED,nemotron,large,20,euclidean,p90,2,"[2, 215]"
+IFEval,e5,small,10,euclidean,p90,2,"[44, 494]"
+IFEval,bge,small,40,euclidean,p10,1,[109]
+Omni-MATH_NOCHUNK,nemotron,large,20,correlation,p90,1,[906]
+GPQA_NOCHUNK,nemotron,large,10,cosine,p50,1,[1]
+MMLU-Pro,qwen4b,large,30,cosine,p90,2,"[34, 464]"
+Omni-MATH,gist,small,20,cosine,p10,1,[696]
+Omni-MATH_NOCHUNK,qwen8b,large,20,correlation,p20,1,[7]
+IFEval,e5,small,20,euclidean,p95,2,"[494, 359]"
+IFEval_CHUNKED,qwen4b,large,30,cosine,p10,1,[1]
+GPQA,gist,small,50,cosine,p80,4,"[34, 87, 282, 0]"
+Omni-MATH_NOCHUNK,qwen4b,large,30,cosine,p95,2,"[296, 648]"
+GPQA_CHUNKED,nemotron,large,20,cosine,p50,1,[244]
+MMLU-Pro,bge,small,20,cosine,p90,7,"[602, 884, 366, 575, 648, 884, 49]"
+GPQA_CHUNKED,qwen8b,large,50,cosine,p90,1,[343]
+GPQA,bge,small,50,correlation,p10,1,[17]
+GPQA_CHUNKED,qwen4b,large,20,cosine,p95,2,"[27, 177]"
+MMLU-Pro,nemotron,large,30,correlation,p10,1,[2]
+Omni-MATH_CHUNKED,qwen4b,large,30,correlation,p80,2,"[15, 24]"
+IFEval,gist,small,20,cosine,p90,3,"[245, 311, 359]"
+GPQA_NOCHUNK,nemotron,large,20,correlation,p80,2,"[1, 257]"
+IFEval_NOCHUNK,qwen8b,large,30,cosine,p50,1,[19]
+MMLU-Pro,bge,small,20,correlation,p80,3,"[26, 739, 884]"
+MMLU-Pro,e5,small,10,cosine,p80,2,"[71, 765]"
+GPQA_NOCHUNK,nemotron,large,30,correlation,p90,2,"[257, 412]"
+GPQA_NOCHUNK,qwen8b,large,40,cosine,p50,1,[27]
+Omni-MATH,bge,small,50,euclidean,p20,1,[19]
+Omni-MATH_CHUNKED,nemotron,large,40,correlation,p95,16,"[900, 568, 854, 352, 729, 2, 314, 962, 964, 562, 838, 967, 381, 859, 456, 447]"
+IFEval_CHUNKED,qwen4b,large,30,euclidean,p50,1,[19]
+Omni-MATH_NOCHUNK,qwen8b,large,10,cosine,p20,1,[7]
+IFEval_NOCHUNK,qwen8b,large,20,cosine,p50,1,[19]
+IFEval_CHUNKED,nemotron,large,40,cosine,p10,1,[5]
+Omni-MATH_NOCHUNK,qwen8b,large,30,cosine,p10,1,[7]
+IFEval_NOCHUNK,qwen4b,large,20,cosine,p80,1,[185]
+Omni-MATH_CHUNKED,qwen8b,large,10,euclidean,p10,1,[7]
+IFEval_CHUNKED,qwen8b,large,10,cosine,p20,1,[1]
+MMLU-Pro,qwen4b,large,20,cosine,p90,2,"[34, 464]"
+Omni-MATH,bge,small,10,correlation,p20,1,[19]
+Omni-MATH_NOCHUNK,qwen8b,large,40,euclidean,p10,1,[7]
+GPQA_NOCHUNK,qwen4b,large,50,correlation,p90,2,"[1, 27]"
+IFEval_CHUNKED,nemotron,large,20,cosine,p80,1,[245]
+GPQA_NOCHUNK,qwen8b,large,10,cosine,p20,1,[27]
+GPQA_CHUNKED,nemotron,large,10,cosine,p95,1,[358]
+IFEval,e5,small,50,correlation,p80,2,"[151, 494]"
+GPQA_CHUNKED,nemotron,large,20,cosine,p90,1,[358]
+Omni-MATH_CHUNKED,qwen8b,large,20,correlation,p90,1,[281]
+GPQA_NOCHUNK,qwen8b,large,10,cosine,p90,1,[27]
+GPQA,bge,small,30,correlation,p95,37,"[286, 56, 443, 268, 95, 384, 44, 289, 244, 127, 153, 228, 55, 420, 298, 37, 216, 291, 307, 167, 370, 277, 433, 41, 329, 427, 58, 60, 122, 417, 264, 79, 99, 176, 97, 94, 408]"
+GPQA,gist,small,30,cosine,p80,4,"[34, 87, 282, 0]"
+MMLU-Pro,e5,small,40,correlation,p80,2,"[71, 765]"
+GPQA,gist,small,30,cosine,p10,1,[44]
+Omni-MATH_NOCHUNK,nemotron,large,20,correlation,p80,1,[149]
+IFEval,gist,small,40,euclidean,p50,1,[359]
+GPQA_CHUNKED,qwen4b,large,50,euclidean,p80,2,"[193, 201]"
+MMLU-Pro,gist,small,10,cosine,p80,5,"[140, 799, 506, 602, 58]"
+IFEval_NOCHUNK,nemotron,large,10,correlation,p10,1,[53]
+Omni-MATH_CHUNKED,qwen8b,large,30,euclidean,p50,1,[33]
+Omni-MATH,bge,small,10,cosine,p90,3,"[134, 306, 772]"
+Omni-MATH_CHUNKED,nemotron,large,20,euclidean,p50,1,[32]
+Omni-MATH,bge,small,50,correlation,p20,1,[19]
+Omni-MATH,e5,small,20,cosine,p80,2,"[3, 187]"
+GPQA_CHUNKED,qwen8b,large,20,correlation,p20,1,[27]
+Omni-MATH_CHUNKED,qwen4b,large,50,euclidean,p90,2,"[5, 24]"
+Omni-MATH_NOCHUNK,qwen4b,large,50,cosine,p20,1,[7]
+Omni-MATH_CHUNKED,qwen8b,large,10,cosine,p80,1,[281]
+Omni-MATH_CHUNKED,nemotron,large,10,correlation,p50,1,[900]
+IFEval,bge,small,50,cosine,p50,1,[359]
+GPQA_CHUNKED,qwen4b,large,40,correlation,p90,2,"[1, 343]"
+GPQA_NOCHUNK,nemotron,large,20,euclidean,p95,20,"[257, 343, 1, 412, 333, 435, 425, 98, 402, 324, 42, 114, 15, 163, 308, 398, 251, 278, 290, 196]"
+Omni-MATH,bge,small,10,euclidean,p90,2,"[12, 772]"
+Omni-MATH_CHUNKED,qwen4b,large,40,cosine,p80,2,"[15, 24]"
+Omni-MATH_CHUNKED,nemotron,large,30,cosine,p20,1,[32]
+MMLU-Pro,e5,small,40,euclidean,p95,5,"[23, 765, 905, 996, 15532592]"
+GPQA_CHUNKED,qwen4b,large,20,cosine,p90,2,"[1, 343]"
+IFEval,e5,small,30,euclidean,p80,2,"[151, 494]"
+Omni-MATH,e5,small,20,euclidean,p80,2,"[3, 187]"
+GPQA,bge,small,10,correlation,p10,1,[17]
+Omni-MATH,gist,small,30,correlation,p90,9,"[427, 19, 295, 157, 583, 790, 860, 297, 741]"
+GPQA_CHUNKED,nemotron,large,40,euclidean,p90,1,[358]
+IFEval_NOCHUNK,nemotron,large,10,cosine,p90,6,"[459, 316, 462, 517, 109, 185]"
+GPQA_NOCHUNK,qwen8b,large,50,correlation,p95,1,[343]
+GPQA,bge,small,30,cosine,p90,10,"[286, 443, 289, 41, 370, 228, 56, 268, 31, 143]"
+Omni-MATH_CHUNKED,nemotron,large,20,correlation,p95,16,"[900, 568, 854, 352, 729, 2, 314, 962, 964, 562, 838, 967, 381, 859, 456, 447]"
+MMLU-Pro,bge,small,20,euclidean,p90,7,"[602, 766, 884, 722, 575, 884, 49]"
+MMLU-Pro,e5,small,20,cosine,p80,2,"[71, 765]"
+GPQA,gist,small,40,cosine,p95,38,"[426, 379, 87, 286, 351, 296, 280, 282, 299, 9, 31, 443, 61, 170, 228, 53, 196, 303, 384, 214, 156, 421, 442, 174, 216, 7, 15, 435, 99, 202, 374, 370, 122, 27, 234, 204, 329, 230]"
+MMLU-Pro,qwen8b,large,20,cosine,p20,1,[276]
+MMLU-Pro,qwen4b,large,40,cosine,p50,2,"[46, 829]"
+GPQA_CHUNKED,nemotron,large,50,correlation,p20,1,[16]
+GPQA_NOCHUNK,qwen4b,large,50,cosine,p95,2,"[1, 343]"
+IFEval_CHUNKED,qwen4b,large,30,correlation,p80,1,[185]
+GPQA_CHUNKED,qwen8b,large,30,euclidean,p50,1,[27]
+GPQA_NOCHUNK,nemotron,large,20,correlation,p50,1,[1]
+IFEval_CHUNKED,qwen8b,large,10,euclidean,p20,1,[1]
+IFEval_CHUNKED,nemotron,large,20,cosine,p90,2,"[2, 245]"
+GPQA,bge,small,10,cosine,p10,1,[17]
+MMLU-Pro,qwen4b,large,10,cosine,p90,2,"[34, 464]"
+GPQA,e5,small,30,correlation,p20,1,[429]
+IFEval_CHUNKED,nemotron,large,10,euclidean,p50,1,[15]
+MMLU-Pro,qwen4b,large,40,correlation,p50,2,"[46, 829]"
+IFEval,e5,small,30,cosine,p10,1,[37]
+GPQA,bge,small,10,cosine,p80,3,"[87, 286, 443]"
+IFEval_NOCHUNK,qwen4b,large,30,euclidean,p90,1,[185]
+MMLU-Pro,gist,small,40,correlation,p90,15,"[140, 602, 709, 766, 563, 777, 1, 423, 128, 335, 750, 0, 0, 0, 1873]"
+MMLU-Pro,qwen8b,large,40,cosine,p20,1,[276]
+MMLU-Pro,qwen8b,large,30,euclidean,p90,1,[460]
+GPQA,e5,small,30,euclidean,p10,1,[18]
+Omni-MATH_CHUNKED,qwen8b,large,40,correlation,p80,1,[281]
+GPQA,bge,small,10,cosine,p90,10,"[286, 443, 289, 41, 370, 228, 56, 268, 31, 143]"
+Omni-MATH,gist,small,30,cosine,p90,9,"[790, 19, 295, 157, 427, 583, 860, 297, 652]"
+IFEval,e5,small,40,correlation,p80,2,"[151, 494]"
+Omni-MATH,gist,small,30,correlation,p20,2,"[1, 460]"
+IFEval,bge,small,40,euclidean,p20,1,[109]
+Omni-MATH,e5,small,20,cosine,p95,6,"[187, 551, 157, 904, 839, 657]"
+GPQA,e5,small,30,correlation,p90,6,"[18, 51, 56, 351, 424, 0]"
+GPQA_NOCHUNK,qwen8b,large,50,cosine,p50,1,[27]
+MMLU-Pro,bge,small,10,cosine,p90,7,"[884, 602, 366, 575, 648, 884, 49]"
+GPQA_NOCHUNK,qwen8b,large,20,correlation,p10,1,[27]
+IFEval_NOCHUNK,qwen4b,large,20,euclidean,p10,1,[1]
+MMLU-Pro,nemotron,large,20,cosine,p20,1,[8]
+MMLU-Pro,e5,small,40,cosine,p10,1,[5]
+GPQA_NOCHUNK,qwen4b,large,10,correlation,p50,2,"[201, 301]"
+IFEval_CHUNKED,qwen4b,large,30,cosine,p80,1,[185]
+GPQA,e5,small,20,euclidean,p50,1,[429]
+Omni-MATH_NOCHUNK,nemotron,large,20,euclidean,p50,1,[46]
+IFEval,e5,small,40,correlation,p90,2,"[10, 494]"
+IFEval,bge,small,50,correlation,p50,1,[359]
+Omni-MATH_NOCHUNK,qwen8b,large,20,cosine,p20,1,[7]
+GPQA_NOCHUNK,qwen8b,large,50,cosine,p10,1,[27]
+GPQA_CHUNKED,qwen4b,large,50,cosine,p10,1,[27]
+IFEval,bge,small,20,euclidean,p80,2,"[109, 359]"
+IFEval,gist,small,40,correlation,p20,1,[245]
+GPQA,e5,small,30,correlation,p80,2,"[51, 106]"
+IFEval_CHUNKED,qwen4b,large,50,euclidean,p50,1,[19]
+Omni-MATH_NOCHUNK,qwen4b,large,40,cosine,p50,1,[149]
+MMLU-Pro,bge,small,10,cosine,p50,2,"[4, 902]"
